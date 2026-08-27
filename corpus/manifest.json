@@ -1,0 +1,4818 @@
+[
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2303.07771v3",
+    "title": "Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2303.07771v3_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2303.07771v3",
+    "title": "Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2303.07771v3_p1_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2303.07771v3",
+    "title": "Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2303.07771v3_p1_i4.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2303.07771v3",
+    "title": "Imbalanced Domain Generalization for Robust Single Cell Classification in Hematological Cytomorphology",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2303.07771v3_p1_i5.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2304.01973v4",
+    "title": "ERM++: An Improved Baseline for Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2304.01973v4_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2304.01973v4",
+    "title": "ERM++: An Improved Baseline for Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2304.01973v4_p0_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2304.01973v4",
+    "title": "ERM++: An Improved Baseline for Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2304.01973v4_p0_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2304.01973v4",
+    "title": "ERM++: An Improved Baseline for Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2304.01973v4_p0_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2412.17984v1",
+    "title": "ICPR 2024 Competition on Domain Adaptation and GEneralization for Character Classification (DAGECC)",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2412.17984v1_p3_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2412.17984v1",
+    "title": "ICPR 2024 Competition on Domain Adaptation and GEneralization for Character Classification (DAGECC)",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2412.17984v1_p4_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2412.17984v1",
+    "title": "ICPR 2024 Competition on Domain Adaptation and GEneralization for Character Classification (DAGECC)",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2412.17984v1_p5_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2412.17984v1",
+    "title": "ICPR 2024 Competition on Domain Adaptation and GEneralization for Character Classification (DAGECC)",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2412.17984v1_p5_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2104.10376v1",
+    "title": "Towards Corruption-Agnostic Robust Domain Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2104.10376v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2104.10376v1",
+    "title": "Towards Corruption-Agnostic Robust Domain Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2104.10376v1_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2104.10376v1",
+    "title": "Towards Corruption-Agnostic Robust Domain Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2104.10376v1_p1_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2104.10376v1",
+    "title": "Towards Corruption-Agnostic Robust Domain Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2104.10376v1_p1_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "1905.05300v1",
+    "title": "Affine Variational Autoencoders: An Efficient Approach for Improving Generalization and Robustness to Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/1905.05300v1_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "1905.05300v1",
+    "title": "Affine Variational Autoencoders: An Efficient Approach for Improving Generalization and Robustness to Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/1905.05300v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "1905.05300v1",
+    "title": "Affine Variational Autoencoders: An Efficient Approach for Improving Generalization and Robustness to Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/1905.05300v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "1905.05300v1",
+    "title": "Affine Variational Autoencoders: An Efficient Approach for Improving Generalization and Robustness to Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/1905.05300v1_p2_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2111.12525v5",
+    "title": "Causality-inspired Single-source Domain Generalization for Medical Image Segmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2111.12525v5_p3_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2111.12525v5",
+    "title": "Causality-inspired Single-source Domain Generalization for Medical Image Segmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2111.12525v5_p3_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2111.12525v5",
+    "title": "Causality-inspired Single-source Domain Generalization for Medical Image Segmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2111.12525v5_p4_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2111.12525v5",
+    "title": "Causality-inspired Single-source Domain Generalization for Medical Image Segmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2111.12525v5_p5_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2503.02036v3",
+    "title": "Latent Domain Modeling Improves Robustness to Geographic Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2503.02036v3_p3_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2503.02036v3",
+    "title": "Latent Domain Modeling Improves Robustness to Geographic Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2503.02036v3_p3_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2503.02036v3",
+    "title": "Latent Domain Modeling Improves Robustness to Geographic Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2503.02036v3_p5_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2503.02036v3",
+    "title": "Latent Domain Modeling Improves Robustness to Geographic Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2503.02036v3_p5_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2101.00588v3",
+    "title": "Style Normalization and Restitution for Domain Generalization and Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2101.00588v3_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2101.00588v3",
+    "title": "Style Normalization and Restitution for Domain Generalization and Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2101.00588v3_p0_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2101.00588v3",
+    "title": "Style Normalization and Restitution for Domain Generalization and Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2101.00588v3_p0_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2101.00588v3",
+    "title": "Style Normalization and Restitution for Domain Generalization and Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2101.00588v3_p0_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2403.12049v1",
+    "title": "Toward Improving Robustness of Object Detectors Against Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2403.12049v1_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2403.12049v1",
+    "title": "Toward Improving Robustness of Object Detectors Against Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2403.12049v1_p0_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2403.12049v1",
+    "title": "Toward Improving Robustness of Object Detectors Against Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2403.12049v1_p0_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2403.12049v1",
+    "title": "Toward Improving Robustness of Object Detectors Against Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2403.12049v1_p0_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2309.09670v1",
+    "title": "DGM-DR: Domain Generalization with Mutual Information Regularized Diabetic Retinopathy Classification",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2309.09670v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2309.09670v1",
+    "title": "DGM-DR: Domain Generalization with Mutual Information Regularized Diabetic Retinopathy Classification",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2309.09670v1_p4_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2309.09670v1",
+    "title": "DGM-DR: Domain Generalization with Mutual Information Regularized Diabetic Retinopathy Classification",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2309.09670v1_p11_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2309.09670v1",
+    "title": "DGM-DR: Domain Generalization with Mutual Information Regularized Diabetic Retinopathy Classification",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2309.09670v1_p11_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2207.04913v2",
+    "title": "Generalizing to Unseen Domains with Wasserstein Distributional Robustness under Limited Source Knowledge",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2207.04913v2_p5_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2207.04913v2",
+    "title": "Generalizing to Unseen Domains with Wasserstein Distributional Robustness under Limited Source Knowledge",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2207.04913v2_p5_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2207.04913v2",
+    "title": "Generalizing to Unseen Domains with Wasserstein Distributional Robustness under Limited Source Knowledge",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2207.04913v2_p5_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2207.04913v2",
+    "title": "Generalizing to Unseen Domains with Wasserstein Distributional Robustness under Limited Source Knowledge",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2207.04913v2_p5_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2311.11096v1",
+    "title": "On the Out of Distribution Robustness of Foundation Models in Medical Image Segmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2311.11096v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2311.11096v1",
+    "title": "On the Out of Distribution Robustness of Foundation Models in Medical Image Segmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2311.11096v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2311.11096v1",
+    "title": "On the Out of Distribution Robustness of Foundation Models in Medical Image Segmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2311.11096v1_p6_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2311.11096v1",
+    "title": "On the Out of Distribution Robustness of Foundation Models in Medical Image Segmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2311.11096v1_p6_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2007.00644v2",
+    "title": "Measuring Robustness to Natural Distribution Shifts in Image Classification",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2007.00644v2_p62_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2007.00644v2",
+    "title": "Measuring Robustness to Natural Distribution Shifts in Image Classification",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2007.00644v2_p62_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2007.00644v2",
+    "title": "Measuring Robustness to Natural Distribution Shifts in Image Classification",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2007.00644v2_p62_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2007.00644v2",
+    "title": "Measuring Robustness to Natural Distribution Shifts in Image Classification",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2007.00644v2_p62_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2401.12014v1",
+    "title": "Robustness to distribution shifts of compressed networks for edge devices",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2401.12014v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2401.12014v1",
+    "title": "Robustness to distribution shifts of compressed networks for edge devices",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2401.12014v1_p2_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2401.12014v1",
+    "title": "Robustness to distribution shifts of compressed networks for edge devices",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2401.12014v1_p2_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2401.12014v1",
+    "title": "Robustness to distribution shifts of compressed networks for edge devices",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2401.12014v1_p2_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2506.12413v1",
+    "title": "Domain Generalization for Person Re-identification: A Survey Towards Domain-Agnostic Person Matching",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2506.12413v1_p2_i5.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2506.12413v1",
+    "title": "Domain Generalization for Person Re-identification: A Survey Towards Domain-Agnostic Person Matching",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2506.12413v1_p2_i11.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2506.12413v1",
+    "title": "Domain Generalization for Person Re-identification: A Survey Towards Domain-Agnostic Person Matching",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2506.12413v1_p2_i16.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2506.12413v1",
+    "title": "Domain Generalization for Person Re-identification: A Survey Towards Domain-Agnostic Person Matching",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2506.12413v1_p2_i26.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2209.08253v1",
+    "title": "Mitigating Both Covariate and Conditional Shift for Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2209.08253v1_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2405.02797v1",
+    "title": "Adapting to Distribution Shift by Visual Domain Prompt Generation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2405.02797v1_p3_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2405.02797v1",
+    "title": "Adapting to Distribution Shift by Visual Domain Prompt Generation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2405.02797v1_p3_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2405.02797v1",
+    "title": "Adapting to Distribution Shift by Visual Domain Prompt Generation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2405.02797v1_p3_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2405.02797v1",
+    "title": "Adapting to Distribution Shift by Visual Domain Prompt Generation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2405.02797v1_p3_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2503.14910v1",
+    "title": "Robust Distribution Alignment for Industrial Anomaly Detection under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2503.14910v1_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2503.14910v1",
+    "title": "Robust Distribution Alignment for Industrial Anomaly Detection under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2503.14910v1_p0_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2503.14910v1",
+    "title": "Robust Distribution Alignment for Industrial Anomaly Detection under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2503.14910v1_p0_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2503.14910v1",
+    "title": "Robust Distribution Alignment for Industrial Anomaly Detection under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2503.14910v1_p0_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2209.15042v3",
+    "title": "Generalizability of Adversarial Robustness Under Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2209.15042v3_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2209.15042v3",
+    "title": "Generalizability of Adversarial Robustness Under Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2209.15042v3_p7_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2209.15042v3",
+    "title": "Generalizability of Adversarial Robustness Under Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2209.15042v3_p8_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2209.15042v3",
+    "title": "Generalizability of Adversarial Robustness Under Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2209.15042v3_p24_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.19774v1",
+    "title": "Crafting Distribution Shifts for Validation and Training in Single Source Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.19774v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.19774v1",
+    "title": "Crafting Distribution Shifts for Validation and Training in Single Source Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.19774v1_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.19774v1",
+    "title": "Crafting Distribution Shifts for Validation and Training in Single Source Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.19774v1_p1_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.19774v1",
+    "title": "Crafting Distribution Shifts for Validation and Training in Single Source Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.19774v1_p1_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2106.01656v1",
+    "title": "Generalized Domain Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2106.01656v1_p4_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2106.01656v1",
+    "title": "Generalized Domain Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2106.01656v1_p4_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2106.01656v1",
+    "title": "Generalized Domain Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2106.01656v1_p4_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2106.01656v1",
+    "title": "Generalized Domain Adaptation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2106.01656v1_p4_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2511.10352v1",
+    "title": "FOUND: Fourier-based von Mises Distribution for Robust Single Domain Generalization in Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2511.10352v1_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2511.10352v1",
+    "title": "FOUND: Fourier-based von Mises Distribution for Robust Single Domain Generalization in Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2511.10352v1_p0_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2511.10352v1",
+    "title": "FOUND: Fourier-based von Mises Distribution for Robust Single Domain Generalization in Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2511.10352v1_p0_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2511.10352v1",
+    "title": "FOUND: Fourier-based von Mises Distribution for Robust Single Domain Generalization in Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2511.10352v1_p0_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2601.17056v1",
+    "title": "Ego4OOD: Rethinking Egocentric Video Domain Generalization via Covariate Shift Scoring",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2601.17056v1_p5_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2601.17056v1",
+    "title": "Ego4OOD: Rethinking Egocentric Video Domain Generalization via Covariate Shift Scoring",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2601.17056v1_p5_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2601.17056v1",
+    "title": "Ego4OOD: Rethinking Egocentric Video Domain Generalization via Covariate Shift Scoring",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2601.17056v1_p5_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2601.17056v1",
+    "title": "Ego4OOD: Rethinking Egocentric Video Domain Generalization via Covariate Shift Scoring",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2601.17056v1_p5_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2407.13417v1",
+    "title": "GDDS: A Single Domain Generalized Defect Detection Frame of Open World Scenario using Gather and Distribute Domain-shift Suppression Network",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2407.13417v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2407.13417v1",
+    "title": "GDDS: A Single Domain Generalized Defect Detection Frame of Open World Scenario using Gather and Distribute Domain-shift Suppression Network",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2407.13417v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2407.13417v1",
+    "title": "GDDS: A Single Domain Generalized Defect Detection Frame of Open World Scenario using Gather and Distribute Domain-shift Suppression Network",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2407.13417v1_p2_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2407.13417v1",
+    "title": "GDDS: A Single Domain Generalized Defect Detection Frame of Open World Scenario using Gather and Distribute Domain-shift Suppression Network",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2407.13417v1_p2_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2310.12793v2",
+    "title": "OODRobustBench: a Benchmark and Large-Scale Analysis of Adversarial Robustness under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2310.12793v2_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2310.12793v2",
+    "title": "OODRobustBench: a Benchmark and Large-Scale Analysis of Adversarial Robustness under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2310.12793v2_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2310.12793v2",
+    "title": "OODRobustBench: a Benchmark and Large-Scale Analysis of Adversarial Robustness under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2310.12793v2_p1_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2310.12793v2",
+    "title": "OODRobustBench: a Benchmark and Large-Scale Analysis of Adversarial Robustness under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2310.12793v2_p1_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2404.04452v2",
+    "title": "Vision transformers in domain adaptation and domain generalization: a study of robustness",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2404.04452v2_p3_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2404.04452v2",
+    "title": "Vision transformers in domain adaptation and domain generalization: a study of robustness",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2404.04452v2_p5_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2404.04452v2",
+    "title": "Vision transformers in domain adaptation and domain generalization: a study of robustness",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2404.04452v2_p8_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2404.04452v2",
+    "title": "Vision transformers in domain adaptation and domain generalization: a study of robustness",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2404.04452v2_p12_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2404.15882v2",
+    "title": "Unexplored Faces of Robustness and Out-of-Distribution: Covariate Shifts in Environment and Sensor Domains",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2404.15882v2_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2404.15882v2",
+    "title": "Unexplored Faces of Robustness and Out-of-Distribution: Covariate Shifts in Environment and Sensor Domains",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2404.15882v2_p0_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2404.15882v2",
+    "title": "Unexplored Faces of Robustness and Out-of-Distribution: Covariate Shifts in Environment and Sensor Domains",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2404.15882v2_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2404.15882v2",
+    "title": "Unexplored Faces of Robustness and Out-of-Distribution: Covariate Shifts in Environment and Sensor Domains",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2404.15882v2_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.03543v1",
+    "title": "Prediction Accuracy & Reliability: Classification and Object Localization under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.03543v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.03543v1",
+    "title": "Prediction Accuracy & Reliability: Classification and Object Localization under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.03543v1_p12_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.03543v1",
+    "title": "Prediction Accuracy & Reliability: Classification and Object Localization under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.03543v1_p12_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.03543v1",
+    "title": "Prediction Accuracy & Reliability: Classification and Object Localization under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.03543v1_p14_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2107.11056v1",
+    "title": "Improving the Generalization of Meta-learning on Unseen Domains via Adversarial Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2107.11056v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2107.11056v1",
+    "title": "Improving the Generalization of Meta-learning on Unseen Domains via Adversarial Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2107.11056v1_p2_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2107.11056v1",
+    "title": "Improving the Generalization of Meta-learning on Unseen Domains via Adversarial Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2107.11056v1_p2_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2107.11056v1",
+    "title": "Improving the Generalization of Meta-learning on Unseen Domains via Adversarial Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2107.11056v1_p2_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2312.01540v1",
+    "title": "Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2312.01540v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2312.01540v1",
+    "title": "Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2312.01540v1_p9_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2312.01540v1",
+    "title": "Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2312.01540v1_p9_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2312.01540v1",
+    "title": "Robust Computer Vision in an Ever-Changing World: A Survey of Techniques for Tackling Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2312.01540v1_p9_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2310.13040v2",
+    "title": "Interpreting CLIP: Insights on the Robustness to ImageNet Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2310.13040v2_p4_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2310.13040v2",
+    "title": "Interpreting CLIP: Insights on the Robustness to ImageNet Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2310.13040v2_p4_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2310.13040v2",
+    "title": "Interpreting CLIP: Insights on the Robustness to ImageNet Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2310.13040v2_p6_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2310.13040v2",
+    "title": "Interpreting CLIP: Insights on the Robustness to ImageNet Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2310.13040v2_p6_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2010.05784v4",
+    "title": "Learning Calibrated Uncertainties for Domain Shift: A Distributionally Robust Learning Approach",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2010.05784v4_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2010.05784v4",
+    "title": "Learning Calibrated Uncertainties for Domain Shift: A Distributionally Robust Learning Approach",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2010.05784v4_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2010.05784v4",
+    "title": "Learning Calibrated Uncertainties for Domain Shift: A Distributionally Robust Learning Approach",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2010.05784v4_p5_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2010.05784v4",
+    "title": "Learning Calibrated Uncertainties for Domain Shift: A Distributionally Robust Learning Approach",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2010.05784v4_p5_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2402.15146v1",
+    "title": "Convergence Analysis of Blurring Mean Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2402.15146v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2402.15146v1",
+    "title": "Convergence Analysis of Blurring Mean Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2402.15146v1_p2_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2402.15146v1",
+    "title": "Convergence Analysis of Blurring Mean Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2402.15146v1_p2_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2402.15146v1",
+    "title": "Convergence Analysis of Blurring Mean Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2402.15146v1_p2_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2505.13043v2",
+    "title": "A Generalized Label Shift Perspective for Cross-Domain Gaze Estimation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2505.13043v2_p3_i18.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2505.13043v2",
+    "title": "A Generalized Label Shift Perspective for Cross-Domain Gaze Estimation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2505.13043v2_p3_i20.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2505.13043v2",
+    "title": "A Generalized Label Shift Perspective for Cross-Domain Gaze Estimation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2505.13043v2_p3_i22.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2505.13043v2",
+    "title": "A Generalized Label Shift Perspective for Cross-Domain Gaze Estimation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2505.13043v2_p3_i26.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2304.13976v2",
+    "title": "Moderately Distributional Exploration for Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2304.13976v2_p7_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2304.13976v2",
+    "title": "Moderately Distributional Exploration for Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2304.13976v2_p8_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2304.13976v2",
+    "title": "Moderately Distributional Exploration for Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2304.13976v2_p20_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2304.13976v2",
+    "title": "Moderately Distributional Exploration for Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2304.13976v2_p20_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2507.13458v1",
+    "title": "Domain-randomized deep learning for neuroimage analysis",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2507.13458v1_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2507.13458v1",
+    "title": "Domain-randomized deep learning for neuroimage analysis",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2507.13458v1_p0_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2507.13458v1",
+    "title": "Domain-randomized deep learning for neuroimage analysis",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2507.13458v1_p0_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2507.13458v1",
+    "title": "Domain-randomized deep learning for neuroimage analysis",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2507.13458v1_p0_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2107.10931v1",
+    "title": "Domain Generalization under Conditional and Label Shifts via Variational Bayesian Inference",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2107.10931v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2506.18021v1",
+    "title": "On the Robustness of Human-Object Interaction Detection against Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2506.18021v1_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2506.18021v1",
+    "title": "On the Robustness of Human-Object Interaction Detection against Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2506.18021v1_p0_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2506.18021v1",
+    "title": "On the Robustness of Human-Object Interaction Detection against Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2506.18021v1_p0_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2506.18021v1",
+    "title": "On the Robustness of Human-Object Interaction Detection against Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2506.18021v1_p0_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2302.06039v2",
+    "title": "Predicting Class Distribution Shift for Reliable Domain Adaptive Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2302.06039v2_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2302.06039v2",
+    "title": "Predicting Class Distribution Shift for Reliable Domain Adaptive Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2302.06039v2_p3_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2302.06039v2",
+    "title": "Predicting Class Distribution Shift for Reliable Domain Adaptive Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2302.06039v2_p6_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2302.06039v2",
+    "title": "Predicting Class Distribution Shift for Reliable Domain Adaptive Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2302.06039v2_p6_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2205.12753v1",
+    "title": "An Empirical Study on Distribution Shift Robustness From the Perspective of Pre-Training and Data Augmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2205.12753v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2205.12753v1",
+    "title": "An Empirical Study on Distribution Shift Robustness From the Perspective of Pre-Training and Data Augmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2205.12753v1_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2205.12753v1",
+    "title": "An Empirical Study on Distribution Shift Robustness From the Perspective of Pre-Training and Data Augmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2205.12753v1_p1_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2205.12753v1",
+    "title": "An Empirical Study on Distribution Shift Robustness From the Perspective of Pre-Training and Data Augmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2205.12753v1_p1_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2411.16049v1",
+    "title": "ROADS: Robust Prompt-driven Multi-Class Anomaly Detection under Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2411.16049v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2411.16049v1",
+    "title": "ROADS: Robust Prompt-driven Multi-Class Anomaly Detection under Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2411.16049v1_p2_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2411.16049v1",
+    "title": "ROADS: Robust Prompt-driven Multi-Class Anomaly Detection under Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2411.16049v1_p2_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2411.16049v1",
+    "title": "ROADS: Robust Prompt-driven Multi-Class Anomaly Detection under Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2411.16049v1_p7_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.07940v1",
+    "title": "Control+Shift: Generating Controllable Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.07940v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.07940v1",
+    "title": "Control+Shift: Generating Controllable Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.07940v1_p4_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.07940v1",
+    "title": "Control+Shift: Generating Controllable Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.07940v1_p16_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2409.07940v1",
+    "title": "Control+Shift: Generating Controllable Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2409.07940v1_p16_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2212.08044v3",
+    "title": "Benchmarking Robustness of Multimodal Image-Text Models under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2212.08044v3_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2212.08044v3",
+    "title": "Benchmarking Robustness of Multimodal Image-Text Models under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2212.08044v3_p3_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2212.08044v3",
+    "title": "Benchmarking Robustness of Multimodal Image-Text Models under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2212.08044v3_p8_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2212.08044v3",
+    "title": "Benchmarking Robustness of Multimodal Image-Text Models under Distribution Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2212.08044v3_p8_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2107.12052v2",
+    "title": "Using Synthetic Corruptions to Measure Robustness to Natural Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2107.12052v2_p4_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2107.12052v2",
+    "title": "Using Synthetic Corruptions to Measure Robustness to Natural Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2107.12052v2_p5_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2507.22398v3",
+    "title": "On the Reliability of Vision-Language Models Under Adversarial Frequency-Domain Perturbations",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2507.22398v3_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2507.22398v3",
+    "title": "On the Reliability of Vision-Language Models Under Adversarial Frequency-Domain Perturbations",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2507.22398v3_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2507.22398v3",
+    "title": "On the Reliability of Vision-Language Models Under Adversarial Frequency-Domain Perturbations",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2507.22398v3_p3_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2507.22398v3",
+    "title": "On the Reliability of Vision-Language Models Under Adversarial Frequency-Domain Perturbations",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2507.22398v3_p3_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2605.29330v1",
+    "title": "EarthShift: a benchmark for measuring robustness to real-world distribution shifts in Earth observation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2605.29330v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2605.29330v1",
+    "title": "EarthShift: a benchmark for measuring robustness to real-world distribution shifts in Earth observation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2605.29330v1_p6_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2605.29330v1",
+    "title": "EarthShift: a benchmark for measuring robustness to real-world distribution shifts in Earth observation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2605.29330v1_p16_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2605.29330v1",
+    "title": "EarthShift: a benchmark for measuring robustness to real-world distribution shifts in Earth observation",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2605.29330v1_p17_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2607.10358v2",
+    "title": "Benchmarking the Robustness of Foundation Models for Mammography under Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2607.10358v2_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2607.10358v2",
+    "title": "Benchmarking the Robustness of Foundation Models for Mammography under Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2607.10358v2_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2607.10358v2",
+    "title": "Benchmarking the Robustness of Foundation Models for Mammography under Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2607.10358v2_p1_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2607.10358v2",
+    "title": "Benchmarking the Robustness of Foundation Models for Mammography under Domain Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2607.10358v2_p7_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2206.07565v1",
+    "title": "A Meta-Analysis of Distributionally-Robust Models",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2206.07565v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2206.07565v1",
+    "title": "A Meta-Analysis of Distributionally-Robust Models",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2206.07565v1_p6_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2511.00573v1",
+    "title": "Generalized Category Discovery under Domain Shift: A Frequency Domain Perspective",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2511.00573v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2511.00573v1",
+    "title": "Generalized Category Discovery under Domain Shift: A Frequency Domain Perspective",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2511.00573v1_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2511.00573v1",
+    "title": "Generalized Category Discovery under Domain Shift: A Frequency Domain Perspective",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2511.00573v1_p4_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2511.00573v1",
+    "title": "Generalized Category Discovery under Domain Shift: A Frequency Domain Perspective",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2511.00573v1_p8_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2102.02811v2",
+    "title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2102.02811v2_p7_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2102.02811v2",
+    "title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2102.02811v2_p7_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2102.02811v2",
+    "title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2102.02811v2_p7_i4.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2102.02811v2",
+    "title": "CrossNorm and SelfNorm for Generalization under Distribution Shifts",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2102.02811v2_p13_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2212.04613v1",
+    "title": "Contrastive View Design Strategies to Enhance Robustness to Domain Shifts in Downstream Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2212.04613v1_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2212.04613v1",
+    "title": "Contrastive View Design Strategies to Enhance Robustness to Domain Shifts in Downstream Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2212.04613v1_p2_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2212.04613v1",
+    "title": "Contrastive View Design Strategies to Enhance Robustness to Domain Shifts in Downstream Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2212.04613v1_p3_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2212.04613v1",
+    "title": "Contrastive View Design Strategies to Enhance Robustness to Domain Shifts in Downstream Object Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2212.04613v1_p3_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2510.19330v1",
+    "title": "Exploring Scale Shift in Crowd Localization under the Context of Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2510.19330v1_p1_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2510.19330v1",
+    "title": "Exploring Scale Shift in Crowd Localization under the Context of Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2510.19330v1_p1_i1.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2510.19330v1",
+    "title": "Exploring Scale Shift in Crowd Localization under the Context of Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2510.19330v1_p1_i2.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2510.19330v1",
+    "title": "Exploring Scale Shift in Crowd Localization under the Context of Domain Generalization",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2510.19330v1_p1_i3.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2104.00742v2",
+    "title": "Confidence Calibration for Domain Generalization under Covariate Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2104.00742v2_p0_i0.png"
+  },
+  {
+    "tier": "id_core_images",
+    "modality": "image",
+    "doc_id": "2104.00742v2",
+    "title": "Confidence Calibration for Domain Generalization under Covariate Shift",
+    "source": "arxiv_figure",
+    "path": "corpus/id_core_images/2104.00742v2_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2506.22486v1",
+    "title": "Hallucination Detection with Small Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2506.22486v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2506.22486v1",
+    "title": "Hallucination Detection with Small Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2506.22486v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2506.22486v1",
+    "title": "Hallucination Detection with Small Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2506.22486v1_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2506.22486v1",
+    "title": "Hallucination Detection with Small Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2506.22486v1_p4_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2409.11353v3",
+    "title": "THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2409.11353v3_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2409.11353v3",
+    "title": "THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2409.11353v3_p19_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2409.11353v3",
+    "title": "THaMES: An End-to-End Tool for Hallucination Mitigation and Evaluation in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2409.11353v3_p20_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2503.21676v2",
+    "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2503.21676v2_p0_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2503.21676v2",
+    "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2503.21676v2_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2503.21676v2",
+    "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2503.21676v2_p6_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2503.21676v2",
+    "title": "How do language models learn facts? Dynamics, curricula and hallucinations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2503.21676v2_p21_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2508.19294v2",
+    "title": "Object Detection with Multimodal Large Vision-Language Models: An In-depth Review",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2508.19294v2_p0_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2508.19294v2",
+    "title": "Object Detection with Multimodal Large Vision-Language Models: An In-depth Review",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2508.19294v2_p0_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2508.19294v2",
+    "title": "Object Detection with Multimodal Large Vision-Language Models: An In-depth Review",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2508.19294v2_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2508.19294v2",
+    "title": "Object Detection with Multimodal Large Vision-Language Models: An In-depth Review",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2508.19294v2_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.18439v3",
+    "title": "Grounding or Guessing? Visual Signals for Detecting Hallucinations in Sign Language Translation",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.18439v3_p5_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.18439v3",
+    "title": "Grounding or Guessing? Visual Signals for Detecting Hallucinations in Sign Language Translation",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.18439v3_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.18439v3",
+    "title": "Grounding or Guessing? Visual Signals for Detecting Hallucinations in Sign Language Translation",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.18439v3_p8_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.18439v3",
+    "title": "Grounding or Guessing? Visual Signals for Detecting Hallucinations in Sign Language Translation",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.18439v3_p8_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2608.18115v1",
+    "title": "Temporal Multi-Signal Fusion for Token-Level Hallucination Detection",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2608.18115v1_p13_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2603.22812v1",
+    "title": "Efficient Hallucination Detection: Adaptive Bayesian Estimation of Semantic Entropy with Guided Semantic Exploration",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2603.22812v1_p0_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2312.05434v1",
+    "title": "Beneath the Surface: Unveiling Harmful Memes with Multimodal Reasoning Distilled from Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2312.05434v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2312.05434v1",
+    "title": "Beneath the Surface: Unveiling Harmful Memes with Multimodal Reasoning Distilled from Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2312.05434v1_p1_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2312.05434v1",
+    "title": "Beneath the Surface: Unveiling Harmful Memes with Multimodal Reasoning Distilled from Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2312.05434v1_p1_i2.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2312.05434v1",
+    "title": "Beneath the Surface: Unveiling Harmful Memes with Multimodal Reasoning Distilled from Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2312.05434v1_p3_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2310.00259v3",
+    "title": "AutoHall: Automated Factuality Hallucination Dataset Generation for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2310.00259v3_p13_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2310.00259v3",
+    "title": "AutoHall: Automated Factuality Hallucination Dataset Generation for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2310.00259v3_p13_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2310.00259v3",
+    "title": "AutoHall: Automated Factuality Hallucination Dataset Generation for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2310.00259v3_p13_i2.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2310.00259v3",
+    "title": "AutoHall: Automated Factuality Hallucination Dataset Generation for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2310.00259v3_p13_i3.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2511.06073v1",
+    "title": "Stemming Hallucination in Language Models Using a Licensing Oracle",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2511.06073v1_p10_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2511.06073v1",
+    "title": "Stemming Hallucination in Language Models Using a Licensing Oracle",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2511.06073v1_p12_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2511.06073v1",
+    "title": "Stemming Hallucination in Language Models Using a Licensing Oracle",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2511.06073v1_p13_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2511.06073v1",
+    "title": "Stemming Hallucination in Language Models Using a Licensing Oracle",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2511.06073v1_p14_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2506.00448v1",
+    "title": "Fact-Controlled Diagnosis of Hallucinations in Medical Text Summarization",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2506.00448v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2506.00448v1",
+    "title": "Fact-Controlled Diagnosis of Hallucinations in Medical Text Summarization",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2506.00448v1_p2_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.19318v1",
+    "title": "HAD: HAllucination Detection Language Models Based on a Comprehensive Hallucination Taxonomy",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.19318v1_p0_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.19318v1",
+    "title": "HAD: HAllucination Detection Language Models Based on a Comprehensive Hallucination Taxonomy",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.19318v1_p0_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.19318v1",
+    "title": "HAD: HAllucination Detection Language Models Based on a Comprehensive Hallucination Taxonomy",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.19318v1_p0_i2.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.19318v1",
+    "title": "HAD: HAllucination Detection Language Models Based on a Comprehensive Hallucination Taxonomy",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.19318v1_p0_i3.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2512.08480v1",
+    "title": "Soft Inductive Bias Approach via Explicit Reasoning Perspectives in Inappropriate Utterance Detection Using Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2512.08480v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2512.08480v1",
+    "title": "Soft Inductive Bias Approach via Explicit Reasoning Perspectives in Inappropriate Utterance Detection Using Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2512.08480v1_p1_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2402.03190v4",
+    "title": "Unified Hallucination Detection for Multimodal Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2402.03190v4_p0_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2402.03190v4",
+    "title": "Unified Hallucination Detection for Multimodal Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2402.03190v4_p0_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2402.03190v4",
+    "title": "Unified Hallucination Detection for Multimodal Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2402.03190v4_p0_i2.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2402.03190v4",
+    "title": "Unified Hallucination Detection for Multimodal Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2402.03190v4_p0_i3.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2307.15343v2",
+    "title": "Med-HALT: Medical Domain Hallucination Test for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2307.15343v2_p0_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2307.15343v2",
+    "title": "Med-HALT: Medical Domain Hallucination Test for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2307.15343v2_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2307.15343v2",
+    "title": "Med-HALT: Medical Domain Hallucination Test for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2307.15343v2_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2307.15343v2",
+    "title": "Med-HALT: Medical Domain Hallucination Test for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2307.15343v2_p7_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2604.06277v1",
+    "title": "Weakly Supervised Distillation of Hallucination Signals into Transformer Representations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2604.06277v1_p7_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2604.06277v1",
+    "title": "Weakly Supervised Distillation of Hallucination Signals into Transformer Representations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2604.06277v1_p8_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2604.06277v1",
+    "title": "Weakly Supervised Distillation of Hallucination Signals into Transformer Representations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2604.06277v1_p9_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2604.06277v1",
+    "title": "Weakly Supervised Distillation of Hallucination Signals into Transformer Representations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2604.06277v1_p10_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2512.22416v2",
+    "title": "Hallucination Detection and Evaluation of Large Language Model",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2512.22416v2_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2512.22416v2",
+    "title": "Hallucination Detection and Evaluation of Large Language Model",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2512.22416v2_p7_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2512.22416v2",
+    "title": "Hallucination Detection and Evaluation of Large Language Model",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2512.22416v2_p7_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2512.22416v2",
+    "title": "Hallucination Detection and Evaluation of Large Language Model",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2512.22416v2_p10_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2509.23580v2",
+    "title": "LLM Hallucination Detection: HSAD",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2509.23580v2_p3_i14.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2509.23580v2",
+    "title": "LLM Hallucination Detection: HSAD",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2509.23580v2_p4_i6.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2509.23580v2",
+    "title": "LLM Hallucination Detection: HSAD",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2509.23580v2_p5_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2308.10684v2",
+    "title": "Systematic Offensive Stereotyping (SOS) Bias in Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2308.10684v2_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2407.04121v1",
+    "title": "Hallucination Detection: Robustly Discerning Reliable Answers in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2407.04121v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2407.04121v1",
+    "title": "Hallucination Detection: Robustly Discerning Reliable Answers in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2407.04121v1_p4_i3.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2407.04121v1",
+    "title": "Hallucination Detection: Robustly Discerning Reliable Answers in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2407.04121v1_p4_i4.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2407.04121v1",
+    "title": "Hallucination Detection: Robustly Discerning Reliable Answers in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2407.04121v1_p8_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.01274v1",
+    "title": "TraceDet: Hallucination Detection from the Decoding Trace of Diffusion Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.01274v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.01274v1",
+    "title": "TraceDet: Hallucination Detection from the Decoding Trace of Diffusion Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.01274v1_p1_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.01274v1",
+    "title": "TraceDet: Hallucination Detection from the Decoding Trace of Diffusion Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.01274v1_p1_i2.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2510.01274v1",
+    "title": "TraceDet: Hallucination Detection from the Decoding Trace of Diffusion Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2510.01274v1_p1_i3.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2401.06855v4",
+    "title": "Fine-grained Hallucination Detection and Editing for Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2401.06855v4_p0_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2401.06855v4",
+    "title": "Fine-grained Hallucination Detection and Editing for Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2401.06855v4_p0_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2401.06855v4",
+    "title": "Fine-grained Hallucination Detection and Editing for Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2401.06855v4_p0_i2.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2401.06855v4",
+    "title": "Fine-grained Hallucination Detection and Editing for Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2401.06855v4_p0_i3.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2509.21473v1",
+    "title": "Are Hallucinations Bad Estimations?",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2509.21473v1_p17_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2604.16430v1",
+    "title": "HalluSAE: Detecting Hallucinations in Large Language Models via Sparse Auto-Encoders",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2604.16430v1_p0_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2604.16430v1",
+    "title": "HalluSAE: Detecting Hallucinations in Large Language Models via Sparse Auto-Encoders",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2604.16430v1_p2_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2604.16430v1",
+    "title": "HalluSAE: Detecting Hallucinations in Large Language Models via Sparse Auto-Encoders",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2604.16430v1_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2604.16430v1",
+    "title": "HalluSAE: Detecting Hallucinations in Large Language Models via Sparse Auto-Encoders",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2604.16430v1_p6_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2603.01691v1",
+    "title": "Building a Strong Instruction Language Model for a Less-Resourced Language",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2603.01691v1_p8_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2404.14233v2",
+    "title": "Detecting and Mitigating Hallucination in Large Vision Language Models via Fine-Grained AI Feedback",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2404.14233v2_p0_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2404.14233v2",
+    "title": "Detecting and Mitigating Hallucination in Large Vision Language Models via Fine-Grained AI Feedback",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2404.14233v2_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2404.14233v2",
+    "title": "Detecting and Mitigating Hallucination in Large Vision Language Models via Fine-Grained AI Feedback",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2404.14233v2_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2404.14233v2",
+    "title": "Detecting and Mitigating Hallucination in Large Vision Language Models via Fine-Grained AI Feedback",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2404.14233v2_p6_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2412.16365v1",
+    "title": "Overview of the First Workshop on Language Models for Low-Resource Languages (LoResLM 2025)",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2412.16365v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2511.17946v1",
+    "title": "Measuring the Impact of Lexical Training Data Coverage on Hallucination Detection in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2511.17946v1_p5_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2511.17946v1",
+    "title": "Measuring the Impact of Lexical Training Data Coverage on Hallucination Detection in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2511.17946v1_p5_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2511.17946v1",
+    "title": "Measuring the Impact of Lexical Training Data Coverage on Hallucination Detection in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2511.17946v1_p5_i2.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2511.17946v1",
+    "title": "Measuring the Impact of Lexical Training Data Coverage on Hallucination Detection in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2511.17946v1_p5_i3.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2512.20949v1",
+    "title": "Neural Probe-Based Hallucination Detection for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2512.20949v1_p2_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2512.20949v1",
+    "title": "Neural Probe-Based Hallucination Detection for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2512.20949v1_p2_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2512.20949v1",
+    "title": "Neural Probe-Based Hallucination Detection for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2512.20949v1_p5_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2512.20949v1",
+    "title": "Neural Probe-Based Hallucination Detection for Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2512.20949v1_p5_i5.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2508.01862v1",
+    "title": "Counterfactual Probing for Hallucination Detection and Mitigation in Large Language Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2508.01862v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2602.08048v1",
+    "title": "TDGNet: Hallucination Detection in Diffusion Language Models via Temporal Dynamic Graphs",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2602.08048v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2602.08048v1",
+    "title": "TDGNet: Hallucination Detection in Diffusion Language Models via Temporal Dynamic Graphs",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2602.08048v1_p2_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2602.08048v1",
+    "title": "TDGNet: Hallucination Detection in Diffusion Language Models via Temporal Dynamic Graphs",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2602.08048v1_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2607.10476v2",
+    "title": "Hallucination Detection in Large Language Models Using Diversion Decoding",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2607.10476v2_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2607.10476v2",
+    "title": "Hallucination Detection in Large Language Models Using Diversion Decoding",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2607.10476v2_p4_i1.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2607.10476v2",
+    "title": "Hallucination Detection in Large Language Models Using Diversion Decoding",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2607.10476v2_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_nlp",
+    "modality": "image",
+    "doc_id": "2607.10476v2",
+    "title": "Hallucination Detection in Large Language Models Using Diversion Decoding",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_nlp/2607.10476v2_p12_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2602.12375v1",
+    "title": "Value Bonuses using Ensemble Errors for Exploration in Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2602.12375v1_p21_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2507.02910v1",
+    "title": "Causal-Paced Deep Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2507.02910v1_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2507.02910v1",
+    "title": "Causal-Paced Deep Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2507.02910v1_p4_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2507.02910v1",
+    "title": "Causal-Paced Deep Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2507.02910v1_p4_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2507.02910v1",
+    "title": "Causal-Paced Deep Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2507.02910v1_p4_i3.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1706.02237v1",
+    "title": "Efficient Reinforcement Learning via Initial Pure Exploration",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1706.02237v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1706.02237v1",
+    "title": "Efficient Reinforcement Learning via Initial Pure Exploration",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1706.02237v1_p3_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1706.02237v1",
+    "title": "Efficient Reinforcement Learning via Initial Pure Exploration",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1706.02237v1_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1812.05551v3",
+    "title": "Exploration Conscious Reinforcement Learning Revisited",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1812.05551v3_p13_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1812.05551v3",
+    "title": "Exploration Conscious Reinforcement Learning Revisited",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1812.05551v3_p13_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1812.05551v3",
+    "title": "Exploration Conscious Reinforcement Learning Revisited",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1812.05551v3_p13_i3.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1812.05551v3",
+    "title": "Exploration Conscious Reinforcement Learning Revisited",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1812.05551v3_p13_i4.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2301.08028v4",
+    "title": "A Tutorial on Meta-Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2301.08028v4_p8_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2301.08028v4",
+    "title": "A Tutorial on Meta-Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2301.08028v4_p8_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2301.08028v4",
+    "title": "A Tutorial on Meta-Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2301.08028v4_p11_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2301.08028v4",
+    "title": "A Tutorial on Meta-Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2301.08028v4_p19_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.09615v1",
+    "title": "Sample-Efficient Reinforcement Learning with Maximum Entropy Mellowmax Episodic Control",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.09615v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.09615v1",
+    "title": "Sample-Efficient Reinforcement Learning with Maximum Entropy Mellowmax Episodic Control",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.09615v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.09615v1",
+    "title": "Sample-Efficient Reinforcement Learning with Maximum Entropy Mellowmax Episodic Control",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.09615v1_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.09615v1",
+    "title": "Sample-Efficient Reinforcement Learning with Maximum Entropy Mellowmax Episodic Control",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.09615v1_p9_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1611.09894v1",
+    "title": "Exploration for Multi-task Reinforcement Learning with Deep Generative Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1611.09894v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1611.09894v1",
+    "title": "Exploration for Multi-task Reinforcement Learning with Deep Generative Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1611.09894v1_p3_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1611.09894v1",
+    "title": "Exploration for Multi-task Reinforcement Learning with Deep Generative Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1611.09894v1_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1611.09894v1",
+    "title": "Exploration for Multi-task Reinforcement Learning with Deep Generative Models",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1611.09894v1_p4_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1905.12621v1",
+    "title": "Learning latent state representation for speeding up exploration",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1905.12621v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1905.12621v1",
+    "title": "Learning latent state representation for speeding up exploration",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1905.12621v1_p3_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1905.12621v1",
+    "title": "Learning latent state representation for speeding up exploration",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1905.12621v1_p5_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1905.12621v1",
+    "title": "Learning latent state representation for speeding up exploration",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1905.12621v1_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1904.09489v1",
+    "title": "Compression and Localization in Reinforcement Learning for ATARI Games",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1904.09489v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1904.09489v1",
+    "title": "Compression and Localization in Reinforcement Learning for ATARI Games",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1904.09489v1_p3_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1904.09489v1",
+    "title": "Compression and Localization in Reinforcement Learning for ATARI Games",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1904.09489v1_p3_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1904.09489v1",
+    "title": "Compression and Localization in Reinforcement Learning for ATARI Games",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1904.09489v1_p3_i3.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.04947v2",
+    "title": "Accelerating Training in Pommerman with Imitation and Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.04947v2_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.04947v2",
+    "title": "Accelerating Training in Pommerman with Imitation and Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.04947v2_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.04947v2",
+    "title": "Accelerating Training in Pommerman with Imitation and Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.04947v2_p7_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.04947v2",
+    "title": "Accelerating Training in Pommerman with Imitation and Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.04947v2_p8_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1807.04439v1",
+    "title": "Will it Blend? Composing Value Functions in Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1807.04439v1_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1807.04439v1",
+    "title": "Will it Blend? Composing Value Functions in Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1807.04439v1_p5_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1807.04439v1",
+    "title": "Will it Blend? Composing Value Functions in Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1807.04439v1_p5_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1807.04439v1",
+    "title": "Will it Blend? Composing Value Functions in Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1807.04439v1_p5_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.09560v1",
+    "title": "Memory-Efficient Episodic Control Reinforcement Learning with Dynamic Online k-means",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.09560v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.09560v1",
+    "title": "Memory-Efficient Episodic Control Reinforcement Learning with Dynamic Online k-means",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.09560v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.09560v1",
+    "title": "Memory-Efficient Episodic Control Reinforcement Learning with Dynamic Online k-means",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.09560v1_p3_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.09560v1",
+    "title": "Memory-Efficient Episodic Control Reinforcement Learning with Dynamic Online k-means",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.09560v1_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2211.03994v1",
+    "title": "Reinforcement Learning with Stepwise Fairness Constraints",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2211.03994v1_p8_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2211.03994v1",
+    "title": "Reinforcement Learning with Stepwise Fairness Constraints",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2211.03994v1_p8_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2211.03994v1",
+    "title": "Reinforcement Learning with Stepwise Fairness Constraints",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2211.03994v1_p8_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2211.03994v1",
+    "title": "Reinforcement Learning with Stepwise Fairness Constraints",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2211.03994v1_p8_i3.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1701.07274v6",
+    "title": "Deep Reinforcement Learning: An Overview",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1701.07274v6_p5_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1701.07274v6",
+    "title": "Deep Reinforcement Learning: An Overview",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1701.07274v6_p28_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1911.11285v1",
+    "title": "Biologically inspired architectures for sample-efficient deep reinforcement learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1911.11285v1_p10_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2004.06277v1",
+    "title": "A Demonstration of Issues with Value-Based Multiobjective Reinforcement Learning Under Stochastic State Transitions",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2004.06277v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2004.06277v1",
+    "title": "A Demonstration of Issues with Value-Based Multiobjective Reinforcement Learning Under Stochastic State Transitions",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2004.06277v1_p3_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2004.06277v1",
+    "title": "A Demonstration of Issues with Value-Based Multiobjective Reinforcement Learning Under Stochastic State Transitions",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2004.06277v1_p3_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2004.06277v1",
+    "title": "A Demonstration of Issues with Value-Based Multiobjective Reinforcement Learning Under Stochastic State Transitions",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2004.06277v1_p3_i3.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1705.00470v2",
+    "title": "Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1705.00470v2_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1705.00470v2",
+    "title": "Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1705.00470v2_p2_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1705.00470v2",
+    "title": "Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1705.00470v2_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1705.00470v2",
+    "title": "Learning Multimodal Transition Dynamics for Model-Based Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1705.00470v2_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2004.08600v1",
+    "title": "Time Adaptive Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2004.08600v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2004.08600v1",
+    "title": "Time Adaptive Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2004.08600v1_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2004.08600v1",
+    "title": "Time Adaptive Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2004.08600v1_p6_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2004.08600v1",
+    "title": "Time Adaptive Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2004.08600v1_p6_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2112.01195v1",
+    "title": "Maximum Entropy Model-based Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2112.01195v1_p2_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2112.01195v1",
+    "title": "Maximum Entropy Model-based Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2112.01195v1_p5_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2112.01195v1",
+    "title": "Maximum Entropy Model-based Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2112.01195v1_p7_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1604.08153v3",
+    "title": "Classifying Options for Deep Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1604.08153v3_p2_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1604.08153v3",
+    "title": "Classifying Options for Deep Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1604.08153v3_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1907.04543v4",
+    "title": "An Optimistic Perspective on Offline Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1907.04543v4_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2607.24057v1",
+    "title": "Constrained Reinforcement Learning Using Successor Representations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2607.24057v1_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2607.24057v1",
+    "title": "Constrained Reinforcement Learning Using Successor Representations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2607.24057v1_p8_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2607.24057v1",
+    "title": "Constrained Reinforcement Learning Using Successor Representations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2607.24057v1_p8_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2607.24057v1",
+    "title": "Constrained Reinforcement Learning Using Successor Representations",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2607.24057v1_p9_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1806.04242v2",
+    "title": "The Potential of the Return Distribution for Exploration in RL",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1806.04242v2_p2_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1806.04242v2",
+    "title": "The Potential of the Return Distribution for Exploration in RL",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1806.04242v2_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1806.04242v2",
+    "title": "The Potential of the Return Distribution for Exploration in RL",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1806.04242v2_p3_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1806.04242v2",
+    "title": "The Potential of the Return Distribution for Exploration in RL",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1806.04242v2_p7_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2507.15287v1",
+    "title": "Mixture of Autoencoder Experts Guidance using Unlabeled and Incomplete Data for Exploration in Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2507.15287v1_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2507.15287v1",
+    "title": "Mixture of Autoencoder Experts Guidance using Unlabeled and Incomplete Data for Exploration in Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2507.15287v1_p5_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2507.15287v1",
+    "title": "Mixture of Autoencoder Experts Guidance using Unlabeled and Incomplete Data for Exploration in Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2507.15287v1_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2507.15287v1",
+    "title": "Mixture of Autoencoder Experts Guidance using Unlabeled and Incomplete Data for Exploration in Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2507.15287v1_p6_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2012.09092v1",
+    "title": "Sample-Efficient Reinforcement Learning via Counterfactual-Based Data Augmentation",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2012.09092v1_p7_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2306.10216v1",
+    "title": "Vanishing Bias Heuristic-guided Reinforcement Learning Algorithm",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2306.10216v1_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2306.10216v1",
+    "title": "Vanishing Bias Heuristic-guided Reinforcement Learning Algorithm",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2306.10216v1_p7_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2306.10216v1",
+    "title": "Vanishing Bias Heuristic-guided Reinforcement Learning Algorithm",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2306.10216v1_p7_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2306.10216v1",
+    "title": "Vanishing Bias Heuristic-guided Reinforcement Learning Algorithm",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2306.10216v1_p7_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1712.00006v2",
+    "title": "Comparing Deep Reinforcement Learning and Evolutionary Methods in Continuous Control",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1712.00006v2_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1712.00006v2",
+    "title": "Comparing Deep Reinforcement Learning and Evolutionary Methods in Continuous Control",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1712.00006v2_p3_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1712.00006v2",
+    "title": "Comparing Deep Reinforcement Learning and Evolutionary Methods in Continuous Control",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1712.00006v2_p3_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "1712.00006v2",
+    "title": "Comparing Deep Reinforcement Learning and Evolutionary Methods in Continuous Control",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/1712.00006v2_p3_i3.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2109.08134v1",
+    "title": "Comparison and Unification of Three Regularization Methods in Batch Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2109.08134v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2109.08134v1",
+    "title": "Comparison and Unification of Three Regularization Methods in Batch Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2109.08134v1_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2109.08134v1",
+    "title": "Comparison and Unification of Three Regularization Methods in Batch Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2109.08134v1_p8_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2109.08134v1",
+    "title": "Comparison and Unification of Three Regularization Methods in Batch Reinforcement Learning",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2109.08134v1_p9_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2412.12024v1",
+    "title": "Learning to Navigate in Mazes with Novel Layouts using Abstract Top-down Maps",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2412.12024v1_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2412.12024v1",
+    "title": "Learning to Navigate in Mazes with Novel Layouts using Abstract Top-down Maps",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2412.12024v1_p3_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2412.12024v1",
+    "title": "Learning to Navigate in Mazes with Novel Layouts using Abstract Top-down Maps",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2412.12024v1_p4_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2412.12024v1",
+    "title": "Learning to Navigate in Mazes with Novel Layouts using Abstract Top-down Maps",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2412.12024v1_p6_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2411.00230v3",
+    "title": "Reinforcement learning with learned gadgets to tackle hard quantum problems on real hardware",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2411.00230v3_p1_i0.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2411.00230v3",
+    "title": "Reinforcement learning with learned gadgets to tackle hard quantum problems on real hardware",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2411.00230v3_p1_i1.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2411.00230v3",
+    "title": "Reinforcement learning with learned gadgets to tackle hard quantum problems on real hardware",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2411.00230v3_p1_i2.png"
+  },
+  {
+    "tier": "near_ood_images_ml",
+    "modality": "image",
+    "doc_id": "2411.00230v3",
+    "title": "Reinforcement learning with learned gadgets to tackle hard quantum problems on real hardware",
+    "source": "arxiv_figure",
+    "path": "corpus/near_ood_images_ml/2411.00230v3_p1_i3.png"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0000",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0000.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0001",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0001.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0002",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0002.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0003",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0003.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0004",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0004.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0005",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0005.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0006",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0006.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0007",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0007.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0008",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0008.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0009",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0009.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0010",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0010.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0011",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0011.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0012",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0012.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0013",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0013.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0014",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0014.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0015",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0015.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0016",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0016.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0017",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0017.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0018",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0018.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0019",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0019.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0020",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0020.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0021",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0021.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0022",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0022.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0023",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0023.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0024",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0024.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0025",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0025.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0026",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0026.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0027",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0027.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0028",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0028.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0029",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0029.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0030",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0030.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0031",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0031.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0032",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0032.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0033",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0033.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0034",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0034.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0035",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0035.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0036",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0036.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0037",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0037.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0038",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0038.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0039",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0039.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0040",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0040.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0041",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0041.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0042",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0042.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0043",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0043.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0044",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0044.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0045",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0045.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0046",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0046.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0047",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0047.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0048",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0048.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0049",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0049.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0050",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0050.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0051",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0051.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0052",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0052.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0053",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0053.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0054",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0054.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0055",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0055.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0056",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0056.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0057",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0057.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0058",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0058.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0059",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0059.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0060",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0060.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0061",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0061.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0062",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0062.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0063",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0063.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0064",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0064.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0065",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0065.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0066",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0066.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0067",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0067.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0068",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0068.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0069",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0069.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0070",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0070.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0071",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0071.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0072",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0072.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0073",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0073.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0074",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0074.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0075",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0075.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0076",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0076.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0077",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0077.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0078",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0078.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0079",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0079.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0080",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0080.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0081",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0081.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0082",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0082.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0083",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0083.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0084",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0084.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0085",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0085.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0086",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0086.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0087",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0087.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0088",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0088.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0089",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0089.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0090",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0090.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0091",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0091.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0092",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0092.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0093",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0093.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0094",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0094.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0095",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0095.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0096",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0096.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0097",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0097.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0098",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0098.jpg"
+  },
+  {
+    "tier": "far_ood_images_food",
+    "modality": "image",
+    "doc_id": "far_ood_images_food_0099",
+    "title": "ethz/food101",
+    "source": "hf:ethz/food101",
+    "path": "corpus/far_ood_images_food/far_ood_images_food_0099.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0000",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0000.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0001",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0001.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0002",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0002.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0003",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0003.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0004",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0004.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0005",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0005.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0006",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0006.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0007",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0007.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0008",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0008.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0009",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0009.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0010",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0010.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0011",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0011.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0012",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0012.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0013",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0013.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0014",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0014.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0015",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0015.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0016",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0016.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0017",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0017.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0018",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0018.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0019",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0019.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0020",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0020.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0021",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0021.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0022",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0022.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0023",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0023.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0024",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0024.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0025",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0025.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0026",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0026.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0027",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0027.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0028",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0028.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0029",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0029.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0030",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0030.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0031",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0031.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0032",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0032.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0033",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0033.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0034",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0034.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0035",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0035.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0036",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0036.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0037",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0037.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0038",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0038.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0039",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0039.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0040",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0040.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0041",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0041.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0042",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0042.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0043",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0043.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0044",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0044.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0045",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0045.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0046",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0046.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0047",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0047.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0048",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0048.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0049",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0049.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0050",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0050.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0051",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0051.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0052",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0052.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0053",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0053.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0054",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0054.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0055",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0055.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0056",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0056.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0057",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0057.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0058",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0058.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0059",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0059.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0060",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0060.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0061",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0061.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0062",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0062.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0063",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0063.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0064",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0064.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0065",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0065.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0066",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0066.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0067",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0067.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0068",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0068.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0069",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0069.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0070",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0070.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0071",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0071.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0072",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0072.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0073",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0073.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0074",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0074.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0075",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0075.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0076",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0076.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0077",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0077.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0078",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0078.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0079",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0079.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0080",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0080.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0081",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0081.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0082",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0082.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0083",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0083.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0084",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0084.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0085",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0085.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0086",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0086.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0087",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0087.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0088",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0088.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0089",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0089.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0090",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0090.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0091",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0091.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0092",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0092.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0093",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0093.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0094",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0094.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0095",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0095.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0096",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0096.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0097",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0097.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0098",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0098.jpg"
+  },
+  {
+    "tier": "far_ood_images_animals",
+    "modality": "image",
+    "doc_id": "far_ood_images_animals_0099",
+    "title": "microsoft/cats_vs_dogs",
+    "source": "hf:microsoft/cats_vs_dogs",
+    "path": "corpus/far_ood_images_animals/far_ood_images_animals_0099.jpg"
+  }
+]
