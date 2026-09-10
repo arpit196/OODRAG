@@ -64,10 +64,10 @@ class OpenAICompatibleGenerator:
         self.name = f"openai:{model}"
 
     def generate(self, prompt: str, chunks=None, action: str = "generate", **kwargs) -> str:
-        from guardrails import fallback_answer
-
-        if action in ("abstain", "chitchat"):
-            return fallback_answer(action)
+        from guardrails import fallback_answer, verify_and_correct_citations
+        #print(f"Generating with: {prompt}...")
+        #if action in ("abstain", "chitchat"):
+        #   return fallback_answer(action)
 
         if not self.api_key:
             raise RuntimeError("OPENAI_API_KEY is not set")
@@ -92,7 +92,18 @@ class OpenAICompatibleGenerator:
         except urllib.error.HTTPError as error:
             detail = error.read().decode("utf-8", errors="replace")[:400]
             raise RuntimeError(f"generation HTTP {error.code}: {detail}") from error
-        return payload["choices"][0]["message"]["content"].strip()
+        
+        raw_output = payload["choices"][0]["message"]["content"].strip()
+        if chunks and action == "generate":
+            # Pass self as the evaluator to perform lightweight NLI verification checks
+            verification_result = verify_and_correct_citations(
+                answer=raw_output, 
+                chunks=chunks, 
+                evaluator_generator=self,
+                strict_ungrounded_drop=kwargs.get("strict_ungrounded_drop", False)
+            )
+            return verification_result["corrected_answer"]
+        return raw_output
 
 
 def load_generator(kind: str = "extractive", **kwargs) -> Generator:

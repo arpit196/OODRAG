@@ -9,15 +9,10 @@ Two reference centroids in embedding space:
   - CHITCHAT_EXAMPLES : greetings, small talk, thanks, etc.
   - the corpus centroid (id_core_text) : what "on-topic" looks like
 
-A query is routed to whichever centroid it's closer to. This matters
-because retrieval always returns its top-k nearest neighbors regardless of
-whether any of them are actually relevant — there's no "no results" option
-in nearest-neighbor search. So "high distance from the corpus" alone can't
-tell you whether a query is (a) chit-chat that doesn't need the corpus at
-all, or (b) a real question the corpus genuinely fails to cover. Those need
-opposite responses: (a) gets a plain conversational reply, no retrieval,
-no hedging; (b) is the actual case your low-confidence/abstention logic
-should handle.
+A query is routed to whichever centroid it's closer to. Pass an optional
+``EmbeddingOOD`` into ``route()`` to split domain vs off-topic (weather,
+recipes) vs near-OOD — retrieval always returns neighbors, so centroid
+distance alone cannot abstain.
 
 Usage:
     from query_router import QueryRouter
@@ -72,7 +67,7 @@ class QueryRouter:
         a, b = np.asarray(a), np.asarray(b)
         return 1.0 - (a @ b) / (np.linalg.norm(a) * np.linalg.norm(b) + 1e-9)
 
-    def route(self, query: str) -> dict:
+    def route(self, query: str, ood_detector=None) -> dict:
         q_emb = self.embed_model.encode([query])[0]
 
         dist_chitchat = self._cosine_dist(q_emb, self.chitchat_centroid)
@@ -81,14 +76,27 @@ class QueryRouter:
         # Whichever centroid is closer wins. Ties/near-ties lean toward
         # "domain" — better to run retrieval unnecessarily than to skip it
         # for a real question.
-        decision = "chitchat" if dist_chitchat < dist_corpus else "domain"
 
-        return {
+        decision = "chitchat" if ((dist_chitchat < dist_corpus) and (dist_chitchat < 0.60)) else "domain"
+        query_ood = None
+        if ood_detector is not None and decision != "chitchat":
+            query_ood = ood_detector.score_query(q_emb)
+            # Off-topic questions are closer to the corpus than to chitchat,
+            # but still unlike ID documents. Do not retrieve-and-ground them.
+            if query_ood["is_ood"]:
+                decision = "ood"
+            elif query_ood["is_near_ood"]:
+                decision = "near_ood"
+
+        result = {
             "query": query,
             "decision": decision,
             "dist_to_chitchat": float(dist_chitchat),
             "dist_to_corpus": float(dist_corpus),
         }
+        if query_ood is not None:
+            result["query_ood"] = query_ood
+        return result
 
 
 if __name__ == "__main__":
