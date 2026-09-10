@@ -143,23 +143,36 @@ def rerank(query: str, candidates: List[Dict], cross_encoder, top_k: int = 5) ->
 
 def hybrid_retrieve(query: str, text_collection, embed_model, bm25_state,
                      cross_encoder, top_k_stage1: int = 20, top_k_fused: int = 10,
-                     top_k_final: int = 5, ood_detector=None) -> List[Dict]:
+                     top_k_final: int = 5, ood_detector=None, trace=None) -> List[Dict]:
     # Dense and BM25 have no dependency on each other — running them
     # sequentially wastes latency for nothing. This is one of the cheap
     # production wins most people miss: budget latency for "the LLM call"
     # and forget the retrieval stages in front of it add up too.
     from concurrent.futures import ThreadPoolExecutor
+    from observability import RetrievalTrace
+
+    trace = trace or RetrievalTrace()
+
+    def timed_dense():
+        return trace.time_stage("dense", lambda: dense_search(query, text_collection, embed_model, top_k_stage1))
+
+    def timed_bm25():
+        return trace.time_stage("bm25", lambda: bm25_search(query, *bm25_state, top_k_stage1))
 
     with ThreadPoolExecutor(max_workers=2) as pool:
-        dense_future = pool.submit(dense_search, query, text_collection, embed_model, top_k_stage1)
-        bm25_future = pool.submit(bm25_search, query, *bm25_state, top_k_stage1)
+        dense_future = pool.submit(timed_dense)
+        bm25_future = pool.submit(timed_bm25)
         dense_hits = dense_future.result()
         bm25_hits = bm25_future.result()
 
-    fused = fuse_rrf([dense_hits, bm25_hits], top_k=top_k_fused)
-    final = rerank(query, fused, cross_encoder, top_k=top_k_final)
+    trace.record_rankings([hit["id"] for hit in dense_hits], [hit["id"] for hit in bm25_hits])
+    fused = trace.time_stage("fusion", lambda: fuse_rrf([dense_hits, bm25_hits], top_k=top_k_fused))
+    final = trace.time_stage("rerank", lambda: rerank(query, fused, cross_encoder, top_k=top_k_final))
     if ood_detector is not None:
-        ood_detector.score_chunks(final, text_collection)
+        q_emb = embed_model.encode([query])[0]
+        ood_detector.score_retrieval(q_emb, final, text_collection)
+    for result in final:
+        result["retrieval_trace"] = trace
     return final
 
 
@@ -192,14 +205,20 @@ def main():
     results = hybrid_retrieve(args.query, text_collection, embed_model, bm25_state, cross_encoder,
                               ood_detector=detector)
 
+    if results and "query_ood" in results[0]:
+        q = results[0]["query_ood"]
+        print(f"  query  band={q['ood_band']:8s}  energy={q['energy']:.2f}  "
+              f"knn={q['knn_distance']:.3f}  is_ood={q['is_ood']}  "
+              f"request_is_ood={results[0]['request_is_ood']}")
+        print()
+
     for r in results:
         dd = f"{r['dense_distance']:.3f}" if r["dense_distance"] is not None else "  -  "
         bm = f"{r['bm25_score']:.2f}" if r["bm25_score"] is not None else "  -  "
         if "ood" in r:
             score = r["ood"]
-            low, high = score["ood_confidence_interval"]
-            ood = (f"  P(OOD)={score['ood_probability']:.0%} "
-                   f"CI95%=[{low:.0%}, {high:.0%}] OOD={score['is_ood']}")
+            ood = (f"  band={score['ood_band']:8s} P(OOD)={score['ood_probability']:.0%} "
+                   f"OOD={score['is_ood']} near={score['is_near_ood']}")
         else:
             ood = ""
         print(f"  [{r['tier']:15s}] rerank={r['rerank_score']:.3f}  dense_dist={dd}  bm25={bm}  {r['title'][:60]}{ood}")

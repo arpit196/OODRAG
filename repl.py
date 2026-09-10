@@ -1,80 +1,61 @@
-"""
-repl.py
---------
-Loads the index + models ONCE, then lets you type queries in a loop and see
-results instantly — for fast manual iteration on prompts/queries. Use
-eval_retrieval.py instead when you want actual numbers across many queries;
-use this when you just want to poke at a specific query and eyeball what
-comes back.
+"""Interactive, cache-aware multi-turn terminal client for the RAG agent."""
 
-Usage:
-    python repl.py --index ./chroma_index
-
-Commands once running:
-    <any text>          run it through hybrid_retrieve (fused + reranked)
-    :compare <query>     run the same query through all 4 configs side by side
-    :k <number>          change top_k for subsequent queries (default 5)
-    :quit / :q            exit
-"""
+from __future__ import annotations
 
 import argparse
+from typing import Sequence
 
-from hybrid_retrieval import build_bm25_index, hybrid_retrieve
-from eval_retrieval import run_config
-
-
-def print_results(results, label=""):
-    if label:
-        print(f"  -- {label} --")
-    for r in results:
-        dd = f"{r['dense_distance']:.3f}" if r.get("dense_distance") is not None else "  -  "
-        bm = f"{r['bm25_score']:.2f}" if r.get("bm25_score") is not None else "  -  "
-        rr = f"{r['rerank_score']:.3f}" if r.get("rerank_score") is not None else "  -  "
-        print(f"    [{r['tier']:15s}] rerank={rr}  dense={dd}  bm25={bm}  {r['title'][:55]}")
+from agent import RAGAgent, display_turn_result
+from caching import AnswerCache, AnswerRequest, CacheKeyFactory, CacheSettings, Conversation, InMemoryTTLCache
+from generator import load_generator
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--index", type=str, default="./chroma_index")
-    args = parser.parse_args()
+def build_argument_parser() -> argparse.ArgumentParser:
+    """Create the command-line interface without performing application I/O."""
+    parser = argparse.ArgumentParser(description="OOD-aware RAG terminal chat")
+    parser.add_argument("--index", default="./chroma_index")
+    parser.add_argument("--ood-reference", default="./ood_reference.npz")
+    parser.add_argument("--generator", default="extractive")
+    return parser
 
-    print("Loading index + models (one-time cost)...")
-    import chromadb
-    from sentence_transformers import SentenceTransformer, CrossEncoder
 
-    client = chromadb.PersistentClient(path=args.index)
-    text_collection = client.get_collection("text_chunks")
-    embed_model = SentenceTransformer("all-MiniLM-L6-v2")
-    cross_encoder = CrossEncoder("cross-encoder/ms-marco-MiniLM-L-6-v2")
-    bm25_state = build_bm25_index(text_collection)
-    print("Ready. Type a query, or :compare <query>, or :quit.\n")
-
-    top_k = 5
+def run_repl(agent: RAGAgent, cache: AnswerCache, settings: CacheSettings) -> None:
+    """Run a bounded multi-turn conversation with deterministic cache identity."""
+    conversation = Conversation(max_turns=settings.max_history_turns)
+    print("Ready. Commands: :clear, :quit, :q")
     while True:
         try:
-            line = input("query> ").strip()
+            query = input("user> ").strip()
         except (EOFError, KeyboardInterrupt):
-            break
-        if not line:
-            continue
-        if line in (":quit", ":q"):
-            break
-        if line.startswith(":k "):
-            top_k = int(line.split(" ", 1)[1])
-            print(f"  top_k set to {top_k}")
-            continue
-        if line.startswith(":compare "):
-            query = line[len(":compare "):]
-            for cfg in ["dense_only", "bm25_only", "hybrid_fused", "hybrid_reranked"]:
-                results = run_config(cfg, query, text_collection, embed_model, bm25_state, cross_encoder, top_k=top_k)
-                print_results(results, label=cfg)
             print()
+            return
+        if not query:
+            continue
+        if query in {":quit", ":q"}:
+            return
+        if query == ":clear":
+            conversation = Conversation(max_turns=settings.max_history_turns)
+            print("Conversation history cleared.")
             continue
 
-        # default: full hybrid + rerank pipeline
-        results = hybrid_retrieve(line, text_collection, embed_model, bm25_state, cross_encoder, top_k_final=top_k)
-        print_results(results)
-        print()
+        request = AnswerRequest(query=query, history=conversation.snapshot(), top_k=5)
+        result = cache.answer(agent, request)
+        display_turn_result(result.payload)
+        print(f"[cache: {'hit' if result.cache_hit else 'miss'}]")
+        conversation.append_exchange(query, str(result.payload["answer"]))
+
+
+def main(argv: Sequence[str] | None = None) -> None:
+    """Construct terminal dependencies and start the REPL."""
+    args = build_argument_parser().parse_args(argv)
+    settings = CacheSettings.from_env()
+    agent = RAGAgent(
+        index_dir=args.index,
+        ood_reference_path=args.ood_reference,
+        generator=load_generator(args.generator),
+    )
+    cache = AnswerCache(InMemoryTTLCache(settings), CacheKeyFactory(settings.namespace))
+    run_repl(agent, cache, settings)
 
 
 if __name__ == "__main__":

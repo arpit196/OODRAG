@@ -41,12 +41,15 @@ import traceback
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
+import math
 
 from hybrid_retrieval import build_bm25_index, hybrid_retrieve
 from ood_scoring import EmbeddingOOD
 from query_router import QueryRouter
 import guardrails
 from generator import Generator, load_generator, ExtractiveGenerator, OpenAICompatibleGenerator
+import sys
+from typing import Dict, Any, List
 
 
 def decide_action(chunks: List[Dict]) -> str:
@@ -104,6 +107,9 @@ class RAGAgent:
               top_k_final: int = 5) -> Dict:
         t0 = time.time()
         route = self.router.route(query, ood_detector=self.detector)
+        query_metrics = {}
+        chunk_metrics = []
+        retrieval_metrics = {}
 
         if route["decision"] == "chitchat":
             chunks: List[Dict] = []
@@ -113,6 +119,41 @@ class RAGAgent:
                                      self.bm25_state, self.cross_encoder, top_k_final=top_k_final)
             query_embedding = self.embed_model.encode([query])[0]
             self.detector.score_retrieval(query_embedding, chunks, self.text_collection)
+
+            #Extract Query-level P(OOD) & Confidence Interval
+            query_ood = self.detector.score_query(query_embedding)
+            query_metrics = {
+                "p_ood": query_ood.get("ood_probability"),
+                "ood_probability": query_ood.get("ood_probability"),
+                "p_ood_ci_95": query_ood.get("ood_confidence_interval"),  # (low, high)
+                "probability_source": query_ood.get("probability_source"),
+                "ood_band": query_ood.get("ood_band"),
+                "energy": query_ood.get("energy"),
+                "mahalanobis": query_ood.get("mahalanobis"),
+                "knn_distance": query_ood.get("knn_distance"),
+            }
+            for chunk in chunks:
+                ood_info = chunk.get("ood", {})
+                chunk_metrics.append({
+                    "id": chunk.get("id"),
+                    "title": chunk.get("title", ""),
+                    "p_ood": ood_info.get("ood_probability"),
+                    "ood_probability": ood_info.get("ood_probability"),
+                    "p_ood_ci_95": ood_info.get("ood_confidence_interval"),  # (low, high)
+                    "ood_band": ood_info.get("ood_band"),
+                    "probability_source": ood_info.get("probability_source"),
+                    "energy": ood_info.get("energy"),
+                    "mahalanobis": ood_info.get("mahalanobis"),
+                    "knn_distance": ood_info.get("knn_distance"),
+                })
+
+            trace = chunks[0].get("retrieval_trace") if chunks else None
+            if trace is not None:
+                retrieval_metrics = {
+                    "stage_latency_ms": dict(trace.stage_latency_ms),
+                    "agreement": dict(trace.agreement),
+                }
+
             action = decide_action(chunks)
             chunks = guardrails.select_chunks_for_generation(chunks, drop_ood=True, drop_near_ood=False)
 
@@ -130,6 +171,8 @@ class RAGAgent:
                 "action": action,
                 "generation_error": generation_error,
                 "latency_seconds": round(time.time() - t0, 3),
+                "query_ood_metrics": query_metrics,
+                "retrieval": retrieval_metrics,
             },
         )
 
@@ -139,6 +182,8 @@ class RAGAgent:
             "answer": answer_text,
             "citations": citations,
             "route": route,
+            "query_metrics": query_metrics,
+            "chunk_metrics": chunk_metrics,
             "repro": repro,
         }
         self._log(result)
@@ -167,27 +212,104 @@ class RAGAgent:
             pass  # logging must never break the actual response
 
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--index", type=str, default="./chroma_index")
-    parser.add_argument("--ood-reference", type=str, default="./ood_reference.npz")
-    parser.add_argument("--generator", type=str, default="extractive", help="extractive | openai")
-    parser.add_argument("--query", type=str, required=True)
-    args = parser.parse_args()
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Multi-turn RAG Chat Agent")
+    parser.add_argument("--index", type=str, default="./chroma_index", help="Path to index directory")
+    parser.add_argument("--ood-reference", type=str, default="./ood_reference.npz", help="Path to OOD reference file")
+    parser.add_argument("--generator", type=str, default="extractive", help="Generator backend: extractive | openai")
+    parser.add_argument("--query", type=str, default=None, help="Optional single query mode. Omit to launch interactive chat.")
+    return parser.parse_args()
 
-    gen = load_generator(args.generator)
-    agent = RAGAgent(index_dir=args.index, ood_reference_path=args.ood_reference, generator=gen)
 
-    result = agent.answer(args.query)
-
-    print(f"\nroute      : {result['route']['decision']}")
-    print(f"action     : {result['action']}")
-    print(f"generator  : {result['repro']['generation_model']}")
-    print(f"\nanswer:\n{result['answer']}")
-    if result["citations"]:
-        print("\ncitations:")
+def display_turn_result(result: Dict[str, Any]) -> None:
+    """Helper to display routing, citations, and the answer cleanly."""
+    print(f"\n[route: {result['route']['decision']} | action: {result['action']} | model: {result['repro']['generation_model']}]")
+    print(f"\nAgent: {result['answer']}")
+    
+    if result.get("citations"):
+        print("\nCitations:")
         for c in result["citations"]:
-            print(f"  [{c['n']}] ({c['tier']}, ood_band={c['ood_band']}) {c['title'][:100]}")
+            title = c.get('title', '')[:100]
+            print(f"  [{c['n']}] ({c.get('tier')}, ood_band={c.get('ood_band')}) {title}")
+    print("\n" + "-" * 60)
+    p_ood = 1
+    se_list = []; p_ood_list = []
+    if result.get("chunk_metrics") and result.get("action") == "generate":
+        print("Retrieval confidence:")
+        for c in result["chunk_metrics"]:
+            title = c.get('title', '')[:100]
+            p_ood = c.get('p_ood')
+            low, high = c.get('p_ood_ci_95')
+                # Avoid division by zero in log-space/delta propagation
+            p_safe = max(p_ood, 1e-6) 
+            p_ood_list.append(p_safe)
+        
+            # Approximate standard error from 95% CI (1.96 z-score)
+            se = (high - low) / (2 * 1.96)
+            se_list.append(se)
+            #print(f"  [{c['n']}] ({c.get('tier')}, ood_band={c.get('ood_band')}) {title}")
+        rel_variance_sum = sum((se / p)**2 for se, p in zip(se_list, p_ood_list))
+        p_ood = max(p_ood_list)
+        overall_se = p_ood * math.sqrt(rel_variance_sum)
+        # 3. Construct 95% CI
+        ci_low = max(0.0, p_ood - 1.96 * overall_se)
+        ci_high = min(1.0, p_ood + 1.96 * overall_se)
+        print(f"Overall Retrieval Confidence: {max(p_ood_list)*100:.4f %} (±{1.96*overall_se:.4f} CI: {ci_low:.4f}-{ci_high:.4f})")
+def run_single_turn(agent: Any, query: str) -> None:
+    """Executes a single query and prints output."""
+    result = agent.answer(query)
+    display_turn_result(result)
+
+
+def run_interactive_chat(agent: Any) -> None:
+    """Executes an interactive multi-turn REPL loop while tracking history."""
+    conversation_history: List[Dict[str, str]] = []
+    
+    print("\n" + "=" * 60)
+    print("Multi-Turn RAG Chatbot Initialized.")
+    print("Type 'exit', 'quit', or 'q' to end the session.")
+    print("=" * 60 + "\n")
+
+    while True:
+        try:
+            user_input = input("User: ").strip()
+            
+            if not user_input:
+                continue
+                
+            if user_input.lower() in ("exit", "quit", "q"):
+                print("Ending session. Goodbye!")
+                break
+
+            # Pass history into the agent call if your RAGAgent.answer supports it
+            result = agent.answer(user_input, history=conversation_history)
+            display_turn_result(result)
+
+            # Record turn state for the next pass
+            conversation_history.append({"role": "user", "content": user_input})
+            conversation_history.append({"role": "assistant", "content": result["answer"]})
+
+        except (KeyboardInterrupt, EOFError):
+            print("\nSession interrupted. Exiting.")
+            sys.exit(0)
+
+
+def main() -> None:
+    args = parse_args()
+
+    # Initialize components
+    gen = load_generator(args.generator)
+    agent = RAGAgent(
+        index_dir=args.index, 
+        ood_reference_path=args.ood_reference, 
+        generator=gen
+    )
+
+    # Route between single-turn CLI mode and multi-turn interactive chat mode
+    if args.query:
+        run_single_turn(agent, args.query)
+    else:
+        run_interactive_chat(agent)
 
 
 if __name__ == "__main__":
