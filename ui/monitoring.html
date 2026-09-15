@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OOD-Aware RAG Monitoring</title>
+  <style>
+    :root { color-scheme: light dark; --bg:#0f172a; --panel:#172033; --line:#334155; --text:#e2e8f0; --muted:#94a3b8; --blue:#38bdf8; --green:#4ade80; --yellow:#facc15; --red:#fb7185; }
+    * { box-sizing:border-box; font-family:system-ui,sans-serif; }
+    body { margin:0; padding:24px; color:var(--text); background:var(--bg); }
+    header { display:flex; justify-content:space-between; align-items:center; margin-bottom:20px; }
+    h1 { font-size:1.35rem; margin:0; } h2 { font-size:1rem; margin:0 0 14px; } .muted { color:var(--muted); font-size:.85rem; }
+    .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:16px; }
+    section { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:16px; margin-bottom:16px; }
+    .metric { font-size:1.75rem; font-weight:700; } .row { display:flex; justify-content:space-between; gap:12px; margin:8px 0; }
+    .bar-track { height:10px; background:#253149; border-radius:999px; overflow:hidden; } .bar { height:100%; background:var(--blue); } 
+    .generate .bar { background:var(--green); } .hedge .bar { background:var(--yellow); } .abstain .bar { background:var(--red); }
+    .hist { display:flex; align-items:end; height:88px; gap:2px; border-bottom:1px solid var(--line); } .bin { flex:1; min-width:2px; background:var(--blue); opacity:.85; }
+    .hist-label { display:flex; justify-content:space-between; color:var(--muted); font-size:.72rem; margin-top:4px; }
+    table { width:100%; border-collapse:collapse; font-size:.9rem; } th,td { text-align:left; padding:7px; border-bottom:1px solid var(--line); } th { color:var(--muted); font-weight:500; }
+    @media (max-width:600px) { body { padding:14px; } }
+  </style>
+</head>
+<body>
+  <header><div><h1>OOD-Aware RAG Monitoring</h1><div class="muted">Recent live-traffic window · auto-refreshes every 10 seconds</div></div><div id="updated" class="muted">Loading…</div></header>
+  <div class="grid">
+    <section><h2>Requests</h2><div id="requests" class="metric">—</div><div id="cache-rate" class="muted"></div></section>
+    <section><h2>Dense ↔ BM25 agreement</h2><div id="agreement" class="metric">—</div><div id="top-one" class="muted"></div></section>
+  </div>
+  <section><h2>Action distribution</h2><div id="actions"></div></section>
+  <section><h2>Per-stage latency — uncached requests</h2><table><thead><tr><th>Stage</th><th>Samples</th><th>p50</th><th>p95</th><th>p99</th></tr></thead><tbody id="latencies"></tbody></table></section>
+  <section><h2>OOD signal distributions</h2><div class="grid" id="distributions"></div></section>
+  <script>
+    const percent = value => value == null ? '—' : `${(value * 100).toFixed(1)}%`;
+    const millis = value => value == null ? '—' : `${value.toFixed(1)} ms`;
+    const escape = value => String(value).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+    function histogram(title, bins) {
+      const max = Math.max(...bins.map(bin => bin.count), 1);
+      const bars = bins.map(bin => `<div class="bin" title="${bin.from}–${bin.to}: ${bin.count}" style="height:${(bin.count / max) * 100}%"></div>`).join('');
+      const first = bins[0], last = bins[bins.length - 1];
+      return `<div><h2>${escape(title)}</h2><div class="hist">${bars || '<span class="muted">No samples</span>'}</div>${bins.length ? `<div class="hist-label"><span>${first.from}</span><span>${last.to}</span></div>` : ''}</div>`;
+    }
+    async function refresh() {
+      const response = await fetch('/api/monitoring/summary');
+      if (!response.ok) throw new Error('Telemetry request failed');
+      const data = await response.json();
+      document.getElementById('requests').textContent = data.requests;
+      document.getElementById('cache-rate').textContent = `Cache-hit rate: ${percent(data.cache_hit_rate)}`;
+      document.getElementById('agreement').textContent = percent(data.dense_bm25_agreement.mean_top_k_jaccard);
+      document.getElementById('top-one').textContent = `Top-1 agreement: ${percent(data.dense_bm25_agreement.top_1_agreement_rate)} · ${data.dense_bm25_agreement.samples} uncached samples`;
+      document.getElementById('actions').innerHTML = Object.entries(data.action_distribution).map(([action, metric]) => `<div class="${escape(action)}"><div class="row"><span>${escape(action)}</span><span>${metric.count} · ${percent(metric.rate)}</span></div><div class="bar-track"><div class="bar" style="width:${metric.rate * 100}%"></div></div></div>`).join('') || '<span class="muted">No requests yet</span>';
+      document.getElementById('latencies').innerHTML = Object.entries(data.stage_latency_ms).map(([stage, metric]) => `<tr><td>${escape(stage)}</td><td>${metric.samples}</td><td>${millis(metric.p50)}</td><td>${millis(metric.p95)}</td><td>${millis(metric.p99)}</td></tr>`).join('');
+      const signalSections = [];
+      for (const [source, signals] of Object.entries(data.ood_distributions)) for (const [signal, bins] of Object.entries(signals)) signalSections.push(histogram(`${source}: ${signal}`, bins));
+      document.getElementById('distributions').innerHTML = signalSections.join('');
+      document.getElementById('updated').textContent = `Updated ${new Date().toLocaleTimeString()}`;
+    }
+    refresh().catch(error => document.getElementById('updated').textContent = error.message);
+    setInterval(() => refresh().catch(() => {}), 10000);
+  </script>
+</body>
+</html>

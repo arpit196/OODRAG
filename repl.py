@@ -1,20 +1,24 @@
 """Interactive, cache-aware multi-turn terminal client for the RAG agent."""
 
 from __future__ import annotations
-
+from pathlib import Path
 import argparse
 from typing import Sequence
+ROOT_DIR = Path(__file__).resolve().parent
+import sys
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 
-from agent import RAGAgent, display_turn_result
-from caching import AnswerCache, AnswerRequest, CacheKeyFactory, CacheSettings, Conversation, InMemoryTTLCache
-from generator import load_generator
+from src.agent import RAGAgent, display_turn_result
+from src.caching import AnswerCache, AnswerRequest, CacheKeyFactory, CacheSettings, Conversation, InMemoryTTLCache
+from src.generator import load_generator
 
 
 def build_argument_parser() -> argparse.ArgumentParser:
     """Create the command-line interface without performing application I/O."""
     parser = argparse.ArgumentParser(description="OOD-aware RAG terminal chat")
     parser.add_argument("--index", default="./chroma_index")
-    parser.add_argument("--ood-reference", default="./ood_reference.npz")
+    parser.add_argument("--ood-reference", default=str(ROOT_DIR / "data" / "ood_reference2.npz"))
     parser.add_argument("--generator", default="extractive")
     return parser
 
