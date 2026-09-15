@@ -135,3 +135,7 @@ OPENAI_API_KEY=your_key_here
 ```
 
 Then use `--generator openai`.
+
+## Project Demo
+<img width="2008" height="1187" alt="RAGproj" src="https://github.com/user-attachments/assets/f48a6950-40cf-4d94-9adf-fb1e24a357ea" />
+
