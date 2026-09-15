@@ -58,7 +58,7 @@ flowchart LR
 ### 1. Clone and create an environment
 
 ```bash
-git clone <YOUR-REPOSITORY-URL>
+git clone https://github.com/arpit196/OODRAG.git
 cd RAG-OOD
 
 python -m venv .venv
