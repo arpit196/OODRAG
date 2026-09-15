@@ -85,7 +85,7 @@ python build_index.py --corpus ./corpus --index ./chroma_index
 ### 3. Fit and evaluate the OOD reference
 
 ```bash
-python ood_scoring.py \
+python src/ood_scoring.py \
   --index ./chroma_index \
   --collection text_chunks \
   --query_ref ./query_reference.json \
@@ -97,7 +97,7 @@ This fit an enery-based model (Gaussian mixture model) on the set of in-domain d
 ### 4. Inspect confidence-aware retrieval
 
 ```bash
-python hybrid_retrieval.py \
+python src/hybrid_retrieval.py \
   --index ./chroma_index \
   --ood-reference ./ood_reference.npz \
   --query "How does domain generalization handle distribution shift?"
@@ -106,7 +106,7 @@ python hybrid_retrieval.py \
 Try an obviously off-topic prompt to verify the failure-safe path:
 
 ```bash
-python hybrid_retrieval.py \
+python src/hybrid_retrieval.py \
   --index ./chroma_index \
   --ood-reference ./ood_reference.npz \
   --query "What is a good recipe for vegetarian lasagna?"
@@ -117,7 +117,7 @@ python hybrid_retrieval.py \
 The extractive backend needs no API key and is useful for validating the complete policy flow:
 
 ```bash
-python agent.py \
+python src/agent.py \
   --index ./chroma_index \
   --ood-reference ./ood_reference.npz \
   --generator extractive \
