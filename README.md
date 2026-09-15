@@ -99,7 +99,7 @@ This fit an enery-based model (Gaussian mixture model) on the set of in-domain d
 ```bash
 python src/hybrid_retrieval.py \
   --index ./chroma_index \
-  --ood-reference ./ood_reference.npz \
+  --ood-reference ./data/ood_reference2.npz \
   --query "How does domain generalization handle distribution shift?"
 ```
 
@@ -108,7 +108,7 @@ Try an obviously off-topic prompt to verify the failure-safe path:
 ```bash
 python src/hybrid_retrieval.py \
   --index ./chroma_index \
-  --ood-reference ./ood_reference.npz \
+  --ood-reference ./data/ood_reference.npz \
   --query "What is a good recipe for vegetarian lasagna?"
 ```
 
@@ -119,7 +119,7 @@ The extractive backend needs no API key and is useful for validating the complet
 ```bash
 python src/agent.py \
   --index ./chroma_index \
-  --ood-reference ./ood_reference.npz \
+  --ood-reference ./data/ood_reference.npz \
   --generator extractive \
   --query "Explain invariant risk minimization."
 ```
