@@ -12,6 +12,8 @@ import urllib.error
 import urllib.request
 from typing import Optional, Protocol
 from dotenv import load_dotenv
+from langchain_openai import ChatOpenAI
+from langchain_core.messages import HumanMessage
 
 load_dotenv()
 
@@ -58,10 +60,24 @@ class OpenAICompatibleGenerator:
         self.model = model
         self.base_url = (base_url or os.environ.get("OPENAI_BASE_URL")
                          or "https://api.openai.com/v1").rstrip("/")
+        
         self.api_key = api_key or os.environ.get("OPENAI_API_KEY", "key")
         self.temperature = temperature
         self.max_tokens = max_tokens
+        self.llm = ChatOpenAI(
+            model=self.model,
+            temperature=self.temperature,
+            max_tokens=self.max_tokens,
+            api_key=os.environ.get("OPENAI_BASE_URL"),
+            base_url=self.base_url,
+        )
         self.name = f"openai:{model}"
+        self.last_usage = {
+            "input_tokens": 0,
+            "output_tokens": 0,
+            "total_tokens": 0,
+            "cached_tokens": 0,
+        }
 
     def generate(self, prompt: str, chunks=None, action: str = "generate", **kwargs) -> str:
         from src.guardrails import fallback_answer, verify_and_correct_citations
@@ -71,7 +87,7 @@ class OpenAICompatibleGenerator:
 
         if not self.api_key:
             raise RuntimeError("OPENAI_API_KEY is not set")
-        body = json.dumps({
+        '''body = json.dumps({
             "model": self.model,
             "temperature": kwargs.get("temperature", self.temperature),
             "max_tokens": kwargs.get("max_tokens", self.max_tokens),
@@ -85,15 +101,44 @@ class OpenAICompatibleGenerator:
                 "Authorization": f"Bearer {self.api_key}",
             },
             method="POST",
+        )'''
+
+        temperature = kwargs.get("temperature", self.temperature)
+        max_tokens = kwargs.get("max_tokens", self.max_tokens)
+        llm = self.llm.bind(
+            temperature=temperature,
+            max_tokens=max_tokens,
         )
-        try:
-            with urllib.request.urlopen(req, timeout=60) as resp:
-                payload = json.loads(resp.read().decode("utf-8"))
-        except urllib.error.HTTPError as error:
-            detail = error.read().decode("utf-8", errors="replace")[:400]
-            raise RuntimeError(f"generation HTTP {error.code}: {detail}") from error
+
+        response = llm.invoke(
+            [
+                HumanMessage(content=prompt)
+            ]
+        )
+        raw_output = response.content
+        if not isinstance(raw_output, str):
+            raw_output = str(raw_output)
+
+        raw_output = raw_output.strip()
+        usage = response.usage_metadata
+        prompt_tokens = usage.get("input_tokens", 0)
+        completion_tokens = usage.get("output_tokens", 0)
+        total_tokens = usage.get(
+            "total_tokens",
+            prompt_tokens + completion_tokens
+        )
+
+        cached_tokens = (
+            usage.get("prompt_tokens_details", {})
+                .get("cached_tokens", 0)
+        )
+
+        self.last_usage["input_tokens"] += prompt_tokens
+        self.last_usage["output_tokens"] += completion_tokens
+        self.last_usage["total_tokens"] += total_tokens
+        self.last_usage["cached_tokens"] += cached_tokens
         
-        raw_output = payload["choices"][0]["message"]["content"].strip()
+
         if chunks and action == "generate":
             # Pass self as the evaluator to perform lightweight NLI verification checks
             verification_result = verify_and_correct_citations(

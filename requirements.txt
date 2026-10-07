@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+pydantic
+chromadb
+numpy
+
+# whichever OpenAI SDK you use
+openai
+
+# probably depending on your retrieval stack
+scikit-learn
+sentence-transformers
+rank-bm25
+mangum
+python-dotenv
+langchain-openai

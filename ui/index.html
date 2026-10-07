@@ -46,6 +46,39 @@
             margin: 6px 0;
             padding-left: 20px;
         }
+                /* LLM usage / cost observability */
+        .llm-metrics {
+            margin-top: 8px;
+            padding: 8px 10px;
+            background: #f8f9fa;
+            border: 1px solid #e4e6eb;
+            border-radius: 4px;
+            font-size: 0.78rem;
+        }
+
+        .llm-metrics-title {
+            font-weight: 700;
+            color: #333;
+            margin-bottom: 6px;
+        }
+
+        .llm-metrics-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .metric {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 4px 7px;
+            color: #444;
+        }
+
+        .metric strong {
+            color: #111;
+        }
     </style>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
@@ -150,6 +183,24 @@
                         <span class="badge" style="background:${badgeBg}; color:${badgeColor}; font-weight:600;">P(OOD): ${pOodPct}</span>
                         <span class="badge" style="background:${badgeBg}; color:${badgeColor}; font-weight:600;">Answer Confidence: ${confPct}</span>
                         <span style="color:#555;"><b>95% CI:</b> ${ciText}</span>
+                    </div>
+                `;
+            }
+            let costMetricsHtml = '';
+
+            if (data.cost_metrics !== undefined && data.cost_metrics !== null) {
+                const totalCost = Number(data.cost_metrics);
+
+                costMetricsHtml = `
+                    <div class="llm-metrics">
+                        <div class="llm-metrics-title">LLM Usage</div>
+
+                        <div class="llm-metrics-grid">
+                            <span class="metric">
+                                <strong>Total Cost:</strong>
+                                $${totalCost.toFixed(6)}
+                            </span>
+                        </div>
                     </div>
                 `;
             }

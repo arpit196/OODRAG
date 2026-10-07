@@ -26,6 +26,10 @@
   <div class="grid">
     <section><h2>Requests</h2><div id="requests" class="metric">—</div><div id="cache-rate" class="muted"></div></section>
     <section><h2>Dense ↔ BM25 agreement</h2><div id="agreement" class="metric">—</div><div id="top-one" class="muted"></div></section>
+    <section>
+      <h2>Latest LLM Cost</h2>
+      <div id="cost" class="metric">—</div>
+    </section>
   </div>
   <section><h2>Action distribution</h2><div id="actions"></div></section>
   <section><h2>Per-stage latency — uncached requests</h2><table><thead><tr><th>Stage</th><th>Samples</th><th>p50</th><th>p95</th><th>p99</th></tr></thead><tbody id="latencies"></tbody></table></section>
@@ -45,6 +49,7 @@
       if (!response.ok) throw new Error('Telemetry request failed');
       const data = await response.json();
       document.getElementById('requests').textContent = data.requests;
+      document.getElementById('cost').textContent =data.cost_metrics == null? '— ': `$${Number(data.cost_metrics).toFixed(6)}`;
       document.getElementById('cache-rate').textContent = `Cache-hit rate: ${percent(data.cache_hit_rate)}`;
       document.getElementById('agreement').textContent = percent(data.dense_bm25_agreement.mean_top_k_jaccard);
       document.getElementById('top-one').textContent = `Top-1 agreement: ${percent(data.dense_bm25_agreement.top_1_agreement_rate)} · ${data.dense_bm25_agreement.samples} uncached samples`;

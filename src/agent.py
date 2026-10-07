@@ -38,12 +38,18 @@ import argparse
 import json
 import time
 import traceback
+import os
+from dotenv import load_dotenv
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Any, Optional
 import math
 import sys
+import logging
 # Add project root directory to sys.path so 'src' can be imported cleanly
+logger = logging.getLogger("rag_agent")
+logger.setLevel(logging.INFO)
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 if str(BASE_DIR) not in sys.path:
     sys.path.insert(0, str(BASE_DIR))
@@ -53,14 +59,57 @@ import src.guardrails
 from src.hybrid_retrieval import build_bm25_index, hybrid_retrieve
 from src.ood_scoring import EmbeddingOOD
 from src.query_router import QueryRouter
-import src.guardrails
-from src.guardrails import *
+#import src.guardrails
+from src.guardrails import (
+    select_chunks_for_generation,
+    build_generation_prompt,
+    ground_citations,
+    build_repro_bundle,
+)
 from src.generator import Generator, load_generator, ExtractiveGenerator, OpenAICompatibleGenerator
 #import sys
-from typing import Dict, Any, List
 import numpy as np
 
+load_dotenv()
+
 LOG_FILE = "ood_abstains.jsonl"
+MODEL_PRICING_PATH = BASE_DIR / "src" / "model_pricing.json"
+
+def load_model_pricing(
+    filepath: str | Path = MODEL_PRICING_PATH
+) -> Dict[str, Dict[str, float]]:
+    with open(filepath, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+MODEL_PRICING = load_model_pricing()
+
+def calculate_llm_cost(
+    model_name: str,
+    input_tokens: int = 0,
+    output_tokens: int = 0,
+) -> Dict[str, float]:
+
+    pricing = MODEL_PRICING.get(model_name)
+    if not pricing:
+        return {
+            "input_cost_usd": 0.0,
+            "output_cost_usd": 0.0,
+            "total_cost_usd": 0.0,
+        }
+
+    input_cost = (
+        input_tokens / 1000000
+    ) * pricing["input_per_1m_tokens_usd"]
+
+    output_cost = (
+        output_tokens / 1000000
+    ) * pricing["output_per_1m_tokens_usd"]
+
+    return {
+        "input_cost_usd": round(input_cost, 8),
+        "output_cost_usd": round(output_cost, 8),
+        "total_cost_usd": round(input_cost + output_cost, 8),
+    }
 
 def fetch_google_search_chunks(query: str, max_results: int = 3) -> List[Dict]:
     """Fetches web search snippets and formats them as RAG chunk dictionaries."""
@@ -87,6 +136,12 @@ def fetch_google_search_chunks(query: str, max_results: int = 3) -> List[Dict]:
 
 def log_abstain_query(query: str, embedding: object, filepath: str = LOG_FILE) -> None:
     """Logs abstained queries alongside their vector embeddings and timestamps."""
+    logger.info(
+        json.dumps({
+            "event": "rag_abstain",
+            "query": query,
+        })
+    )
     # Convert numpy arrays to Python list for JSON serialization
     if isinstance(embedding, np.ndarray):
         embedding_list = embedding.tolist()
@@ -102,8 +157,8 @@ def log_abstain_query(query: str, embedding: object, filepath: str = LOG_FILE) -
     }
 
     # Append entry as a single line JSON
-    with open(filepath, "a", encoding="utf-8") as f:
-        f.write(json.dumps(log_entry) + "\n")
+    #with open(filepath, "a", encoding="utf-8") as f:
+    #    f.write(json.dumps(log_entry) + "\n")
 
 def decide_action(chunks: List[Dict]) -> str:
     """generate | hedge | abstain, from query-level OOD first, chunk
@@ -116,8 +171,7 @@ def decide_action(chunks: List[Dict]) -> str:
     low, high = query_ood.get("ood_confidence_interval", (0.0, 1.0))
     ci_width = high - low
     max_ci_width = 0.37
-    print(max_ci_width)
-    print(f"{low} {high}")
+    
     #if ci_width >= max_ci_width and (low <= 0.79 <= high):
     #    return "clarify"
     if query_ood.get("is_ood"):
@@ -135,22 +189,47 @@ def decide_action(chunks: List[Dict]) -> str:
         return "hedge"
     return "generate"
 
+def prepare_model(model_path: str, model_name: str) -> str:
+    source = Path(model_path)
+    target = Path("/tmp/models") / model_name
+
+    if not target.exists():
+        target.parent.mkdir(parents=True, exist_ok=True)
+        shutil.copytree(source, target)
+
+    return str(target)
+
 class RAGAgent:
     def __init__(self, index_dir: str, ood_reference_path: str,
                  embed_model_name: str = "all-MiniLM-L6-v2",
                  reranker_model_name: str = "cross-encoder/ms-marco-MiniLM-L-6-v2",
                  generator: Optional[Generator] = None,
-                 log_path: Optional[str] = "./agent_log.jsonl"):
+                 log_path: Optional[str] = None): #"./agent_log.jsonl"
         import chromadb
         from sentence_transformers import SentenceTransformer, CrossEncoder
 
         self.index_dir = index_dir
-        self.embed_model_name = embed_model_name
-        self.reranker_model_name = reranker_model_name
+        
         self.log_path = Path(log_path) if log_path else None
 
         self.client = chromadb.PersistentClient(path=index_dir)
         self.text_collection = self.client.get_collection("text_chunks")
+        embed_model_name = os.getenv(
+            "RAG_EMBED_MODEL",
+            embed_model_name
+        )
+        reranker_model_name = os.getenv(
+            "RAG_CROSS_MODEL",
+            reranker_model_name
+        )
+
+        self.embed_model_name = embed_model_name
+        self.reranker_model_name = reranker_model_name
+        logger.info(
+            "Loading models: embedder=%s reranker=%s",
+            embed_model_name,
+            reranker_model_name,
+        )
         self.embed_model = SentenceTransformer(embed_model_name)
         self.cross_encoder = CrossEncoder(reranker_model_name)
         self.bm25_state = build_bm25_index(self.text_collection)
@@ -159,7 +238,7 @@ class RAGAgent:
         self.detector = EmbeddingOOD.load(ood_reference_path)
 
         self.generator = generator or load_generator("extractive")
-        print(f"generator: {self.generator}")
+        #print(f"generator: {self.generator}")
         self._fallback_generator = ExtractiveGenerator()  # used if self.generator errors
 
     def answer(self, query: str, history: Optional[List[Dict]] = None,
@@ -236,8 +315,28 @@ class RAGAgent:
         else:
             prompt=""
 
-        answer_text, generator_used, generation_error = self._generate_with_fallback(prompt, chunks, action)
+        if hasattr(self.generator, "reset_usage"):
+            self.generator.reset_usage()
 
+        answer_text, generator_used, generation_error = self._generate_with_fallback(prompt, chunks, action)
+        token_usage = getattr(self.generator, "last_usage", {})
+        
+        generator_model = getattr(
+            self.generator,
+            "model",
+            getattr(self.generator, "name", "unknown"),
+        )
+        cost_metrics = calculate_llm_cost(
+            model_name=generator_model,
+            input_tokens=token_usage.get("input_tokens", 0),
+            output_tokens=token_usage.get("output_tokens", 0),
+        )
+        logger.info(json.dumps({
+            "event": "generation_metrics",
+            "model": generator_model,
+            "token_usage": token_usage,
+            "cost_usd": cost_metrics["total_cost_usd"],
+        }))
         citations = ground_citations(answer_text, chunks) if action in ("generate", "hedge") else []
 
         repro = build_repro_bundle(
@@ -250,6 +349,7 @@ class RAGAgent:
                 "latency_seconds": round(time.time() - t0, 3),
                 "query_ood_metrics": query_metrics,
                 "retrieval": retrieval_metrics,
+                "cost_metrics": cost_metrics["total_cost_usd"],
             },
         )
         contexts_text = [chunk["text"] for chunk in chunks if isinstance(chunk, dict) and "text" in chunk]
@@ -263,6 +363,7 @@ class RAGAgent:
             "route": route,
             "query_metrics": query_metrics,
             "chunk_metrics": chunk_metrics,
+            "cost_metrics": cost_metrics["total_cost_usd"],
             "repro": repro,
         }
         self._log(result)
@@ -313,7 +414,7 @@ class StandardRAGAgent(RAGAgent):
         # 2. Force action to 'generate' (No OOD checks, no abstain, no hedge)
         action = "generate"
 
-        print("In standard answer")
+        #print("In standard answer")
         # 3. Build Prompt without chunk dropping/filtering
         prompt = build_generation_prompt(query, chunks, action=action, history=history)
         #print(prompt)
