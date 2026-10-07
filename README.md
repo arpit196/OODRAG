@@ -58,7 +58,7 @@ flowchart LR
 ### 1. Clone and create an environment
 
 ```bash
-git clone <YOUR-REPOSITORY-URL>
+git clone https://github.com/arpit196/OODRAG.git
 cd RAG-OOD
 
 python -m venv .venv
@@ -85,7 +85,7 @@ python build_index.py --corpus ./corpus --index ./chroma_index
 ### 3. Fit and evaluate the OOD reference
 
 ```bash
-python ood_scoring.py \
+python src/ood_scoring.py \
   --index ./chroma_index \
   --collection text_chunks \
   --query_ref ./query_reference.json \
@@ -97,18 +97,18 @@ This fit an enery-based model (Gaussian mixture model) on the set of in-domain d
 ### 4. Inspect confidence-aware retrieval
 
 ```bash
-python hybrid_retrieval.py \
+python src/hybrid_retrieval.py \
   --index ./chroma_index \
-  --ood-reference ./ood_reference.npz \
+  --ood-reference ./data/ood_reference2.npz \
   --query "How does domain generalization handle distribution shift?"
 ```
 
 Try an obviously off-topic prompt to verify the failure-safe path:
 
 ```bash
-python hybrid_retrieval.py \
+python src/hybrid_retrieval.py \
   --index ./chroma_index \
-  --ood-reference ./ood_reference.npz \
+  --ood-reference ./data/ood_reference.npz \
   --query "What is a good recipe for vegetarian lasagna?"
 ```
 
@@ -117,9 +117,9 @@ python hybrid_retrieval.py \
 The extractive backend needs no API key and is useful for validating the complete policy flow:
 
 ```bash
-python agent.py \
+python src/agent.py \
   --index ./chroma_index \
-  --ood-reference ./ood_reference.npz \
+  --ood-reference ./data/ood_reference.npz \
   --generator extractive \
   --query "Explain invariant risk minimization."
 ```
@@ -135,3 +135,7 @@ OPENAI_API_KEY=your_key_here
 ```
 
 Then use `--generator openai`.
+
+## Project Demo
+<img width="2008" height="1187" alt="RAGproj" src="https://github.com/user-attachments/assets/f48a6950-40cf-4d94-9adf-fb1e24a357ea" />
+
