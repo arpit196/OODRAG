@@ -1,0 +1,680 @@
+{
+  "labels": {
+    "0": "reject (near/far OOD)",
+    "1": "ID"
+  },
+  "threshold": 0.5,
+  "counts": {
+    "near_ood": 60,
+    "far_ood": 30,
+    "id": 150
+  },
+  "train_ids": [
+    "ID:2508.21033v2.txt",
+    "ID:2211.10412v3.txt",
+    "NOOD056",
+    "ID:2505.13043v2.txt",
+    "ID:2403.14410v2.txt",
+    "ID:2411.16049v1.txt",
+    "NOOD048",
+    "NOOD014",
+    "NOOD047",
+    "NOOD007",
+    "NOOD045",
+    "ID:2405.14874v4.txt",
+    "ID:1904.04621v4.txt",
+    "ID:2111.09114v1.txt",
+    "ID:2411.03829v1.txt",
+    "NOOD005",
+    "ID:2112.10474v1.txt",
+    "ID:2212.02968v2.txt",
+    "FOOD001",
+    "ID:2404.04452v2.txt",
+    "ID:2303.13845v2.txt",
+    "ID:2302.03020v2.txt",
+    "NOOD015",
+    "ID:2510.06955v2.txt",
+    "ID:2109.14219v1.txt",
+    "FOOD024",
+    "NOOD025",
+    "ID:2107.09562v2.txt",
+    "ID:2602.15167v1.txt",
+    "ID:2608.11643v1.txt",
+    "ID:2305.19949v1.txt",
+    "ID:2006.11604v1.txt",
+    "FOOD009",
+    "ID:2107.12052v2.txt",
+    "ID:2506.19579v3.txt",
+    "ID:2104.00742v2.txt",
+    "NOOD032",
+    "ID:2407.13417v1.txt",
+    "ID:2412.17984v1.txt",
+    "ID:2107.04914v1.txt",
+    "ID:2511.10352v1.txt",
+    "NOOD038",
+    "ID:2603.08942v2.txt",
+    "ID:2209.08253v1.txt",
+    "ID:2604.25685v1.txt",
+    "ID:2405.15961v1.txt",
+    "FOOD012",
+    "ID:2106.01656v1.txt",
+    "FOOD017",
+    "FOOD014",
+    "FOOD023",
+    "ID:2310.03432v1.txt",
+    "ID:2601.04163v1.txt",
+    "FOOD028",
+    "FOOD004",
+    "ID:2102.02811v2.txt",
+    "ID:2212.04613v1.txt",
+    "ID:2606.02045v2.txt",
+    "NOOD023",
+    "ID:2402.15146v1.txt",
+    "NOOD024",
+    "FOOD006",
+    "ID:2407.21311v2.txt",
+    "ID:2107.00337v1.txt",
+    "ID:2207.10150v1.txt",
+    "ID:2206.07565v1.txt",
+    "NOOD028",
+    "NOOD060",
+    "NOOD050",
+    "ID:2003.00820v1.txt",
+    "NOOD031",
+    "ID:2503.02036v3.txt",
+    "ID:2205.12753v1.txt",
+    "NOOD021",
+    "ID:2207.04913v2.txt",
+    "ID:2409.19774v1.txt",
+    "FOOD019",
+    "ID:2301.05225v2.txt",
+    "NOOD001",
+    "ID:2310.12793v2.txt",
+    "ID:2403.12049v1.txt",
+    "ID:2004.02133v2.txt",
+    "ID:2107.11056v1.txt",
+    "ID:2405.02797v1.txt",
+    "ID:2103.13561v1.txt",
+    "FOOD003",
+    "ID:2312.08195v2.txt",
+    "ID:2402.11120v1.txt",
+    "ID:2304.01973v4.txt",
+    "ID:2409.03543v1.txt",
+    "ID:2607.06483v1.txt",
+    "ID:2404.15882v2.txt",
+    "NOOD019",
+    "ID:2402.03758v1.txt",
+    "ID:2507.13458v1.txt",
+    "ID:1807.01697v5.txt",
+    "FOOD030",
+    "NOOD011",
+    "FOOD010",
+    "ID:2303.07771v3.txt",
+    "NOOD058",
+    "NOOD017",
+    "ID:2605.29599v2.txt",
+    "ID:2412.20337v1.txt",
+    "FOOD002",
+    "ID:2406.13180v1.txt",
+    "ID:2302.06039v2.txt",
+    "ID:2104.13057v2.txt",
+    "FOOD018",
+    "FOOD026",
+    "ID:1909.02620v1.txt",
+    "ID:2110.06513v2.txt",
+    "ID:2605.29330v1.txt",
+    "ID:2401.05352v2.txt",
+    "ID:2401.11406v2.txt",
+    "ID:2104.10376v1.txt",
+    "ID:2107.10931v1.txt",
+    "ID:2306.08328v1.txt",
+    "ID:2010.05784v4.txt",
+    "ID:1807.02188v4.txt",
+    "ID:2003.03879v1.txt",
+    "ID:2403.02714v1.txt",
+    "ID:2604.05409v1.txt",
+    "FOOD025",
+    "ID:2208.10967v5.txt",
+    "ID:2503.14910v1.txt",
+    "ID:2509.05975v1.txt",
+    "ID:2605.26855v1.txt",
+    "ID:2503.17211v2.txt",
+    "FOOD027",
+    "ID:2506.12413v1.txt",
+    "ID:2312.01540v1.txt",
+    "NOOD004",
+    "ID:2211.00110v1.txt",
+    "ID:2501.08361v1.txt",
+    "ID:2409.03043v2.txt",
+    "NOOD018",
+    "NOOD036",
+    "FOOD022",
+    "ID:2410.01534v2.txt",
+    "ID:2303.15833v2.txt",
+    "NOOD051",
+    "NOOD012",
+    "ID:2105.07581v3.txt",
+    "NOOD046",
+    "ID:1905.05300v1.txt",
+    "NOOD030",
+    "NOOD029",
+    "ID:2104.01231v6.txt",
+    "NOOD055",
+    "NOOD034",
+    "ID:2309.09670v1.txt",
+    "ID:2111.12525v5.txt",
+    "NOOD049",
+    "ID:2304.13976v2.txt",
+    "ID:2211.06788v1.txt",
+    "NOOD043",
+    "NOOD044",
+    "ID:2603.16439v1.txt",
+    "NOOD054",
+    "NOOD042",
+    "NOOD022",
+    "FOOD013",
+    "NOOD059",
+    "ID:2201.01003v1.txt",
+    "ID:1904.10076v3.txt",
+    "ID:2306.04911v2.txt",
+    "NOOD002",
+    "FOOD016",
+    "ID:2310.15913v1.txt",
+    "ID:2204.02481v1.txt",
+    "ID:2511.09909v1.txt",
+    "ID:1910.03548v2.txt",
+    "ID:2310.13040v2.txt",
+    "FOOD029",
+    "ID:2607.10358v1.txt",
+    "ID:2311.11096v1.txt",
+    "NOOD016",
+    "NOOD053",
+    "NOOD035",
+    "FOOD005",
+    "ID:2508.02978v1.txt",
+    "ID:2302.10164v1.txt",
+    "ID:2110.06448v2.txt",
+    "ID:2009.04659v1.txt",
+    "ID:2109.00946v1.txt",
+    "NOOD040",
+    "NOOD026",
+    "ID:2303.05734v1.txt",
+    "ID:2506.18021v1.txt",
+    "NOOD010",
+    "NOOD020"
+  ],
+  "validation_ids": [
+    "ID:2207.03061v1.txt",
+    "ID:2302.06874v2.txt",
+    "ID:2507.22398v3.txt",
+    "FOOD007",
+    "ID:2008.07651v1.txt",
+    "NOOD037",
+    "ID:2510.27213v1.txt",
+    "ID:2109.13230v1.txt",
+    "ID:2409.07940v1.txt",
+    "NOOD027",
+    "NOOD006",
+    "ID:2304.11263v2.txt",
+    "ID:2510.19330v1.txt",
+    "ID:2401.12014v1.txt",
+    "FOOD008",
+    "ID:2212.08044v3.txt",
+    "ID:2209.15042v3.txt",
+    "ID:1911.13073v4.txt",
+    "ID:2305.08302v1.txt",
+    "NOOD057",
+    "FOOD015",
+    "ID:2309.11446v1.txt",
+    "ID:2001.07895v3.txt",
+    "ID:2511.00573v1.txt",
+    "NOOD013",
+    "NOOD008",
+    "ID:2211.04393v2.txt",
+    "ID:2401.14846v2.txt",
+    "ID:2209.04525v1.txt",
+    "ID:2607.15231v1.txt",
+    "ID:2311.14837v2.txt",
+    "ID:2410.06723v2.txt",
+    "NOOD041",
+    "ID:2103.15670v3.txt",
+    "ID:2601.17056v1.txt",
+    "NOOD039",
+    "NOOD003",
+    "NOOD033",
+    "NOOD052",
+    "ID:2101.00588v3.txt",
+    "ID:2205.04368v1.txt",
+    "FOOD011",
+    "ID:2511.11009v1.txt",
+    "ID:2007.00644v2.txt",
+    "FOOD020",
+    "NOOD009",
+    "ID:2402.10099v1.txt",
+    "FOOD021"
+  ],
+  "stage1_rejected_counts": {
+    "near_ood": 16,
+    "far_ood": 30,
+    "id": 3
+  },
+  "validation": {
+    "0": {
+      "precision": 0.8823529411764706,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.8571428571428571,
+      "support": 18.0
+    },
+    "1": {
+      "precision": 0.9032258064516129,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9180327868852459,
+      "support": 30.0
+    },
+    "accuracy": 0.8958333333333334,
+    "macro avg": {
+      "precision": 0.8927893738140418,
+      "recall": 0.8833333333333333,
+      "f1-score": 0.8875878220140515,
+      "support": 48.0
+    },
+    "weighted avg": {
+      "precision": 0.8953984819734346,
+      "recall": 0.8958333333333334,
+      "f1-score": 0.8951990632318502,
+      "support": 48.0
+    }
+  },
+  "confusion_matrix_reject_id": [
+    [
+      15,
+      3
+    ],
+    [
+      2,
+      28
+    ]
+  ],
+  "validation_stage1_survivors": {
+    "0": {
+      "precision": 0.8181818181818182,
+      "recall": 0.75,
+      "f1-score": 0.782608695652174,
+      "support": 12.0
+    },
+    "1": {
+      "precision": 0.9032258064516129,
+      "recall": 0.9333333333333333,
+      "f1-score": 0.9180327868852459,
+      "support": 30.0
+    },
+    "accuracy": 0.8809523809523809,
+    "macro avg": {
+      "precision": 0.8607038123167156,
+      "recall": 0.8416666666666667,
+      "f1-score": 0.8503207412687099,
+      "support": 42.0
+    },
+    "weighted avg": {
+      "precision": 0.8789275240888144,
+      "recall": 0.8809523809523809,
+      "f1-score": 0.8793401893900826,
+      "support": 42.0
+    }
+  },
+  "validation_predictions": [
+    {
+      "id": "ID:2207.03061v1.txt",
+      "label": 1,
+      "p_id": 0.7289246278038649,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2302.06874v2.txt",
+      "label": 1,
+      "p_id": 0.955275514015091,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2507.22398v3.txt",
+      "label": 1,
+      "p_id": 0.7136360565950224,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "FOOD007",
+      "label": 0,
+      "p_id": 3.693882581681092e-05,
+      "prediction": 0,
+      "stage1_would_reject": true
+    },
+    {
+      "id": "ID:2008.07651v1.txt",
+      "label": 1,
+      "p_id": 0.9787111268572379,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD037",
+      "label": 0,
+      "p_id": 0.12922595255217986,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2510.27213v1.txt",
+      "label": 1,
+      "p_id": 0.9856462664841306,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2109.13230v1.txt",
+      "label": 1,
+      "p_id": 0.9798480059008555,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2409.07940v1.txt",
+      "label": 1,
+      "p_id": 0.6052355711010604,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD027",
+      "label": 0,
+      "p_id": 4.1758626826843384e-08,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD006",
+      "label": 0,
+      "p_id": 0.6990901406621443,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2304.11263v2.txt",
+      "label": 1,
+      "p_id": 0.9685287020114866,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2510.19330v1.txt",
+      "label": 1,
+      "p_id": 0.998678610752131,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2401.12014v1.txt",
+      "label": 1,
+      "p_id": 0.960079362797999,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "FOOD008",
+      "label": 0,
+      "p_id": 0.000160331431571596,
+      "prediction": 0,
+      "stage1_would_reject": true
+    },
+    {
+      "id": "ID:2212.08044v3.txt",
+      "label": 1,
+      "p_id": 0.9881010997621168,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2209.15042v3.txt",
+      "label": 1,
+      "p_id": 0.7699149723127097,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:1911.13073v4.txt",
+      "label": 1,
+      "p_id": 0.9684219620024666,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2305.08302v1.txt",
+      "label": 1,
+      "p_id": 0.8199683314052442,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD057",
+      "label": 0,
+      "p_id": 0.00022588084342911073,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "FOOD015",
+      "label": 0,
+      "p_id": 0.00039080023374410357,
+      "prediction": 0,
+      "stage1_would_reject": true
+    },
+    {
+      "id": "ID:2309.11446v1.txt",
+      "label": 1,
+      "p_id": 0.9520959690432049,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2001.07895v3.txt",
+      "label": 1,
+      "p_id": 0.9698436912574145,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2511.00573v1.txt",
+      "label": 1,
+      "p_id": 0.9481174661949503,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD013",
+      "label": 0,
+      "p_id": 0.12177230158822852,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD008",
+      "label": 0,
+      "p_id": 0.2868357011100654,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2211.04393v2.txt",
+      "label": 1,
+      "p_id": 0.7824193989794535,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2401.14846v2.txt",
+      "label": 1,
+      "p_id": 0.8057064203432608,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2209.04525v1.txt",
+      "label": 1,
+      "p_id": 0.981856910129855,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2607.15231v1.txt",
+      "label": 1,
+      "p_id": 0.9778698963256627,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2311.14837v2.txt",
+      "label": 1,
+      "p_id": 0.9050890318618003,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2410.06723v2.txt",
+      "label": 1,
+      "p_id": 0.9252484596222069,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD041",
+      "label": 0,
+      "p_id": 0.00045990795306510027,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2103.15670v3.txt",
+      "label": 1,
+      "p_id": 0.8782027928210107,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2601.17056v1.txt",
+      "label": 1,
+      "p_id": 0.9636158817745354,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD039",
+      "label": 0,
+      "p_id": 0.022683167993363677,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD003",
+      "label": 0,
+      "p_id": 0.34031879082169614,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD033",
+      "label": 0,
+      "p_id": 0.6445206967253565,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "NOOD052",
+      "label": 0,
+      "p_id": 0.009111505323172002,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2101.00588v3.txt",
+      "label": 1,
+      "p_id": 0.39126916066400164,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2205.04368v1.txt",
+      "label": 1,
+      "p_id": 0.9873225414528933,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "FOOD011",
+      "label": 0,
+      "p_id": 0.0003580925779073958,
+      "prediction": 0,
+      "stage1_would_reject": true
+    },
+    {
+      "id": "ID:2511.11009v1.txt",
+      "label": 1,
+      "p_id": 0.9218733714782597,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2007.00644v2.txt",
+      "label": 1,
+      "p_id": 0.93342774970146,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "FOOD020",
+      "label": 0,
+      "p_id": 5.152470581701381e-05,
+      "prediction": 0,
+      "stage1_would_reject": true
+    },
+    {
+      "id": "NOOD009",
+      "label": 0,
+      "p_id": 0.7509290207644023,
+      "prediction": 1,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "ID:2402.10099v1.txt",
+      "label": 1,
+      "p_id": 0.27172281055414627,
+      "prediction": 0,
+      "stage1_would_reject": false
+    },
+    {
+      "id": "FOOD021",
+      "label": 0,
+      "p_id": 0.00020543054435731838,
+      "prediction": 0,
+      "stage1_would_reject": true
+    }
+  ],
+  "metadata": {
+    "index": ".grounding-runtime\\index-snapshot",
+    "ood_reference": "C:\\Users\\raied\\Downloads\\RAG-OOD\\data\\ood_reference5.npz",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "reranker_model": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+    "top_k_final": 5,
+    "id_query_source": "paper_titles_unless_explicit_id_list",
+    "queries_sha256": "23b2b6b75e44275fe691dbdf4db26c42ba00fe2b84ceedebfc6e57b87069d820",
+    "id_documents_sha256": "61e1ebdfa007b3cffe5786fd4100f44362202ea1cd76133c4fd5de2865d64c97",
+    "refit_from_training_rows": "data/grounding.training.jsonl"
+  },
+  "environment": {
+    "python": "3.10.12",
+    "scikit-learn": "1.7.2",
+    "numpy": "1.26.4",
+    "joblib": "1.5.3"
+  }
+}

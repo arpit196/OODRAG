@@ -1,0 +1,285 @@
+{
+    "near_ood": [
+      {
+        "id": "NOOD001",
+        "query": "How does domain adaptation improve sentiment classification when moving from product reviews to social media text?"
+      },
+      {
+        "id": "NOOD002",
+        "query": "How can invariant representation learning improve cross-domain named entity recognition?"
+      },
+      {
+        "id": "NOOD003",
+        "query": "What techniques improve robustness of large language models to distribution shifts in user prompts?"
+      },
+      {
+        "id": "NOOD004",
+        "query": "How does adversarial training improve robustness of transformer language models against token-level perturbations?"
+      },
+      {
+        "id": "NOOD005",
+        "query": "Can source-free domain adaptation improve speech recognition across different accents?"
+      },
+      {
+        "id": "NOOD006",
+        "query": "How can unsupervised domain adaptation handle microphone and background-noise differences in speech recognition?"
+      },
+      {
+        "id": "NOOD007",
+        "query": "How does distribution shift affect automatic speech recognition models deployed across geographic regions?"
+      },
+      {
+        "id": "NOOD008",
+        "query": "What methods improve domain generalization for acoustic event classification?"
+      },
+      {
+        "id": "NOOD009",
+        "query": "How can domain adaptation improve fraud detection when transaction behaviour changes over time?"
+      },
+      {
+        "id": "NOOD010",
+        "query": "What techniques make credit-risk models robust to temporal distribution shifts?"
+      },
+      {
+        "id": "NOOD011",
+        "query": "How does covariate shift affect customer churn prediction across different geographic markets?"
+      },
+      {
+        "id": "NOOD012",
+        "query": "Can invariant risk minimization improve tabular classification across heterogeneous business domains?"
+      },
+      {
+        "id": "NOOD013",
+        "query": "How can distributionally robust optimization improve demand forecasting under changing consumer behaviour?"
+      },
+      {
+        "id": "NOOD014",
+        "query": "How does concept drift affect time-series forecasting models in production?"
+      },
+      {
+        "id": "NOOD015",
+        "query": "What methods detect distribution shifts in recommender-system user behaviour?"
+      },
+      {
+        "id": "NOOD016",
+        "query": "How can recommendation models generalize to users from previously unseen geographic regions?"
+      },
+      {
+        "id": "NOOD017",
+        "query": "Can contrastive learning improve domain adaptation for graph neural networks?"
+      },
+      {
+        "id": "NOOD018",
+        "query": "How does distribution shift affect molecular property prediction using graph neural networks?"
+      },
+      {
+        "id": "NOOD019",
+        "query": "How can reinforcement-learning agents remain robust when the environment dynamics change after deployment?"
+      },
+      {
+        "id": "NOOD020",
+        "query": "What approaches improve sim-to-real transfer for robotic control policies?"
+      },
+      {
+        "id": "NOOD021",
+        "query": "How does domain randomization improve reinforcement-learning policies transferred from simulation to physical robots?"
+      },
+      {
+        "id": "NOOD022",
+        "query": "How can anomaly detection identify abnormal patterns in multivariate industrial sensor data?"
+      },
+      {
+        "id": "NOOD023",
+        "query": "How do energy-based OOD detection methods perform on text classification embeddings?"
+      },
+      {
+        "id": "NOOD024",
+        "query": "Can Mahalanobis distance detect out-of-distribution queries in sentence embedding spaces?"
+      },
+      {
+        "id": "NOOD025",
+        "query": "How can nearest-neighbour distances be used to detect unsupported questions in retrieval-augmented generation?"
+      },
+      {
+        "id": "NOOD026",
+        "query": "How should an LLM abstain when a retrieval system cannot find evidence relevant to a user's question?"
+      },
+      {
+        "id": "NOOD027",
+        "query": "What metrics should be used to evaluate hallucination detection in retrieval-augmented generation systems?"
+      },
+      {
+        "id": "NOOD028",
+        "query": "How can retrieval confidence be calibrated for semantic search over enterprise documents?"
+      },
+      {
+        "id": "NOOD029",
+        "query": "How do embedding models detect semantic novelty in natural-language queries?"
+      },
+      {
+        "id": "NOOD030",
+        "query": "What techniques improve robustness of multimodal language models to misleading textual instructions?"
+      },
+      {"id":"NOOD031","query":"How should an NLP classifier identify text from an unseen topic?"},
+      {"id":"NOOD032","query":"How can sentiment models remain reliable when language usage changes over time?"},
+      {"id":"NOOD033","query":"How can a language model adapt to new terminology without retraining?"},
+      {"id":"NOOD034","query":"How should a chatbot detect user intents that were absent from training?"},
+
+      {"id":"NOOD035","query":"How can network intrusion detection remain robust as attack patterns evolve?"},
+      {"id":"NOOD036","query":"How can malware classifiers handle previously unseen attack families?"},
+      {"id":"NOOD037","query":"How should cybersecurity models respond to distribution shift in network traffic?"},
+
+      {"id":"NOOD038","query":"How can recommendation systems generalize when user preferences change?"},
+      {"id":"NOOD039","query":"How can recommender models detect when user behaviour no longer matches training data?"},
+      {"id":"NOOD040","query":"How should a ranking model adapt when search intent changes over time?"},
+
+      {"id":"NOOD041","query":"How can fraud detection models remain reliable when transaction behaviour changes?"},
+      {"id":"NOOD042","query":"How can credit-risk models handle population drift after deployment?"},
+      {"id":"NOOD043","query":"How should financial models detect previously unseen behavioural patterns?"},
+
+      {"id":"NOOD044","query":"How can a forecasting model generalize to an unseen economic regime?"},
+      {"id":"NOOD045","query":"How should time-series models distinguish regime change from temporary noise?"},
+      {"id":"NOOD046","query":"How can forecasting systems remain calibrated when data distributions evolve?"},
+
+      {"id":"NOOD047","query":"How do graph neural networks generalize when graph topology changes?"},
+      {"id":"NOOD048","query":"How can node classifiers handle unseen graph structures?"},
+      {"id":"NOOD049","query":"How can graph embeddings remain stable under structural distribution shift?"},
+
+      {"id":"NOOD050","query":"How can reinforcement-learning agents remain robust when environment dynamics change?"},
+      {"id":"NOOD051","query":"How should an RL policy respond to states that were absent during training?"},
+      {"id":"NOOD052","query":"How can an agent detect that its deployment environment differs from training?"},
+
+      {"id":"NOOD053","query":"How can speech recognition systems generalize to unseen accents?"},
+      {"id":"NOOD054","query":"How should speech models adapt when acoustic conditions change?"},
+      {"id":"NOOD055","query":"How can audio classifiers detect unfamiliar sound distributions?"},
+
+      {"id":"NOOD056","query":"How can a RAG system determine that a question is outside its indexed knowledge?"},
+      {"id":"NOOD057","query":"How can retrieval systems identify semantically similar but unsupported queries?"},
+      {"id":"NOOD058","query":"How can embedding similarity distinguish relevant knowledge from merely related knowledge?"},
+      {"id":"NOOD059","query":"How should a knowledge assistant respond when retrieved documents are topically related but insufficient to answer?"},
+      {"id":"NOOD060","query":"How can a search system detect when none of its indexed documents actually answer the user question?"}
+    ],
+  
+    "far_ood": [
+      {
+        "id": "FOOD001",
+        "query": "What is the capital of France?"
+      },
+      {
+        "id": "FOOD002",
+        "query": "How does photosynthesis convert sunlight into chemical energy?"
+      },
+      {
+        "id": "FOOD003",
+        "query": "Why do black holes have event horizons?"
+      },
+      {
+        "id": "FOOD004",
+        "query": "What causes ocean tides?"
+      },
+      {
+        "id": "FOOD005",
+        "query": "How does CRISPR-Cas9 edit DNA?"
+      },
+      {
+        "id": "FOOD006",
+        "query": "What is the difference between mitosis and meiosis?"
+      },
+      {
+        "id": "FOOD007",
+        "query": "Why does inflation reduce purchasing power?"
+      },
+      {
+        "id": "FOOD008",
+        "query": "How do central banks use interest rates to control inflation?"
+      },
+      {
+        "id": "FOOD009",
+        "query": "How do I create a REST API using Node.js and Express?"
+      },
+      {
+        "id": "FOOD010",
+        "query": "What is the difference between Kubernetes deployments and StatefulSets?"
+      },
+      {
+        "id": "FOOD011",
+        "query": "How does garbage collection work in Java?"
+      },
+      {
+        "id": "FOOD012",
+        "query": "What is the difference between TCP and UDP?"
+      },
+      {
+        "id": "FOOD013",
+        "query": "How do database indexes improve SQL query performance?"
+      },
+      {
+        "id": "FOOD014",
+        "query": "What is the purpose of React hooks?"
+      },
+      {
+        "id": "FOOD015",
+        "query": "How does OAuth 2.0 authorization work?"
+      },
+      {
+        "id": "FOOD016",
+        "query": "How do you calculate compound interest?"
+      },
+      {
+        "id": "FOOD017",
+        "query": "What caused the French Revolution?"
+      },
+      {
+        "id": "FOOD018",
+        "query": "What are the major themes in Shakespeare's Macbeth?"
+      },
+      {
+        "id": "FOOD019",
+        "query": "How does the parliamentary system work in the United Kingdom?"
+      },
+      {
+        "id": "FOOD020",
+        "query": "What ingredients are needed to make sourdough bread?"
+      },
+      {
+        "id": "FOOD021",
+        "query": "Why does yeast make bread rise?"
+      },
+      {
+        "id": "FOOD022",
+        "query": "How does a heat pump warm a house?"
+      },
+      {
+        "id": "FOOD023",
+        "query": "What causes an internal combustion engine to knock?"
+      },
+      {
+        "id": "FOOD024",
+        "query": "How do lithium-ion batteries store electrical energy?"
+      },
+      {
+        "id": "FOOD025",
+        "query": "What is the difference between classical and quantum computing?"
+      },
+      {
+        "id": "FOOD026",
+        "query": "How does blockchain achieve consensus between distributed nodes?"
+      },
+      {
+        "id": "FOOD027",
+        "query": "Why do some stars become supernovae?"
+      },
+      {
+        "id": "FOOD028",
+        "query": "How are earthquakes measured?"
+      },
+      {
+        "id": "FOOD029",
+        "query": "What determines the colour of a chemical compound?"
+      },
+      {
+        "id": "FOOD030",
+        "query": "How does the human immune system respond to a viral infection?"
+      }
+    ]
+  }
