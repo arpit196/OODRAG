@@ -25,7 +25,7 @@ Run:
 import numpy as np
 import pytest
 
-from ood_scoring import EmbeddingOOD
+from src.ood_scoring import EmbeddingOOD
 
 
 def pytest_configure(config):

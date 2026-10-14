@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import unittest
 
-from observability import monitoring_summary
+from src.observability import monitoring_summary
 
 
 class MonitoringSummaryTests(unittest.TestCase):

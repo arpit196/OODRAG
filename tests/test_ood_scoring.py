@@ -2,7 +2,7 @@ import unittest
 
 import numpy as np
 
-from ood_scoring import EmbeddingOOD, auroc, holdout_split
+from src.ood_scoring import EmbeddingOOD, auroc, holdout_split
 
 
 class FakeCollection:
