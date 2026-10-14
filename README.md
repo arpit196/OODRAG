@@ -139,3 +139,97 @@ Then use `--generator openai`.
 ## Project Demo
 <img width="2008" height="1187" alt="RAGproj" src="https://github.com/user-attachments/assets/f48a6950-40cf-4d94-9adf-fb1e24a357ea" />
 
+# Optional Stage 2 grounding gate
+
+The OOD agent now supports a post-retrieval classifier before its existing
+prompt construction and generation. `src/generator.py`, prompt templates,
+and citation behavior are unchanged. The standard baseline agent remains
+unchanged. Existing `RAGAgent` callers keep their behavior until a grounding
+model is configured; `ThreeStageRAGPipeline` requires a model path.
+
+Train using the supplied OOD queries and real retrieval results:
+
+```powershell
+python train_grounding.py --queries data/grounding_queries.json --id-documents corpus/id_core_text/combined_documents.txt --index chroma_index --ood-reference data/ood_reference5.npz --output data/grounding.joblib
+$env:RAG_GROUNDING_MODEL_PATH = "data/grounding.joblib"
+$env:RAG_GROUNDING_THRESHOLD = "0.5"
+# Start the API with your usual command, or use:
+python -m src.agent --index chroma_index --ood-reference data/ood_reference5.npz --grounding-model data/grounding.joblib --query "What is domain generalization?"
+```
+
+`data/grounding_queries.json` contains the user-supplied 60 near-OOD and 30
+far-OOD queries. Both groups have label **0 = reject**, even when retrieval
+returns topically related ID chunks. By default, the script derives one
+title-based question from each of the 150 ID papers in `combined_documents.txt`
+and labels it **1 = ID**. Add an `id` query list to the JSON to use explicitly
+labeled ID questions instead. Paper-title questions are ID proxies; validation
+on them does not establish performance on arbitrary user questions.
+
+For every example, `RAGAgent.collect_grounding_example()` computes real
+Stage 1 scores, runs the existing dense/BM25/fusion/reranker pipeline, annotates
+chunk OOD, and uses the same evidence selection and feature extraction as the
+online gate. It never calls generation or the existing grounding classifier.
+Offline collection deliberately retrieves even if Stage 1 would reject, and
+records `stage1_would_reject`; online early rejection remains unchanged. Labels
+come from the query groups and ID source documents, not chunk tiers or model
+predictions. No random feature scores are generated.
+
+Training saves `grounding.joblib`, auditable query/context/feature rows in
+`grounding.training.jsonl`, and held-out metrics in `grounding.report.json`.
+The scaler and classifier fit only the 80% training split, stratified by
+ID/near-OOD/far-OOD. The report also evaluates only queries that passed Stage 1.
+Choose the online threshold using validation relevant to deployment. The
+training script's `--threshold` affects its report; set the online threshold
+separately with `RAG_GROUNDING_THRESHOLD`. Load only trusted joblib files. A
+configured missing or incompatible model raises instead of disabling the gate.
+
+```python
+from src.agent import ThreeStageRAGPipeline
+
+pipeline = ThreeStageRAGPipeline(
+    index_dir="chroma_index",
+    ood_reference_path="data/ood_reference5.npz",
+    grounding_model_path="data/grounding.joblib",
+    grounding_threshold=0.5,
+)
+response = pipeline.run("What is domain generalization?")
+print(response.response_text, response.execution_path)
+print(response.debug_metadata["grounding_metrics"])
+```
+
+`answer()` retains the existing response dictionary and adds `execution_path`
+and `grounding_metrics`. `run()` returns a typed `PipelineResponse`. Far-OOD
+queries stop before retrieval; insufficient grounding stops with
+"No relevant context found." and no generator call. Chitchat retains its
+existing retrieval bypass. Existing OOD action decisions still apply.
+
+`extract_grounding_features(query, top_3_chunks, stage1_features)` returns a
+15-element NumPy vector in `src.grounding.FEATURE_NAMES` order: five Stage 1
+signals, three cosine similarities, three normalized BM25 scores, cosine
+max/mean/min, and chunk count. Online scoring computes actual cosine from
+stored chunk vectors and the query embedding, including sparse-only hits,
+and supplies BM25 scores even for dense-only hits. BM25 is transformed with
+`max(score, 0) / (1 + max(score, 0))`. Missing ranks are padded with zeros;
+aggregates use present chunks. The gate evaluates up to three chunks allowed
+by the existing OOD chunk filter; those same chunks reach generation.
+
+The model and feature names are serialized together and checked when loaded.
+Training uses `StandardScaler` and `LogisticRegression`; inference returns
+the class-1 probability. No classifier or embedding model is loaded per request.
+Restart the service after changing the model or threshold so the process-local
+answer cache is rebuilt.
+
+Offline validation: `python -m unittest discover -s tests -p test_grounding.py`.
+
+If the model was trained with a different scikit-learn version than your
+runtime, refit the saved real-retrieval rows inside your active environment:
+
+```sh
+python train_grounding.py --training-rows data/grounding.training.jsonl --output data/grounding.joblib
+python test_pipeline_e2e.py
+```
+
+This skips retrieval and generation and reuses the existing labels and features.
+New artifacts record library versions; incompatible models fail during loading
+with a refit command. Keep training and inference in the same environment.
+

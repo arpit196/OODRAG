@@ -14,6 +14,7 @@ from typing import Optional, Protocol
 from dotenv import load_dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
+from src.timing import measure, skipped_metrics
 
 load_dotenv()
 
@@ -68,7 +69,7 @@ class OpenAICompatibleGenerator:
             model=self.model,
             temperature=self.temperature,
             max_tokens=self.max_tokens,
-            api_key=os.environ.get("OPENAI_BASE_URL"),
+            api_key=self.api_key,
             base_url=self.base_url,
         )
         self.name = f"openai:{model}"
@@ -78,6 +79,14 @@ class OpenAICompatibleGenerator:
             "total_tokens": 0,
             "cached_tokens": 0,
         }
+        self.last_timing_metrics = skipped_metrics(("answer_generation_llm", "citation_verification"))
+        self.last_timing_metrics["llm_calls"] = []
+
+    def reset_usage(self):
+        for key in self.last_usage:
+            self.last_usage[key] = 0
+        self.last_timing_metrics = skipped_metrics(("answer_generation_llm", "citation_verification"))
+        self.last_timing_metrics["llm_calls"] = []
 
     def generate(self, prompt: str, chunks=None, action: str = "generate", **kwargs) -> str:
         from src.guardrails import fallback_answer, verify_and_correct_citations
@@ -108,19 +117,25 @@ class OpenAICompatibleGenerator:
         llm = self.llm.bind(
             temperature=temperature,
             max_tokens=max_tokens,
+            **({"response_format": kwargs["response_format"]} if "response_format" in kwargs else {}),
         )
 
-        response = llm.invoke(
-            [
-                HumanMessage(content=prompt)
-            ]
-        )
+        # One entry per invocation, including verification calls and failures.
+        # eval calls recur through this generator, so retain the outer metrics.
+        call = {"action": action}
+        self.last_timing_metrics["llm_calls"].append(call)
+        try:
+            with measure(call, "request"):
+                response = llm.invoke([HumanMessage(content=prompt)])
+        finally:
+            if action == "generate":
+                self.last_timing_metrics["answer_generation_llm"] = dict(call["request"])
         raw_output = response.content
         if not isinstance(raw_output, str):
             raw_output = str(raw_output)
 
         raw_output = raw_output.strip()
-        usage = response.usage_metadata
+        usage = response.usage_metadata or {}
         prompt_tokens = usage.get("input_tokens", 0)
         completion_tokens = usage.get("output_tokens", 0)
         total_tokens = usage.get(
@@ -140,13 +155,17 @@ class OpenAICompatibleGenerator:
         
 
         if chunks and action == "generate":
+            self.last_timing_metrics["verification_mode"] = (
+                "batch" if kwargs.get("batch_verification", False) else "per_pair")
             # Pass self as the evaluator to perform lightweight NLI verification checks
-            verification_result = verify_and_correct_citations(
-                answer=raw_output, 
-                chunks=chunks, 
-                evaluator_generator=self,
-                strict_ungrounded_drop=kwargs.get("strict_ungrounded_drop", False)
-            )
+            with measure(self.last_timing_metrics, "citation_verification"):
+                verification_result = verify_and_correct_citations(
+                    answer=raw_output,
+                    chunks=chunks,
+                    evaluator_generator=self,
+                    strict_ungrounded_drop=kwargs.get("strict_ungrounded_drop", False),
+                    batch_verification=kwargs.get("batch_verification", False),
+                )
             return verification_result["corrected_answer"]
         return raw_output
 

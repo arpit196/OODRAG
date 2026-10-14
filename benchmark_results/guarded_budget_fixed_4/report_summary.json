@@ -1,0 +1,7170 @@
+[
+  {
+    "group": "all",
+    "metric": "abstain_rate",
+    "value": 0.3148148148148148,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "action_matches",
+    "value": 0.7037037037037037,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "citation_count",
+    "value": 1.2407407407407407,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "clarify_rate",
+    "value": 0.16666666666666666,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "document_precision@1",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "document_precision@10",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "document_precision@3",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "document_precision@5",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "document_recall@1",
+    "value": 0.9878048780487805,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "document_recall@10",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "document_recall@3",
+    "value": 0.9878048780487805,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "document_recall@5",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_hit@1",
+    "value": 0.375,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_hit@10",
+    "value": 0.825,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_hit@3",
+    "value": 0.625,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_hit@5",
+    "value": 0.75,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_mrr",
+    "value": 0.5209027777777778,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_precision@1",
+    "value": 0.375,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_precision@10",
+    "value": 0.10500000000000001,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_precision@3",
+    "value": 0.2333333333333333,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_precision@5",
+    "value": 0.19,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_recall@1",
+    "value": 0.3125,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_recall@10",
+    "value": 0.775,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_recall@3",
+    "value": 0.5625,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "evidence_recall@5",
+    "value": 0.6875,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "generate_rate",
+    "value": 0.5185185185185185,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "hit@1",
+    "value": 1,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "hit@10",
+    "value": 1,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "hit@3",
+    "value": 1,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "hit@5",
+    "value": 1,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "mrr",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "partial_support_rate",
+    "value": 0.14814814814814814,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "stage1_latency_ms",
+    "value": 49.88824074074074,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "stage2_latency_ms",
+    "value": 3291.92378,
+    "measured_count": 50,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "stage3_latency_ms",
+    "value": 2612.551892857143,
+    "measured_count": 28,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "wrong_insurer_rate",
+    "value": 0,
+    "measured_count": 38,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "wrong_product_rate",
+    "value": 0,
+    "measured_count": 25,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "wrong_version_rate",
+    "value": 0,
+    "measured_count": 18,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "request_latency_ms_p50",
+    "value": 4042.9406910006946,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "request_latency_ms_p95",
+    "value": 10308.726239550284,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "request_latency_ms_p99",
+    "value": 11839.033775690094,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 72.74013950063818,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 102.51393119951899,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 120.71029961005479,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "abstain_rate",
+    "value": 0.3148148148148148,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "action_matches",
+    "value": 0.7037037037037037,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "citation_count",
+    "value": 1.2407407407407407,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "clarify_rate",
+    "value": 0.16666666666666666,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "document_precision@1",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "document_precision@10",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "document_precision@3",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "document_precision@5",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "document_recall@1",
+    "value": 0.9878048780487805,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "document_recall@10",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "document_recall@3",
+    "value": 0.9878048780487805,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "document_recall@5",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_hit@1",
+    "value": 0.375,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_hit@10",
+    "value": 0.825,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_hit@3",
+    "value": 0.625,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_hit@5",
+    "value": 0.75,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_mrr",
+    "value": 0.5209027777777778,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_precision@1",
+    "value": 0.375,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_precision@10",
+    "value": 0.10500000000000001,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_precision@3",
+    "value": 0.2333333333333333,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_precision@5",
+    "value": 0.19,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_recall@1",
+    "value": 0.3125,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_recall@10",
+    "value": 0.775,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_recall@3",
+    "value": 0.5625,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "evidence_recall@5",
+    "value": 0.6875,
+    "measured_count": 40,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "generate_rate",
+    "value": 0.5185185185185185,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "hit@1",
+    "value": 1,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "hit@10",
+    "value": 1,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "hit@3",
+    "value": 1,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "hit@5",
+    "value": 1,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "mrr",
+    "value": 1.0,
+    "measured_count": 41,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "partial_support_rate",
+    "value": 0.14814814814814814,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "stage1_latency_ms",
+    "value": 49.88824074074074,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "stage2_latency_ms",
+    "value": 3291.92378,
+    "measured_count": 50,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "stage3_latency_ms",
+    "value": 2612.551892857143,
+    "measured_count": 28,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "wrong_insurer_rate",
+    "value": 0,
+    "measured_count": 38,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "wrong_product_rate",
+    "value": 0,
+    "measured_count": 25,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "wrong_version_rate",
+    "value": 0,
+    "measured_count": 18,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "request_latency_ms_p50",
+    "value": 4042.9406910006946,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "request_latency_ms_p95",
+    "value": 10308.726239550284,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "request_latency_ms_p99",
+    "value": 11839.033775690094,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 72.74013950063818,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 102.51393119951899,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 120.71029961005479,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 54,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "abstain_rate",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "action_matches",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "citation_count",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "clarify_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "document_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "document_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "document_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "document_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "document_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "document_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "document_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "document_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "evidence_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "partial_support_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "stage1_latency_ms",
+    "value": 26.6965,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "stage2_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "wrong_insurer_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "request_latency_ms_p50",
+    "value": 43.92241850018763,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "request_latency_ms_p95",
+    "value": 48.36201544958385,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "request_latency_ms_p99",
+    "value": 48.75664628953018,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "retrieval_latency_ms_p50",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "retrieval_latency_ms_p95",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "retrieval_latency_ms_p99",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fca",
+    "metric": "abstain_rate",
+    "value": 0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "action_matches",
+    "value": 0.6666666666666666,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "citation_count",
+    "value": 1.3333333333333333,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "clarify_rate",
+    "value": 0.3333333333333333,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "document_precision@1",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "document_precision@10",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "document_precision@3",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "document_precision@5",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "document_recall@1",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "document_recall@10",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "document_recall@3",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "document_recall@5",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_hit@1",
+    "value": 1,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_hit@10",
+    "value": 1,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_hit@3",
+    "value": 1,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_hit@5",
+    "value": 1,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_mrr",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_precision@1",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_precision@10",
+    "value": 0.1,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_precision@3",
+    "value": 0.3333333333333333,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_precision@5",
+    "value": 0.2,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_recall@1",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_recall@10",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_recall@3",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "evidence_recall@5",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "generate_rate",
+    "value": 0.6666666666666666,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "hit@1",
+    "value": 1,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "hit@10",
+    "value": 1,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "hit@3",
+    "value": 1,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "hit@5",
+    "value": 1,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "mrr",
+    "value": 1.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "partial_support_rate",
+    "value": 0.3333333333333333,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "stage1_latency_ms",
+    "value": 24.200333333333333,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "stage2_latency_ms",
+    "value": 4590.962666666666,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "stage3_latency_ms",
+    "value": 2605.0950000000003,
+    "measured_count": 2,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "wrong_insurer_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "request_latency_ms_p50",
+    "value": 6829.396484999961,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "request_latency_ms_p95",
+    "value": 9084.997529699467,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "request_latency_ms_p99",
+    "value": 9285.495400339423,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 72.17712700003176,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 89.02628349969746,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 90.52398629966774,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fos",
+    "metric": "abstain_rate",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "action_matches",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "citation_count",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "clarify_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "document_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "document_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "document_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "document_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "document_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "document_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "document_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "document_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "evidence_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "partial_support_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "stage1_latency_ms",
+    "value": 33.9255,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "stage2_latency_ms",
+    "value": 2.126,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "wrong_insurer_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "request_latency_ms_p50",
+    "value": 48.61992950009153,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "request_latency_ms_p95",
+    "value": 69.53078915021251,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "request_latency_ms_p99",
+    "value": 71.38953223022327,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "retrieval_latency_ms_p50",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "retrieval_latency_ms_p95",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "retrieval_latency_ms_p99",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "abstain_rate",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "action_matches",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "citation_count",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "clarify_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "document_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "document_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "document_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "document_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "document_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "document_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "document_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "document_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "evidence_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "partial_support_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "stage1_latency_ms",
+    "value": 14.076,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "stage2_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "wrong_insurer_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "request_latency_ms_p50",
+    "value": 23.928741999952763,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "request_latency_ms_p95",
+    "value": 26.6615362007542,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "request_latency_ms_p99",
+    "value": 26.904451240825438,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "retrieval_latency_ms_p50",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "retrieval_latency_ms_p95",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "retrieval_latency_ms_p99",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "abstain_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "action_matches",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "citation_count",
+    "value": 0.5,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "clarify_rate",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "document_precision@1",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "document_precision@10",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "document_precision@3",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "document_precision@5",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "document_recall@1",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "document_recall@10",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "document_recall@3",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "document_recall@5",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "evidence_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "hit@1",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "hit@10",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "hit@3",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "hit@5",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "mrr",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "partial_support_rate",
+    "value": 0.5,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "stage1_latency_ms",
+    "value": 31.7055,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "stage2_latency_ms",
+    "value": 1607.039,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "wrong_insurer_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "request_latency_ms_p50",
+    "value": 1647.3285080001006,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "request_latency_ms_p95",
+    "value": 3088.690410498839,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "request_latency_ms_p99",
+    "value": 3216.8114684987268,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 55.84621799971501,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 55.84621799971501,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 55.84621799971501,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "abstain_rate",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "action_matches",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "citation_count",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "clarify_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "document_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "document_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "document_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "document_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "document_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "document_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "document_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "document_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "evidence_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "partial_support_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "stage1_latency_ms",
+    "value": 24.412,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "stage2_latency_ms",
+    "value": 3066.8445,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "wrong_insurer_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "request_latency_ms_p50",
+    "value": 3099.492390500018,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "request_latency_ms_p95",
+    "value": 5849.708691949309,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "request_latency_ms_p99",
+    "value": 6094.1723631892455,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 132.74112900035107,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 132.74112900035107,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 132.74112900035107,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 2,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=supported",
+    "metric": "abstain_rate",
+    "value": 0.1388888888888889,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "action_matches",
+    "value": 0.7222222222222222,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "citation_count",
+    "value": 1.6944444444444444,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "clarify_rate",
+    "value": 0.1388888888888889,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "document_precision@1",
+    "value": 1.0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "document_precision@10",
+    "value": 1.0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "document_precision@3",
+    "value": 1.0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "document_precision@5",
+    "value": 1.0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "document_recall@1",
+    "value": 1.0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "document_recall@10",
+    "value": 1.0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "document_recall@3",
+    "value": 1.0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "document_recall@5",
+    "value": 1.0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_hit@1",
+    "value": 0.3333333333333333,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_hit@10",
+    "value": 0.8055555555555556,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_hit@3",
+    "value": 0.5833333333333334,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_hit@5",
+    "value": 0.7222222222222222,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_mrr",
+    "value": 0.48618827160493827,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_precision@1",
+    "value": 0.3333333333333333,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_precision@10",
+    "value": 0.10555555555555556,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_precision@3",
+    "value": 0.2222222222222222,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_precision@5",
+    "value": 0.18888888888888888,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_recall@1",
+    "value": 0.2638888888888889,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_recall@10",
+    "value": 0.7638888888888888,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_recall@3",
+    "value": 0.5277777777777778,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "evidence_recall@5",
+    "value": 0.6666666666666666,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "generate_rate",
+    "value": 0.7222222222222222,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "hit@1",
+    "value": 1,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "hit@10",
+    "value": 1,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "hit@3",
+    "value": 1,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "hit@5",
+    "value": 1,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "mrr",
+    "value": 1.0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "partial_support_rate",
+    "value": 0.1388888888888889,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "stage1_latency_ms",
+    "value": 60.79219444444445,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "stage2_latency_ms",
+    "value": 3641.6951944444445,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "stage3_latency_ms",
+    "value": 2613.1255,
+    "measured_count": 26,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "wrong_insurer_rate",
+    "value": 0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "wrong_product_rate",
+    "value": 0,
+    "measured_count": 24,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "wrong_version_rate",
+    "value": 0,
+    "measured_count": 17,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "request_latency_ms_p50",
+    "value": 4758.328767499734,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "request_latency_ms_p95",
+    "value": 10929.338231250767,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "request_latency_ms_p99",
+    "value": 12016.216924550188,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 70.82768500004022,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 99.16828199948213,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 104.13426759960203,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "abstain_rate",
+    "value": 1,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "action_matches",
+    "value": 1,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "citation_count",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "clarify_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "document_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "document_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "document_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "document_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "document_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "document_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "document_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "document_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "evidence_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "partial_support_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "stage1_latency_ms",
+    "value": 37.75175,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "stage2_latency_ms",
+    "value": 1932.9295,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "wrong_insurer_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "request_latency_ms_p50",
+    "value": 1950.8013214999664,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "request_latency_ms_p95",
+    "value": 3959.8721975498847,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "request_latency_ms_p99",
+    "value": 3980.0516547098596,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 81.56070550012373,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 91.107068051042,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 91.95563361112363,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "abstain_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "action_matches",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "citation_count",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "clarify_rate",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "document_precision@1",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "document_precision@10",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "document_precision@3",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "document_precision@5",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "document_recall@1",
+    "value": 0.5,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "document_recall@10",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "document_recall@3",
+    "value": 0.5,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "document_recall@5",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_hit@1",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_hit@10",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_hit@3",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_hit@5",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_mrr",
+    "value": 0.3333333333333333,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_precision@1",
+    "value": 0.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_precision@10",
+    "value": 0.1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_precision@3",
+    "value": 0.3333333333333333,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_precision@5",
+    "value": 0.2,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_recall@1",
+    "value": 0.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_recall@10",
+    "value": 0.5,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_recall@3",
+    "value": 0.5,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "evidence_recall@5",
+    "value": 0.5,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "hit@1",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "hit@10",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "hit@3",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "hit@5",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "mrr",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "partial_support_rate",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "stage1_latency_ms",
+    "value": 20.207,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "stage2_latency_ms",
+    "value": 2638.537,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "wrong_insurer_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "wrong_product_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "wrong_version_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "request_latency_ms_p50",
+    "value": 2664.6503070005565,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "request_latency_ms_p95",
+    "value": 2664.6503070005565,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "request_latency_ms_p99",
+    "value": 2664.6503070005565,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 99.94295999968017,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 99.94295999968017,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 99.94295999968017,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "abstain_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "action_matches",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "citation_count",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "clarify_rate",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "document_precision@1",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "document_precision@10",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "document_precision@3",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "document_precision@5",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "document_recall@1",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "document_recall@10",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "document_recall@3",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "document_recall@5",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "evidence_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "hit@1",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "hit@10",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "hit@3",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "hit@5",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "mrr",
+    "value": 1.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "partial_support_rate",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "stage1_latency_ms",
+    "value": 29.555,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "stage2_latency_ms",
+    "value": 3212.29,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "wrong_insurer_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "request_latency_ms_p50",
+    "value": 3248.8417329986987,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "request_latency_ms_p95",
+    "value": 3248.8417329986987,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "request_latency_ms_p99",
+    "value": 3248.8417329986987,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 55.84621799971501,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 55.84621799971501,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 55.84621799971501,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "abstain_rate",
+    "value": 1,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "action_matches",
+    "value": 1,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "citation_count",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "clarify_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "document_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "document_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "document_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "document_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "document_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "document_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "document_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "document_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "evidence_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "partial_support_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "stage1_latency_ms",
+    "value": 25.55425,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "stage2_latency_ms",
+    "value": 3066.8445,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "wrong_insurer_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "request_latency_ms_p50",
+    "value": 46.275902000161295,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "request_latency_ms_p95",
+    "value": 5239.323334449271,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "request_latency_ms_p99",
+    "value": 5972.095291689237,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 132.74112900035107,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 132.74112900035107,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 132.74112900035107,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "abstain_rate",
+    "value": 1,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "action_matches",
+    "value": 1,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "citation_count",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "clarify_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "document_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "document_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "document_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "document_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "document_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "document_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "document_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "document_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "evidence_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "partial_support_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "stage1_latency_ms",
+    "value": 37.75175,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "stage2_latency_ms",
+    "value": 1932.9295,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "wrong_insurer_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "request_latency_ms_p50",
+    "value": 1950.8013214999664,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "request_latency_ms_p95",
+    "value": 3959.8721975498847,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "request_latency_ms_p99",
+    "value": 3980.0516547098596,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 81.56070550012373,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 91.107068051042,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 91.95563361112363,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 4,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "abstain_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "action_matches",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "citation_count",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "clarify_rate",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "document_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "document_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "document_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "document_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "document_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "document_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "document_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "document_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_precision@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_precision@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_precision@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_precision@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_recall@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_recall@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_recall@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "evidence_recall@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "generate_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "hit@1",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "hit@10",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "hit@3",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "hit@5",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "mrr",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "partial_support_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "stage1_latency_ms",
+    "value": 33.856,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "stage2_latency_ms",
+    "value": 1.788,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "stage3_latency_ms",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "wrong_insurer_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "wrong_product_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "wrong_version_rate",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "request_latency_ms_p50",
+    "value": 45.815283001502394,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "request_latency_ms_p95",
+    "value": 45.815283001502394,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "request_latency_ms_p99",
+    "value": 45.815283001502394,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "retrieval_latency_ms_p50",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "retrieval_latency_ms_p95",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "retrieval_latency_ms_p99",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "abstain_rate",
+    "value": 0.20454545454545456,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "action_matches",
+    "value": 0.6363636363636364,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "citation_count",
+    "value": 1.5,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "clarify_rate",
+    "value": 0.1590909090909091,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "document_precision@1",
+    "value": 1.0,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "document_precision@10",
+    "value": 1.0,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "document_precision@3",
+    "value": 1.0,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "document_precision@5",
+    "value": 1.0,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "document_recall@1",
+    "value": 0.9875,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "document_recall@10",
+    "value": 1.0,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "document_recall@3",
+    "value": 0.9875,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "document_recall@5",
+    "value": 1.0,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_hit@1",
+    "value": 0.375,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_hit@10",
+    "value": 0.825,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_hit@3",
+    "value": 0.625,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_hit@5",
+    "value": 0.75,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_mrr",
+    "value": 0.5209027777777778,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_precision@1",
+    "value": 0.375,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_precision@10",
+    "value": 0.10500000000000001,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_precision@3",
+    "value": 0.2333333333333333,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_precision@5",
+    "value": 0.19,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_recall@1",
+    "value": 0.3125,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_recall@10",
+    "value": 0.775,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_recall@3",
+    "value": 0.5625,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "evidence_recall@5",
+    "value": 0.6875,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "generate_rate",
+    "value": 0.6363636363636364,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "hit@1",
+    "value": 1,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "hit@10",
+    "value": 1,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "hit@3",
+    "value": 1,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "hit@5",
+    "value": 1,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "manual_actually_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "manual_answer_relevant",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "manual_citations_supported",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "manual_factually_correct",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "manual_fully_answered",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "manual_unsupported_claim",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "mrr",
+    "value": 1.0,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "partial_support_rate",
+    "value": 0.1590909090909091,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "response_present_rate",
+    "value": 1,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "stage1_latency_ms",
+    "value": 54.030227272727274,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "stage2_latency_ms",
+    "value": 3512.302476190476,
+    "measured_count": 42,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "stage3_latency_ms",
+    "value": 2612.551892857143,
+    "measured_count": 28,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "technical_abstention_rate",
+    "value": 0,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "wrong_insurer_rate",
+    "value": 0,
+    "measured_count": 37,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "wrong_product_rate",
+    "value": 0,
+    "measured_count": 25,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "wrong_version_rate",
+    "value": 0,
+    "measured_count": 18,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "request_latency_ms_p50",
+    "value": 4477.641517499251,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "request_latency_ms_p95",
+    "value": 10671.491706050894,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "request_latency_ms_p99",
+    "value": 11937.468858390148,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "retrieval_latency_ms_p50",
+    "value": 72.74013950063818,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "retrieval_latency_ms_p95",
+    "value": 100.09419359967067,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "retrieval_latency_ms_p99",
+    "value": 104.06247463959517,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "error_rate",
+    "value": 0.0,
+    "measured_count": 44,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "total_estimated_cost",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 44
+  },
+  {
+    "group": "all",
+    "metric": "input_tokens_known_subtotal",
+    "value": 580622,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "output_tokens_known_subtotal",
+    "value": 17722,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 38912,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "total_tokens_known_subtotal",
+    "value": 598344,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "all",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "input_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "output_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "total_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=far_ood",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fca",
+    "metric": "input_tokens_known_subtotal",
+    "value": 46751,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "input_tokens_complete_total",
+    "value": 46751,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "output_tokens_known_subtotal",
+    "value": 1456,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "output_tokens_complete_total",
+    "value": 1456,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 2048,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "cached_input_tokens_complete_total",
+    "value": 2048,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "total_tokens_known_subtotal",
+    "value": 48207,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "total_tokens_complete_total",
+    "value": 48207,
+    "measured_count": 3,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fca",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 3
+  },
+  {
+    "group": "category=fos",
+    "metric": "input_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "output_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "total_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "input_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "output_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "total_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=fos_case",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "input_tokens_known_subtotal",
+    "value": 3615,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "output_tokens_known_subtotal",
+    "value": 220,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 1024,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "total_tokens_known_subtotal",
+    "value": 3835,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=missing_customer_context",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "input_tokens_known_subtotal",
+    "value": 11516,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "output_tokens_known_subtotal",
+    "value": 535,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 1024,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "total_tokens_known_subtotal",
+    "value": 12051,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=near_ood",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 2
+  },
+  {
+    "group": "category=supported",
+    "metric": "input_tokens_known_subtotal",
+    "value": 486641,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "input_tokens_complete_total",
+    "value": 486641,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "output_tokens_known_subtotal",
+    "value": 14740,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "output_tokens_complete_total",
+    "value": 14740,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 31744,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "cached_input_tokens_complete_total",
+    "value": 31744,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "total_tokens_known_subtotal",
+    "value": 501381,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "total_tokens_complete_total",
+    "value": 501381,
+    "measured_count": 36,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=supported",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 36
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "input_tokens_known_subtotal",
+    "value": 22160,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "output_tokens_known_subtotal",
+    "value": 589,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 2048,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "total_tokens_known_subtotal",
+    "value": 22749,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=unsupported_in_domain",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "input_tokens_known_subtotal",
+    "value": 9939,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "input_tokens_complete_total",
+    "value": 9939,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "output_tokens_known_subtotal",
+    "value": 182,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "output_tokens_complete_total",
+    "value": 182,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 1024,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "cached_input_tokens_complete_total",
+    "value": 1024,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "total_tokens_known_subtotal",
+    "value": 10121,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "total_tokens_complete_total",
+    "value": 10121,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "category=version_comparison",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "input_tokens_known_subtotal",
+    "value": 3615,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "input_tokens_complete_total",
+    "value": 3615,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "output_tokens_known_subtotal",
+    "value": 220,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "output_tokens_complete_total",
+    "value": 220,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 1024,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "cached_input_tokens_complete_total",
+    "value": 1024,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "total_tokens_known_subtotal",
+    "value": 3835,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "total_tokens_complete_total",
+    "value": 3835,
+    "measured_count": 1,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain', 'clarify']",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "input_tokens_known_subtotal",
+    "value": 11516,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "output_tokens_known_subtotal",
+    "value": 535,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 1024,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "total_tokens_known_subtotal",
+    "value": 12051,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 1,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['abstain']",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "input_tokens_known_subtotal",
+    "value": 22160,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "output_tokens_known_subtotal",
+    "value": 589,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 2048,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "total_tokens_known_subtotal",
+    "value": 22749,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 2,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify', 'abstain']",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 4
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "input_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "output_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "total_tokens_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['clarify']",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 1
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "input_tokens_known_subtotal",
+    "value": 543331,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "output_tokens_known_subtotal",
+    "value": 16378,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 34816,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "total_tokens_known_subtotal",
+    "value": 559709,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 40,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 44
+  },
+  {
+    "group": "expected_actions=['generate']",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 44
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "input_tokens_known_subtotal",
+    "value": 580622,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "input_tokens_complete_total",
+    "value": null,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "output_tokens_known_subtotal",
+    "value": 17722,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "output_tokens_complete_total",
+    "value": null,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "cached_input_tokens_known_subtotal",
+    "value": 38912,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "cached_input_tokens_complete_total",
+    "value": null,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "total_tokens_known_subtotal",
+    "value": 598344,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "total_tokens_complete_total",
+    "value": null,
+    "measured_count": 44,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "estimated_cost_known_subtotal",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  },
+  {
+    "group": "variant=guarded",
+    "metric": "estimated_cost_complete_total",
+    "value": null,
+    "measured_count": 0,
+    "attempt_count": 54
+  }
+]

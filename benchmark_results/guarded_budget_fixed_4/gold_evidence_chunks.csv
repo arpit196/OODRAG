@@ -1,0 +1,613 @@
+query_id,query,evidence_id,document_id,source_page,source_path,source_text_sha256,source_quote,index_status,matching_chunk_ids,chunk_id,indexed_page,indexed_text
+Q001,What does LV= home insurance say about water or oil leaking from fixed installations?,lv_03904e7e51ee::span_60eef832a553,lv_03904e7e51ee,14,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"2. Water or oil leaking from any fixed 
+tank, domestic appliance or pipe.
+• subsidence, heave or landslip caused 
+by escaping water;
+• damage to the tank, appliance or 
+pipe itself, unless caused by freezing;
+• damage caused by failure, wear and 
+tear or lack of grouting or sealant;
+• loss or damage after your home has 
+been unoccupied for more than 60 
+days in a row (unless your personal 
+details show we’ve agreed to this 
+cover).",indexed,"[""lv_03904e7e51ee__476fba66a133__33""]",lv_03904e7e51ee__476fba66a133__33,14,"Section: 2. Water or oil leaking from any fixed
+
+tank, domestic appliance or pipe.
+• subsidence, heave or landslip caused
+by escaping water;
+• damage to the tank, appliance or
+pipe itself, unless caused by freezing;
+• damage caused by failure, wear and
+tear or lack of grouting or sealant;
+• loss or damage after your home has
+been unoccupied for more than 60
+days in a row (unless your personal
+details show we’ve agreed to this
+cover)."
+Q002,What is the trace and access limit under LV= buildings insurance?,lv_03904e7e51ee::span_82d2c941dd8a,lv_03904e7e51ee,17,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"We’ll pay up to £5,000 towards 
+the cost to remove and replace 
+any part of the building to find the 
+source of a water or oil leak from 
+any fixed tank, appliance or pipe 
+forming part of your home.",indexed,"[""lv_03904e7e51ee__476fba66a133__50""]",lv_03904e7e51ee__476fba66a133__50,17,"Section: 16. Trace and access
+
+We’ll pay up to £5,000 towards
+the cost to remove and replace
+any part of the building to find the
+source of a water or oil leak from
+any fixed tank, appliance or pipe
+forming part of your home.
+• the cost to repair the tank, appliance
+or pipe itself."
+Q004,What should an LV= customer do immediately after theft or vandalism?,lv_03904e7e51ee::span_9bcfc7416692,lv_03904e7e51ee,5,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"4. Tell the police immediately if your 
+property is stolen or vandalised.",indexed,"[""lv_03904e7e51ee__476fba66a133__6""]",lv_03904e7e51ee__476fba66a133__6,5,"Section: To make a claim
+
+0800 032 2844 (24 hours a day, 365
+days a year)
+Follow these simple steps:
+1. Check you’re covered by looking
+at this booklet and your personal
+details;
+2. Call us as soon after the incident
+as possible – please have your
+policy details and information
+about the claim ready when you
+call;
+3. Speak to us before you make any
+arrangements for replacement or
+repair;
+4. Tell the police immediately if your
+property is stolen or vandalised."
+Q005,How does LV= define accidental damage?,lv_03904e7e51ee::span_77ad8de871c9,lv_03904e7e51ee,7,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"Accidental 
+damage
+damage caused suddenly by external means which is not 
+expected and not deliberate.",indexed,"[""lv_03904e7e51ee__476fba66a133__12""]",lv_03904e7e51ee__476fba66a133__12,7,"Section: Definitions
+
+Accidental damage damage caused suddenly by external means which is not expected and not deliberate. Business equipment furniture and office equipment (e.g. computers, printers, photo- copiers but not stock, materials and tools), used for business purposes. Claim a single loss or series of losses arising from one incident or illness. Contract this document of home insurance and your personal details. Document of home insurance this booklet Domestic employee a person employed by you to carry out domestic duties at your home, such as cleaning, gardening or looking after your children. Excess the first amount of any claim which you must pay. Family you, your spouse/partner and any other relatives or any other person, who is not a paying guest, all permanently living within your home. Heave upward movement of ground. Home the private property at the address shown on your personal details, together with its garages and outbuildings. Home entertainment equipment radios, televisions, digital, cable and satellite decoders/receivers, home computers, laptops, tablets, notebooks, e-readers and games consoles, video, DVD, record, tape and CD players. Identity fraud a person or group of people knowingly use your personal information without your knowledge or authorisation, to commit or assist others to commit a crime. Landslip movement of ground down a slope. Limit of cover the most we’ll pay for any claim. Wherever these"
+Q006,What does LV= say about frozen food under contents insurance?,lv_03904e7e51ee::span_20722853787f,lv_03904e7e51ee,23,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"We’ll pay up to £750 for the 
+replacement of the contents of 
+your fridge or freezer, caused by a 
+breakdown, power cut or a blown 
+fuse.",indexed,"[""lv_03904e7e51ee__476fba66a133__77""]",lv_03904e7e51ee__476fba66a133__77,23,"Section: 16. Frozen food
+
+We’ll pay up to £750 for the
+replacement of the contents of
+your fridge or freezer, caused by a
+breakdown, power cut or a blown
+fuse."
+Q007,What does LV= home emergency optional cover include?,lv_03904e7e51ee::span_06e482904e4e,lv_03904e7e51ee,6,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"If you’ve chosen to include our 
+optional Home emergency cover (this 
+will be shown as covered on your 
+personal details), you may be covered 
+for emergency repair costs up to 
+£500, which include call out, parts, 
+labour and VAT.",indexed,"[""lv_03904e7e51ee__476fba66a133__10""]",lv_03904e7e51ee__476fba66a133__10,6,"Section: Home emergency cover
+
+If you’ve chosen to include our optional Home emergency cover (this will be shown as covered on your personal details), you may be covered for emergency repair costs up to £500, which include call out, parts, labour and VAT. For full details of what is and isn’t covered, please see your home emergency cover section in your document of home insurance. If the damage is also covered by your home insurance policy you may be able to claim for any emergency repair cost in excess of £500 as part of any claim you make. Legal advice 0800 028 5411 (24 hours a day, 365 days a year) Our confidential legal advice helpline is provided by one of our approved suppliers who are authorised and regulated by the Solicitors Regulation Authority. The helpline will only give advice, any legal fees and expenses you may incur if you follow the advice is not covered. If you buy our optional Legal expenses insurance, your legal fees and expenses will be covered. Identity fraud assistance 0800 028 5477 (24 hours a day, 365 days a year) If you need confidential advice on any matter relating to identity fraud for you or your family, call our experts. If you’re a victim of identity fraud in the UK, a personal case handler will work with you"
+Q008,Does LV= cover belongings at university or college and what limits are listed?,lv_03904e7e51ee::span_b025415a4c19,lv_03904e7e51ee,25,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"We’ll pay up to £5,000 for loss 
+or damage to your contents, 
+whilst temporarily removed from 
+your home and kept in student 
+accommodation or any building 
+in which you or your family study 
+within the British Isles.",indexed,"[""lv_03904e7e51ee__476fba66a133__87""]",lv_03904e7e51ee__476fba66a133__87,25,"Section: 24. Contents at university/college
+
+We’ll pay up to £5,000 for loss
+or damage to your contents,
+whilst temporarily removed from
+your home and kept in student
+accommodation or any building
+in which you or your family study
+within the British Isles.
+• loss or damage to contents taken
+from your home to sell or exhibit;
+• loss or damage to money or business
+equipment;
+• accidental damage;
+• loss or damage to bicycles;
+• theft or attempted theft unless
+violence and force is used to remove
+the contents from a building."
+Q009,What is the LV= limit for contents kept in the garden?,lv_03904e7e51ee::span_47f35ca7998e,lv_03904e7e51ee,22,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"We’ll pay up to £1,500 for loss or 
+damage to your contents within the 
+boundaries of your home by:",indexed,"[""lv_03904e7e51ee__476fba66a133__70""]",lv_03904e7e51ee__476fba66a133__70,22,"Section: 10. Contents in the garden
+
+We’ll pay up to £1,500 for loss or
+damage to your contents within the
+boundaries of your home by:
+• fire, lightning, explosion or
+earthquake;
+• vandalism;
+• impact;
+• flood;
+• theft or attempted theft.
+• loss or damage to hedges, trees,
+shrubs, plants or lawns;
+• loss or damage after your home has
+been unoccupied for more than 60
+days in a row (and your personal
+details show we’ve agreed to this
+cover);
+• loss or damage shown as not
+covered elsewhere in this document
+of home insurance."
+Q010,What does LV= say about repairing underground drains and pipes?,lv_03904e7e51ee::span_ce561d5487df,lv_03904e7e51ee,16,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"10. Standard accidental damage  
+• to cables, underground pipes 
+and drains (and their inspection 
+covers) that provide services to 
+and from your home;
+• the reasonable cost of 
+breaking into and repairing 
+an underground pipe to clear 
+a blockage between the main 
+sewer and your home if normal 
+methods of unblocking have 
+been unsuccessful.",indexed,"[""lv_03904e7e51ee__476fba66a133__43""]",lv_03904e7e51ee__476fba66a133__43,16,"Section: 10. Standard accidental damage
+
+• to cables, underground pipes
+and drains (and their inspection
+covers) that provide services to
+and from your home;
+• the reasonable cost of
+breaking into and repairing
+an underground pipe to clear
+a blockage between the main
+sewer and your home if normal
+methods of unblocking have
+been unsuccessful."
+Q011,What does Aviva Signature Home say about wear and tear and maintenance?,aviva_837d5b56fe01::span_e4f30309bd75,aviva_837d5b56fe01,3,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,"One important policy condition is that you keep all the property you’re insuring in good 
+condition. Yo u r policy doesn’t cover loss or damage caused by wear and tear or a lack 
+of maintenance.",indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__5""]",aviva_837d5b56fe01__4c31c81ad22f__5,3,"Section: Contents
+
+do this we may need to change your cover, premium or excess or you may find that your claim isn’t paid in full (or maybe not at all). We may also cancel your policy or declare your policy void (treating your policy as if it had never existed). Please contact Customer Services if you need to make any changes. T o be covered you must keep to the terms and conditions Yo u must pay your premium and keep to the terms and conditions and clauses of the contract. So long as you do this we’ll insure you for anything shown in your policy booklet(s), which your schedule shows is covered, during the period of insurance. It is important that everyone insured under this policy is aware of its terms and conditions. Keeping your property in good condition One important policy condition is that you keep all the property you’re insuring in good condition. Yo u r policy doesn’t cover loss or damage caused by wear and tear or a lack of maintenance. In particular, you need to maintain your home, there are some basic things you can do, for example: On the outside • Check for missing or slipped tiles, or rotten window frames. • Ensure that gutters and downpipes aren’t damaged or blocked by leaves. • Keep any"
+Q012,How does Aviva Signature Home define accidental damage?,aviva_837d5b56fe01::span_fce4983bd501,aviva_837d5b56fe01,5,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,"Accidental Damage - Damage caused suddenly and unexpectedly by an outside force 
+which can be identified.",indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__11""]",aviva_837d5b56fe01__4c31c81ad22f__11,5,"Section: Accidental Damage - Damage caused suddenly and unexpectedly by an outside force
+
+which can be identified.
+Accidental damage doesn’t include breakdowns or faults, or damage due to
+faulty workmanship or design. For example, we will not cover your TV if it falls
+off the wall because a wall bracket or mount had been installed incorrectly.
+British Isles - The United Kingdom, Republic of Ireland, the Channel Islands and the
+Isle of Man."
+Q012,How does Aviva Signature Home define accidental damage?,aviva_837d5b56fe01::span_4526124ae8d4,aviva_837d5b56fe01,5,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,"Accidental damage doesn’t include breakdowns or faults, or damage due to 
+faulty workmanship or design.",indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__11""]",aviva_837d5b56fe01__4c31c81ad22f__11,5,"Section: Accidental Damage - Damage caused suddenly and unexpectedly by an outside force
+
+which can be identified.
+Accidental damage doesn’t include breakdowns or faults, or damage due to
+faulty workmanship or design. For example, we will not cover your TV if it falls
+off the wall because a wall bracket or mount had been installed incorrectly.
+British Isles - The United Kingdom, Republic of Ireland, the Channel Islands and the
+Isle of Man."
+Q013,What documents or information does Aviva ask customers to prepare when making a claim?,aviva_837d5b56fe01::span_7b35e1660325,aviva_837d5b56fe01,4,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,"When you make a claim, we may ask for the following so try to have handy to share 
+or upload:
+• Y our policy number
+• Photos of what is damaged or lost
+• Receipts, quotes, or invoices
+• Estimated size of the area affected",indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__7""]",aviva_837d5b56fe01__4c31c81ad22f__7,4,"Section: Contents
+
+How to get help T o make a home claim Please check your policy documents first to see if you’re covered before you make a claim. Y ou can notify us about certain types of claims online at Aviva.co.uk/make-a-claim. Alternatively, our claims team are available 24/7 so you can call if it’s an emergency or you prefer to speak to one of the team. The number you should call is 0345 030 6945. When you make a claim, we may ask for the following so try to have handy to share or upload: • Y our policy number • Photos of what is damaged or lost • Receipts, quotes, or invoices • Estimated size of the area affected Once we’ve been notified of your claim we’ll confirm that you’re covered or explain if you aren’t. Some claims can be settled immediately on the first call but if it takes longer we’ll provide regular updates on progress. For Legal Services Cover claims the number you should call is 0800 096 5850 *. For Home Emergency Cover claims the number you should call is 0345 300 3346. Y ou can only use the Legal Services or Home Emergency telephone numbers if you have bought cover. Y ou can make some changes online at Aviva.co.uk/mypolicy. What to do if you are unhappy If"
+Q014,What does Aviva Signature Home say about escape of water caused by failed sealant or grout?,aviva_837d5b56fe01::span_3d237eadcf75,aviva_837d5b56fe01,3,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,"Check and replace sealant and grout around baths and showers regularly – these need 
+to be maintained to prevent leakage and we won't cover escape of water damaged 
+caused by them failing.",indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__6""]",aviva_837d5b56fe01__4c31c81ad22f__6,3,"Section: Contents
+
+home, there are some basic things you can do, for example: On the outside • Check for missing or slipped tiles, or rotten window frames. • Ensure that gutters and downpipes aren’t damaged or blocked by leaves. • Keep any trees and shrubs near your home well-trimmed. • If your home uses oil, as well as carrying out visual checks yourself, you should arrange for the tank and associated pipework to be checked regularly by a competent person. On the inside Check and replace sealant and grout around baths and showers regularly – these need to be maintained to prevent leakage and we won't cover escape of water damaged caused by them failing."
+Q015,What counts as buildings under Aviva Signature Home Insurance?,aviva_837d5b56fe01::span_9cc44e4a00ed,aviva_837d5b56fe01,5,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,"Buildings - The home and its:
+• walls, fences, gates, hedges, patios, drives, footpaths, terraces, hard courts, car ports;
+• ornamental ponds and fountains, fixed hot tubs and swimming pools;
+• fixed domestic heating, water or sewage tanks, fixed pipes and cables;
+• fixed clean energy installations such as solar panels and wind turbines;
+• fixtures, fittings and decorations.
+These must all be at the address shown on your schedule.",indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__12""]",aviva_837d5b56fe01__4c31c81ad22f__12,5,"Section: Buildings - The home and its:
+
+• walls, fences, gates, hedges, patios, drives, footpaths, terraces, hard courts, car ports;
+• ornamental ponds and fountains, fixed hot tubs and swimming pools;
+• fixed domestic heating, water or sewage tanks, fixed pipes and cables;
+• fixed clean energy installations such as solar panels and wind turbines;
+• fixtures, fittings and decorations.
+These must all be at the address shown on your schedule.
+Clauses - Changes to the terms of your policy. These are shown on your schedule."
+Q016,What is the complaints escalation process under Aviva Signature Home Insurance?,aviva_837d5b56fe01::span_49e45086ee8f,aviva_837d5b56fe01,4,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,"If you have a complaint about this insurance, you can contact us, by writing to: 
+Customer Relations, Building 8, Maxim Business Park, Eurocentral, ML1 4WR or 
+telephone us on 0345 030 7078 and ask your contact to review your complaint.",indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__8""]",aviva_837d5b56fe01__4c31c81ad22f__8,4,"Section: Contents
+
+call is 0345 300 3346. Y ou can only use the Legal Services or Home Emergency telephone numbers if you have bought cover. Y ou can make some changes online at Aviva.co.uk/mypolicy. What to do if you are unhappy If you have a complaint about this insurance, you can contact us, by writing to: Customer Relations, Building 8, Maxim Business Park, Eurocentral, ML1 4WR or telephone us on 0345 030 7078 and ask your contact to review your complaint. What will happen if you complain: • Yo u r complaint will be acknowledged promptly • A dedicated complaint expert will be assigned to review your complaint • A thorough and impartial investigation will be carried out • Yo u will be kept updated of the progress • Everything will be done to resolve things as quickly as possible • A written response will be sent to you within eight weeks of receiving your complaint, this will inform you of the results of the investigation or explain why this isn’t possible. Where your concerns are unable to be resolved or have not been resolved within eight weeks, you may be able to ask the Financial Ombudsman Service (FOS) to carry out an independent review. Whilst firms are bound by their decision you are not. Contacting them will not affect your legal"
+Q016,What is the complaints escalation process under Aviva Signature Home Insurance?,aviva_837d5b56fe01::span_cf1d8ad41486,aviva_837d5b56fe01,4,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,"Where your concerns are unable to be resolved or have not been resolved within eight 
+weeks, you may be able to ask the Financial Ombudsman Service (FOS) to carry out an 
+independent review.",indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__8""]",aviva_837d5b56fe01__4c31c81ad22f__8,4,"Section: Contents
+
+call is 0345 300 3346. Y ou can only use the Legal Services or Home Emergency telephone numbers if you have bought cover. Y ou can make some changes online at Aviva.co.uk/mypolicy. What to do if you are unhappy If you have a complaint about this insurance, you can contact us, by writing to: Customer Relations, Building 8, Maxim Business Park, Eurocentral, ML1 4WR or telephone us on 0345 030 7078 and ask your contact to review your complaint. What will happen if you complain: • Yo u r complaint will be acknowledged promptly • A dedicated complaint expert will be assigned to review your complaint • A thorough and impartial investigation will be carried out • Yo u will be kept updated of the progress • Everything will be done to resolve things as quickly as possible • A written response will be sent to you within eight weeks of receiving your complaint, this will inform you of the results of the investigation or explain why this isn’t possible. Where your concerns are unable to be resolved or have not been resolved within eight weeks, you may be able to ask the Financial Ombudsman Service (FOS) to carry out an independent review. Whilst firms are bound by their decision you are not. Contacting them will not affect your legal"
+Q017,What does Aviva Signature Home say about policy excess?,aviva_837d5b56fe01::span_a3e21703f458,aviva_837d5b56fe01,6,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,Excess - The amount you will have to pay towards each separate claim.,indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__14""]",aviva_837d5b56fe01__4c31c81ad22f__14,6,"Section: Contents - Household items and personal belongings (including personal money),
+
+This includes personal belongings of visitors to the home (but not paying guests,
+lodgers, or individuals participating in a home swapping agreement) up to the limit
+shown on your schedule.
+Contents doesn’t mean the following:
+• anything used or stored for business or professional purposes (except home
+office equipment);
+•  motorised vehicles, aircraft, boats, boards and craft designed to be used
+on or in water, caravans, trailers and the parts, spares and accessories of
+any of these;
+•  any type of document except personal money, passports, driving licences
+and the title deeds to the home;
+•  any part of the structure of the home, including wallpaper;
+• any living creature.
+Domestic employee - A person directly employed by you solely to carry out domestic
+tasks such as cleaning, gardening and childcare in the home.
+Excess - The amount you will have to pay towards each separate claim."
+Q017,What does Aviva Signature Home say about policy excess?,aviva_837d5b56fe01::span_ee831670c744,aviva_837d5b56fe01,16,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,"The relevant excess shown on your schedule (unless we tell you in any 
+part that an excess doesn’t apply).",indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__46"", ""aviva_837d5b56fe01__4c31c81ad22f__64""]",aviva_837d5b56fe01__4c31c81ad22f__46,16,"Section: Buildings
+
+– what’s not covered? • Anything shown in the General exclusions. • The relevant excess shown on your schedule (unless we tell you in any part that an excess doesn’t apply). If your buildings suffer subsidence, heave or landslip damage, regardless of the underlying cause of the damage, the subsidence, heave and landslip excess shown on your schedule will apply to your claim. • Damage to fences, gates and hedges caused by storm, or by falling trees or branches. • Loss or damage caused by any of the following when your home has been left unoccupied for more than the period shown on your schedule: Ƨ malicious people or vandals; Ƨ water escaping from or freezing in water tanks, pipes, plumbed-in home appliances (such as washing machines and dishwashers), fixed equipment or fixed heating system; Ƨ heating fuel leaking from a fixed heating system; Ƨ theft or attempted theft. • Theft, attempted theft, malicious damage or vandalism by you, paying guests, tenants, lodgers or individuals participating in a home swapping agreement. • Storm or Flood: Ƨ Loss or damage caused by subsidence, heave or landslip Ƨ Loss or damage caused by rising water table levels (the level below which the ground is completely saturated with water), which happens gradually over a period of time. • Subsidence, heave or landslip: Ƨ"
+Q017,What does Aviva Signature Home say about policy excess?,aviva_837d5b56fe01::span_ee831670c744,aviva_837d5b56fe01,16,real_insurance_corpus_v2/extracted/policies/aviva_home_insurance_837d5b56.txt,4c31c81ad22f60b0032c4f8e127d804fd28a7df07a0fab0b5ab6ac4849387078,"The relevant excess shown on your schedule (unless we tell you in any 
+part that an excess doesn’t apply).",indexed,"[""aviva_837d5b56fe01__4c31c81ad22f__46"", ""aviva_837d5b56fe01__4c31c81ad22f__64""]",aviva_837d5b56fe01__4c31c81ad22f__64,23,"Section: 2322 Contents
+
+– what’s not covered? • Anything shown in the General exclusions. • The relevant excess shown on your schedule (unless we tell you in any part that an excess doesn’t apply). • Loss or damage as described below when your home has been left unoccupied for more than the period shown on your schedule: (a) Loss or damage caused by Ƨ malicious people or vandals; Ƨ water escaping from or freezing in water tanks, pipes, plumbed-in home appliances (such as washing machines and dishwashers), fixed equipment or fixed heating system; Ƨ heating fuel leaking from a fixed heating system; Ƨ theft or attempted theft. (b) Loss or damage of any kind to contents in the garden. • Any storage costs that arise once your contents have been repaired or restored. • Theft, attempted theft, malicious damage or vandalism by you, paying guests, tenants, lodgers or individuals participating in a home swapping agreement • Theft where someone deceives you to steal your property (e.g. tricks you into handing it over or ‘buys’ it without making a proper payment). This doesn’t apply where they only use deception to get into your home to steal property. • Theft of the following items unless someone has broken into or out of the home by using force and violence or has got into the home"
+Q018,What does AXA Home say about theft under contents insurance?,axa_insurance_uk_plc_8eba967c12b8::span_08e500846e08,axa_insurance_uk_plc_8eba967c12b8,36,real_insurance_corpus_v2/extracted/policies/axa_direct_home_2025_8eba967c.txt,9baa4db346e07358f4b5e85b918b930b6a1bfd4f5bf69ee44a9c2b9f4d559494,If contents are stolen or damaged from theft or attempted theft.,indexed,"[""axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__99""]",axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__99,36,"Section: 6. Theft or attempted theft
+
+If contents are stolen or damaged from theft or attempted theft."
+Q018,What does AXA Home say about theft under contents insurance?,axa_insurance_uk_plc_8eba967c12b8::span_98605095cfa6,axa_insurance_uk_plc_8eba967c12b8,36,real_insurance_corpus_v2/extracted/policies/axa_direct_home_2025_8eba967c.txt,9baa4db346e07358f4b5e85b918b930b6a1bfd4f5bf69ee44a9c2b9f4d559494,"Stolen or damaged contents:
+ ■ while your home is unoccupied or unfurnished.
+ ■ if property is taken by someone who pays you using a false payment method, meaning 
+you don’t get your agreed payment.
+ ■ as a result of any failed payment for anything you have bought or sold online.
+ ■ if anyone other than you or your family is living in any part of the home. However, if 
+there’s forced or violent entry to or exit from the home, we will cover you for this.",indexed,"[""axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__100""]",axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__100,36,"Section: Top Tip:
+
+Many thefts are carried out by so-called ‘opportunist’ criminals. This means they’ll target things which are quick and easy to take or break in to. Don’t make it easy for them! Homes, garages and sheds are much more likely to have things stolen from them if doors and windows aren’t locked and secured. If you are going away do what you can so your house doesn’t look empty. Ask a neighbour to pick up the mail, cancel any other regular deliveries and use timers on lights if you have them. Garages and sheds are attractive to thieves as they’re easier to break in to and often hold items that thieves target such as tools or golf clubs. Locking garages and sheds is another important step to reducing the risk of theft. Stolen or damaged contents: ■ while your home is unoccupied or unfurnished. ■ if property is taken by someone who pays you using a false payment method, meaning you don’t get your agreed payment. ■ as a result of any failed payment for anything you have bought or sold online. ■ if anyone other than you or your family is living in any part of the home. However, if there’s forced or violent entry to or exit from the home, we will cover you for this. ■ caused by"
+Q019,What does AXA Home say about subsidence affecting buildings?,axa_insurance_uk_plc_8eba967c12b8::span_5ad9e1b2fb43,axa_insurance_uk_plc_8eba967c12b8,19,real_insurance_corpus_v2/extracted/policies/axa_direct_home_2025_8eba967c.txt,9baa4db346e07358f4b5e85b918b930b6a1bfd4f5bf69ee44a9c2b9f4d559494,"Buildings lost or damaged by subsidence or ground heave of the land which your buildings 
+are on, or landslip. Lost or damaged boundary and garden walls, gates, hedges and fences, paths and drives, artificial lawns, patios, decking, terraces, tennis hard courts and 
+swimming pools. However, these will be covered if the home has been damaged 
+at the same time by the same cause.",indexed,"[""axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__56""]",axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__56,19,"Section: Buildings insurance
+
+Page 19 of 80AXA Home Insurance – Buildings insurance What your policy covers What your policy doesn’t cover 7. Damage caused on purpose by others Damage to your buildings that is caused on purpose through any act by another person. Damage: ■ while your home is unoccupied or unfurnished. ■ caused by you, your family, anyone else living at the home and anyone you allow to be at the property. 8. Riot, civil commotion, strikes, labour and political disturbances Any part of the buildings lost or damaged by riot, civil commotion, strikes, labour and political disturbances. What does this mean? Civil commotions, riots, strikes and political disturbances involve a large number of people who may cause damage to property while making a stand against an authority or government. Important note: You must report any damage caused by a riot to the police without delay. 9. Subsidence, ground heave or landslip Buildings lost or damaged by subsidence or ground heave of the land which your buildings are on, or landslip. Lost or damaged boundary and garden walls, gates, hedges and fences, paths and drives, artificial lawns, patios, decking, terraces, tennis hard courts and swimming pools. However, these will be covered if the home has been damaged at the same time by the same cause. Lost or damaged buildings: due to settlement,"
+Q019,What does AXA Home say about subsidence affecting buildings?,axa_insurance_uk_plc_8eba967c12b8::span_a9ee8e85a0d5,axa_insurance_uk_plc_8eba967c12b8,20,real_insurance_corpus_v2/extracted/policies/axa_direct_home_2025_8eba967c.txt,9baa4db346e07358f4b5e85b918b930b6a1bfd4f5bf69ee44a9c2b9f4d559494,"caused by the use of faulty or poor materials, design or workmanship.",indexed,"[""axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__60""]",axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__60,20,"Section: Landslip
+
+Sudden movement of soil on a slope or gradual slope, which isn’t settlement. Settlement The weight of a new property moving downwards into the soil after it’s built. This is normal in the first few months and years. caused by movement from solid floors and any walls that don’t support the structure of your home. However, if the foundations of your home are damaged at the same time then we will consider cover for you. caused from building or repairing your home, or from any building work to the roof, its foundations, or any walls that support the structure of your home. caused by the land and/or rocks along coastlines or riverbanks wearing away and breaking up. caused by the use of faulty or poor materials, design or workmanship. What does this mean? Shrinkage or expansion means the materials used to build your home are getting smaller or larger over time. This can be due to temperature, moisture or the materials ageing naturally and changing shape. Important note: You should let us know when you are making structural changes to your home. If you don’t we may cancel your policy or treat it like it never existed. If your home has been damaged by settlement, you should contact the company giving the warranty cover for your home. For new homes"
+Q020,What changes to the property should an AXA Home policyholder disclose?,axa_insurance_uk_plc_8eba967c12b8::span_e1ca0d44d9b2,axa_insurance_uk_plc_8eba967c12b8,71,real_insurance_corpus_v2/extracted/policies/axa_direct_home_2025_8eba967c.txt,9baa4db346e07358f4b5e85b918b930b6a1bfd4f5bf69ee44a9c2b9f4d559494,"If things change we need to know as soon as possible. Please tell us about:
+ ■ a change of address.
+ ■ If your cover limits are not enough to cover your Contents.
+ ■ any building works to the roof, foundations, outside walls, or any walls that support the 
+structure of your home.
+ ■ If you change the number of bedrooms or bathrooms in your home.
+ ■ If the total of ‘other’ rooms you told us about changes.
+ ■ If you or your family intend to let or sub-let your home.
+ ■ If your home is used for business purposes. (You don’t need to worry about telling us if 
+you just do paperwork or computer work at home.)
+ ■ If you and your family want to use your home for any reason other than normal day to 
+day living. (You don’t need to worry about telling us though if you just do paperwork or 
+computer work at home.)
+ ■ If your home will be unoccupied.",indexed,"[""axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__200""]",axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__200,71,"Section: Top Tip:
+
+What you need to tell us and Fraud Page 71 of 80AXA Home Insurance – Fraud Making sure your details are correct and up to date If things change we need to know as soon as possible. Please tell us about: ■ a change of address. ■ If your cover limits are not enough to cover your Contents. ■ any building works to the roof, foundations, outside walls, or any walls that support the structure of your home. ■ If you change the number of bedrooms or bathrooms in your home. ■ If the total of ‘other’ rooms you told us about changes. ■ If you or your family intend to let or sub-let your home. ■ If your home is used for business purposes. (You don’t need to worry about telling us if you just do paperwork or computer work at home.) ■ If you and your family want to use your home for any reason other than normal day to day living. (You don’t need to worry about telling us though if you just do paperwork or computer work at home.) ■ If your home will be unoccupied. Unoccupied Not lived in and not occupied overnight by you or your family for more than 60 days in a row ■ If you or your family have been made"
+Q021,How is storm defined in AXA Home Insurance?,axa_insurance_uk_plc_8eba967c12b8::span_bae54a579c1f,axa_insurance_uk_plc_8eba967c12b8,11,real_insurance_corpus_v2/extracted/policies/axa_direct_home_2025_8eba967c.txt,9baa4db346e07358f4b5e85b918b930b6a1bfd4f5bf69ee44a9c2b9f4d559494,"Storm
+A period of violent weather defined as any of the following.
+Wind speeds with gusts of at 
+least 48 knots (55mph). Which is 
+the same as a storm force 10 on 
+the Beaufort Scale.
+Heavy rainfall at a rate of at least 
+25mm per hour.
+Snow to a depth of at least one 
+foot (30cms) in 24 hours).
+Hail that is so severe that it 
+causes damage to hard surfaces 
+or breaks glass.",indexed,"[""axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__35""]",axa_insurance_uk_plc_8eba967c12b8__9baa4db346e0__35,11,"Section: Definitions
+
+home and are used for domestic purposes. Period of insurance The period of time covered by this policy, as shown on your schedule, or until cancelled. Personal effects Clothes and items that you normally wear, use or carry. For example, portable radios, hand held games consoles, MP3 players, mobile phones and sports equipment. Policy Your policy wording and most recent schedule. Settlement The natural movement caused by the weight of a new property moving downwards into the soil after it’s built. This is normal in the first few months and years. Storm A period of violent weather defined as any of the following. Wind speeds with gusts of at least 48 knots (55mph). Which is the same as a storm force 10 on the Beaufort Scale. Heavy rainfall at a rate of at least 25mm per hour. Snow to a depth of at least one foot (30cms) in 24 hours). Hail that is so severe that it causes damage to hard surfaces or breaks glass. Subsidence Sinking or downwards movement of the buildings caused by a change in the soil it is built on other than settlement."
+Q022,What does AXA Plus Home say about accidental damage to buildings?,axa_insurance_uk_plc_00f571f226ca::span_1f6e054ba90d,axa_insurance_uk_plc_00f571f226ca,27,real_insurance_corpus_v2/extracted/policies/axa_home_plus_2025_00f571f2.txt,81b549d00ad4081bd434bd631e52ab764cfeb89d81c98ff11a042efb8199554b,"Accidental damage is an optional cover you can add to your buildings insurance. It provides extra protection in case any damage is caused by accident to the permanent fixtures and 
+structure of your home.",indexed,"[""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__74""]",axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__74,27,"Section: Buildings insurance
+
+Page 27 of 80AXA Plus Home Insurance – Buildings insurance
+Accidental damage (buildings)
+Accidental damage is an optional cover you can add to your buildings insurance. It provides extra protection in case any damage is caused by accident to the permanent fixtures and
+structure of your home.
+What your policy covers What your policy doesn’t cover
+■ Accidental damage to the buildings including accidental breakage of:
+fixed glass in windows, doors, fanlights, skylights, greenhouses, conservatories
+and verandas;
+fixed ceramic hobs and ceramic tops of fixed cookers;
+sinks and bathroom fittings that are plumbed in."
+Q022,What does AXA Plus Home say about accidental damage to buildings?,axa_insurance_uk_plc_00f571f226ca::span_725313c7620a,axa_insurance_uk_plc_00f571f226ca,27,real_insurance_corpus_v2/extracted/policies/axa_home_plus_2025_00f571f2.txt,81b549d00ad4081bd434bd631e52ab764cfeb89d81c98ff11a042efb8199554b,"Accidental damage to the buildings including accidental breakage of:
+fixed glass in windows, doors, fanlights, skylights, greenhouses, conservatories  
+and verandas;
+fixed ceramic hobs and ceramic tops of fixed cookers;
+sinks and bathroom fittings that are plumbed in.",indexed,"[""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__74""]",axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__74,27,"Section: Buildings insurance
+
+Page 27 of 80AXA Plus Home Insurance – Buildings insurance
+Accidental damage (buildings)
+Accidental damage is an optional cover you can add to your buildings insurance. It provides extra protection in case any damage is caused by accident to the permanent fixtures and
+structure of your home.
+What your policy covers What your policy doesn’t cover
+■ Accidental damage to the buildings including accidental breakage of:
+fixed glass in windows, doors, fanlights, skylights, greenhouses, conservatories
+and verandas;
+fixed ceramic hobs and ceramic tops of fixed cookers;
+sinks and bathroom fittings that are plumbed in."
+Q023,What does AXA Plus Home say about bicycles under contents cover?,axa_insurance_uk_plc_00f571f226ca::span_59ff00ab37ec,axa_insurance_uk_plc_00f571f226ca,51,real_insurance_corpus_v2/extracted/policies/axa_home_plus_2025_00f571f2.txt,81b549d00ad4081bd434bd631e52ab764cfeb89d81c98ff11a042efb8199554b,"Bicycle cover is included on your contents policy.
+This covers your bicycles worth £350 each or less (up to £1,500 in total) when at or away 
+from the home. 
+Bicycles worth more than £350 each must be added to your policy to be covered under the 
+Bicycle section.
+Bicycles that have been added to your policy will show on your schedule as specified 
+bicycles.",indexed,"[""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__131""]",axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__131,51,"Section: Contents insurance
+
+Page 51 of 80AXA Plus Home Insurance – Contents insurance Bicycle cover Bicycle cover is included on your contents policy. This covers your bicycles worth £350 each or less (up to £1,500 in total) when at or away from the home. Bicycles worth more than £350 each must be added to your policy to be covered under the Bicycle section. Bicycles that have been added to your policy will show on your schedule as specified bicycles. Important note: You can add bicycles worth more than £350 at any time on your policy. You can use your AXA Account to add these yourself online, or call us on 0330 024 1235. When adding bicycles you must make sure the value you choose is enough to cover the replacement cost as new. The value must also include any bicycle accessories and attachments. Your schedule will show if you have added bicycles and the value for which they’re covered. Bicycles worth more than £350 each which haven’t been added to your policy won’t be fully covered if you make a claim. What your policy covers What your policy doesn’t cover Lost or damaged bicycles and their accessories, bicycle tools and cycling armour and guards belonging to you anywhere in the world. ■ Excess – shown in schedule. ■ tyres or accessories unless the"
+Q023,What does AXA Plus Home say about bicycles under contents cover?,axa_insurance_uk_plc_00f571f226ca::span_c9e648a82f5b,axa_insurance_uk_plc_00f571f226ca,51,real_insurance_corpus_v2/extracted/policies/axa_home_plus_2025_00f571f2.txt,81b549d00ad4081bd434bd631e52ab764cfeb89d81c98ff11a042efb8199554b,"theft when the bicycle is unattended unless in a locked building, locked motor vehicle, 
+or secured by a suitable locking device to a permanent structure or a motor vehicle.",indexed,"[""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__132""]",axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__132,51,"Section: Contents insurance
+
+policy covers What your policy doesn’t cover Lost or damaged bicycles and their accessories, bicycle tools and cycling armour and guards belonging to you anywhere in the world. ■ Excess – shown in schedule. ■ tyres or accessories unless the bicycle is lost or damaged at the same time. ■ damage whilst being used for racing, pace making or trials. ■ theft when the bicycle is unattended unless in a locked building, locked motor vehicle, or secured by a suitable locking device to a permanent structure or a motor vehicle. ■ theft when the bicycle is mounted on a motor vehicle unless both the bicycle and the mount have a suitable locking device in operation. ■ damage caused by: ■ customs or other officials confiscating or keeping hold of the bicycle. ■ cleaning, repairing, taking apart, restoring, altering, dyeing or washing. ■ insects or vermin. ■ if damage is through mechanical or electrical breakdown. What does this mean? Items can become worn as part of their normal use, so we won’t cover natural damage, or if items break down or stop working because of wear and tear. You may find that if the item’s still under warranty, the item may be covered for repair or replacement by the manufacturer or warranty insurer. Important note: Suitable locking device A suitable locking"
+Q024,What does AXA Plus Home say about legal expenses insurance?,axa_insurance_uk_plc_00f571f226ca::span_2b9075eb7d9c,axa_insurance_uk_plc_00f571f226ca,61,real_insurance_corpus_v2/extracted/policies/axa_home_plus_2025_00f571f2.txt,81b549d00ad4081bd434bd631e52ab764cfeb89d81c98ff11a042efb8199554b,"Legal expenses insurance is a cover option you can add to your home insurance. Your 
+schedule will show your cover limits.
+ ■ Assistance helpline for 24/7 Legal advice
+ ■ Discounted legal services
+ ■ Insurance for legal costs for certain types of disputes",indexed,"[""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__165""]",axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__165,61,"Section: Legal expenses insurance
+
+Legal expenses insurance is a cover option you can add to your home insurance. Your schedule will show your cover limits. ■ Assistance helpline for 24/7 Legal advice ■ Discounted legal services ■ Insurance for legal costs for certain types of disputes Important note: Arc Legal Assistance Ltd administer and AmTrust Specialty Limited underwrite legal expenses insurance for us, so this section may have a different structure and style to the rest of the policy wording. Your schedule will show if you have chosen this section. What you need to know about your cover If a claim is accepted under this insurance, we will appoint an adviser to handle your case. You aren’t covered for any other advisers’ fees unless there’s no choice but to start court proceedings or there’s a conflict of interest. What does this mean? Advisers’ costs are fees and expenses which we have agreed to pay the adviser. Your right to choose Where we must start court proceedings or there’s a conflict of interest, you can ask us to appoint your own adviser. We will only appoint an adviser who agrees to our advisers’ costs. The insurance covers costs as detailed under each separate section of cover and up to the maximum amount payable, when an insured incident happens in the period of insurance, and within"
+Q024,What does AXA Plus Home say about legal expenses insurance?,axa_insurance_uk_plc_00f571f226ca::span_fc5decd7c784,axa_insurance_uk_plc_00f571f226ca,61,real_insurance_corpus_v2/extracted/policies/axa_home_plus_2025_00f571f2.txt,81b549d00ad4081bd434bd631e52ab764cfeb89d81c98ff11a042efb8199554b,"Your schedule will show if you have chosen this section.
+What you need to know about your cover
+If a claim is accepted under this insurance, we will appoint an adviser to handle your case. 
+You aren’t covered for any other advisers’ fees unless there’s no choice but to start court 
+proceedings or there’s a conflict of interest.",indexed,"[""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__165""]",axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__165,61,"Section: Legal expenses insurance
+
+Legal expenses insurance is a cover option you can add to your home insurance. Your schedule will show your cover limits. ■ Assistance helpline for 24/7 Legal advice ■ Discounted legal services ■ Insurance for legal costs for certain types of disputes Important note: Arc Legal Assistance Ltd administer and AmTrust Specialty Limited underwrite legal expenses insurance for us, so this section may have a different structure and style to the rest of the policy wording. Your schedule will show if you have chosen this section. What you need to know about your cover If a claim is accepted under this insurance, we will appoint an adviser to handle your case. You aren’t covered for any other advisers’ fees unless there’s no choice but to start court proceedings or there’s a conflict of interest. What does this mean? Advisers’ costs are fees and expenses which we have agreed to pay the adviser. Your right to choose Where we must start court proceedings or there’s a conflict of interest, you can ask us to appoint your own adviser. We will only appoint an adviser who agrees to our advisers’ costs. The insurance covers costs as detailed under each separate section of cover and up to the maximum amount payable, when an insured incident happens in the period of insurance, and within"
+Q025,What does AXA Plus Home say about trace and access after a water leak?,axa_insurance_uk_plc_00f571f226ca::span_961ffbc00fb3,axa_insurance_uk_plc_00f571f226ca,17,real_insurance_corpus_v2/extracted/policies/axa_home_plus_2025_00f571f2.txt,81b549d00ad4081bd434bd631e52ab764cfeb89d81c98ff11a042efb8199554b,"We will also pay up to the trace and access limit shown on your schedule to find the source 
+of the damage to the home. This includes putting back any wall, floor, ceiling, drive, fence or 
+path that had to be removed, or which got damaged during the search.",indexed,"[""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__48"", ""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__51"", ""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__77""]",axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__48,17,"Section: 3. Water
+
+Leaks (Escape of water)
+Damage caused by water leaks.
+Sudden and unexpected water leaking from or freezing in any:
+■ appliance such as washing machine, dishwasher, fridge or freezer.
+■ fixed water installations like hot and cold water pipes and tanks in your home.
+■ fixed drainage like your toilet or soil pipes.
+■ heating installations like your boiler or radiators.
+We will also pay up to the trace and access limit shown on your schedule to find the source
+of the damage to the home. This includes putting back any wall, floor, ceiling, drive, fence or
+path that had to be removed, or which got damaged during the search."
+Q025,What does AXA Plus Home say about trace and access after a water leak?,axa_insurance_uk_plc_00f571f226ca::span_961ffbc00fb3,axa_insurance_uk_plc_00f571f226ca,17,real_insurance_corpus_v2/extracted/policies/axa_home_plus_2025_00f571f2.txt,81b549d00ad4081bd434bd631e52ab764cfeb89d81c98ff11a042efb8199554b,"We will also pay up to the trace and access limit shown on your schedule to find the source 
+of the damage to the home. This includes putting back any wall, floor, ceiling, drive, fence or 
+path that had to be removed, or which got damaged during the search.",indexed,"[""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__48"", ""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__51"", ""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__77""]",axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__51,17,"Section: Top Tip:
+
+For example a pipe damaged while you are doing DIY is only covered if you have
+bought accidental damage cover.
+
+4. Oil leaks (Escape of oil)
+
+Damage caused by oil leaks.
+■ Oil leaking from or freezing in a fixed oil-fired heating installation. This includes smoke
+and smudge damage caused by a poor or faulty oil-fired heating installation and
+damage to soil caused by the leaking oil.
+■ We will also pay up to the trace and access limit shown on your schedule to find the
+source of the damage to the home. This includes putting back any wall, floor, ceiling,
+drive, fence or path that had to be removed, or which got damaged during the search.
+Damage:
+■ to the installation itself, unless we have agreed to cover it under another section of this
+policy for you.
+■ while your home is unoccupied or unfurnished.
+Costs to repair the source of the damage, unless it is covered elsewhere in this policy wording."
+Q025,What does AXA Plus Home say about trace and access after a water leak?,axa_insurance_uk_plc_00f571f226ca::span_961ffbc00fb3,axa_insurance_uk_plc_00f571f226ca,17,real_insurance_corpus_v2/extracted/policies/axa_home_plus_2025_00f571f2.txt,81b549d00ad4081bd434bd631e52ab764cfeb89d81c98ff11a042efb8199554b,"We will also pay up to the trace and access limit shown on your schedule to find the source 
+of the damage to the home. This includes putting back any wall, floor, ceiling, drive, fence or 
+path that had to be removed, or which got damaged during the search.",indexed,"[""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__48"", ""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__51"", ""axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__77""]",axa_insurance_uk_plc_00f571f226ca__81b549d00ad4__77,28,"Section: Buildings insurance
+
+Page 28 of 80AXA Plus Home Insurance – Buildings insurance What your policy covers What your policy doesn’t cover Important note (continued) For any other sets or suites which aren’t part of a bathroom suite or fitted kitchen, we will pay up to 50% of the undamaged part. We will only do this if the damaged parts can’t be matched or replaced. If a floor covering is damaged beyond repair we will only pay to have the damaged floor covering replaced. We won’t pay for undamaged floor coverings in connecting rooms. ■ Accidental damage to cables, drain inspection covers and underground drains, pipes or tanks giving services to or from the home and for which you are responsible. We will also pay up to the trace and access limit shown on your schedule to find the source of the damage to the home. This includes putting back any wall, floor, ceiling, drive, fence or path that had to be removed, or which got damaged during the search. Damage to pitch fibre drains caused by faults in the design, material, construction, or installation of the pipes and drains. If we discover the damage isn’t accidental damage, then there will be no cover unless buildings causes 1-12 will cover it. Important note: We won’t cover any damage caused from using faulty or"
+Q026,In the AXA Premier 2023 policy wording when is a home defined as unoccupied?,axa_insurance_uk_plc_405909992a8f::span_0d78a6a91914,axa_insurance_uk_plc_405909992a8f,56,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2023_40590999.txt,96a7ce35230ebecbd80aa632a008c0e87eb62f1e8936c490d13eaf42fe6e295f,"Unoccupied
+Not lived in and not occupied overnight by you or your family for more than  
+60 consecutive days.",indexed,"[""axa_insurance_uk_plc_405909992a8f__96a7ce35230e__155""]",axa_insurance_uk_plc_405909992a8f__96a7ce35230e__155,56,"Section: Definitions
+
+AXA Premier Home Insurance – Definitions Page 56 of 67Go to Content page Unfurnished Does not contain enough furniture and furnishings for normal living purposes for more than 30 consecutive days. Unoccupied Not lived in and not occupied overnight by you or your family for more than 60 consecutive days. Valuables Jewellery, articles containing gold, silver or other precious metals, watches, paintings and other works of art and collections of stamps, coins and medals. Vehicles or craft Electrically or mechanically propelled or assisted vehicles including plant machinery, mini diggers, fork lift trucks, motor cycles, powered transporters (including e-scooters and Segway's), children’s motor cycles, quad bikes and children’s quad bikes. Aircraft (including any type of gliders), drones (including mechanically propelled aerial toys, models or devices), boats, hovercraft and any other type of craft designed to be used in or on water including hand or foot propelled craft, sailboards and windsurfers. Trailers, carts, wagons, caravans and horse boxes. Parts, spares and accessories (including keys and key fobs) for any of the items described in the boxes above and left. The following items are not included in this definition: ■ Ride on lawn mowers only used for domestic purposes within the boundaries of the land belonging to your home. ■ Wheelchairs, mobility scooters and invalid carriages, provided they are only being used for"
+Q027,In AXA Premier 2023 what must the policyholder tell AXA about changes to their home?,axa_insurance_uk_plc_405909992a8f::span_d9d1e849fb8f,axa_insurance_uk_plc_405909992a8f,4,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2023_40590999.txt,96a7ce35230ebecbd80aa632a008c0e87eb62f1e8936c490d13eaf42fe6e295f,"You must tell us as soon as possible about any of the following changes:
+ ■ Change of address.
+ ■ Structural alteration to your home.
+ ■ If you alter the number of bedrooms or bathrooms in  your home.
+ ■ If the total of 'other' rooms you told us about changes.
+ ■ If you or your family intend to let or sub-let your home.",indexed,"[""axa_insurance_uk_plc_405909992a8f__96a7ce35230e__6""]",axa_insurance_uk_plc_405909992a8f__96a7ce35230e__6,4,"Section: Welcome
+
+law of England and Wales applies. Unless we and you agree otherwise the law of England and Wales will apply to this policy. Keep your details correct and up to date You must make sure that all the information you have given us as part of your application when renewing or making changes is true and complete to the best of your knowledge and belief, so please make sure the information in your schedule and AXA account is correct. Failure to do so may result in: ■ your policy being cancelled as detailed under the ‘Cancellations’ section; ■ your policy being declared void (treating your policy as if it never existed); ■ we may change the terms and/or premium of your policy; ■ we may refuse to deal with any relevant claims or reduce the amount of any related claim payments. Full details on admin fees can be found under the Fees section of the policy wording. You must tell us as soon as possible about any of the following changes: ■ Change of address. ■ Structural alteration to your home. ■ If you alter the number of bedrooms or bathrooms in your home. ■ If the total of 'other' rooms you told us about changes. ■ If you or your family intend to let or sub-let your home. ■"
+Q027,In AXA Premier 2023 what must the policyholder tell AXA about changes to their home?,axa_insurance_uk_plc_405909992a8f::span_ed43e13e8227,axa_insurance_uk_plc_405909992a8f,4,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2023_40590999.txt,96a7ce35230ebecbd80aa632a008c0e87eb62f1e8936c490d13eaf42fe6e295f,"If your home is used for business purposes other than clerical, such as paperwork or computer work.
+ ■ If you or your family intend to use your home for any reason other than for private residential 
+purposes, other than for clerical business use.
+ ■ If your home will be unoccupied.",indexed,"[""axa_insurance_uk_plc_405909992a8f__96a7ce35230e__7""]",axa_insurance_uk_plc_405909992a8f__96a7ce35230e__7,4,"Section: Welcome
+
+home. ■ If you alter the number of bedrooms or bathrooms in your home. ■ If the total of 'other' rooms you told us about changes. ■ If you or your family intend to let or sub-let your home. ■ If your home is used for business purposes other than clerical, such as paperwork or computer work. ■ If you or your family intend to use your home for any reason other than for private residential purposes, other than for clerical business use. ■ If your home will be unoccupied. Unoccupied Not lived in and not occupied overnight by you or your family for more than 60 consecutive days ■ If you or your family have been declared bankrupt or been subject to bankruptcy proceedings or have received a police caution for or been convicted of or charged with any offence other than driving offences. ■ If your property is no longer occupied solely by you and your family. When you tell us about a change, we will assess how it affects your policy and you may need to pay an extra cost. In some cases, we may not be able to continue with your policy. If this happens, we will let you know by giving you a minimum of 21 days' notice in writing so that you can arrange"
+Q029,In AXA Premier 2023 what is said about escape of water damage?,axa_insurance_uk_plc_405909992a8f::span_e5c762933cdf,axa_insurance_uk_plc_405909992a8f,8,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2023_40590999.txt,96a7ce35230ebecbd80aa632a008c0e87eb62f1e8936c490d13eaf42fe6e295f,"Loss or damage resulting from escape of water.
+ ■ Sudden and unexpected water leaking from or freezing in any washing machine, dishwasher, 
+fridge, freezer or fixed domestic water, drainage or heating installation.",indexed,"[""axa_insurance_uk_plc_405909992a8f__96a7ce35230e__17""]",axa_insurance_uk_plc_405909992a8f__96a7ce35230e__17,8,"Section: 3. Escape of water
+
+Loss or damage resulting from escape of water.
+■ Sudden and unexpected water leaking from or freezing in any washing machine, dishwasher,
+fridge, freezer or fixed domestic water, drainage or heating installation.
+■ We will also pay up to the limit for any one claim for necessary and reasonable costs that you
+incur in tracing and accessing the source of the damage to the home. This includes reinstating
+any wall, floor, ceiling, drive, fence or path removed or damaged during the search."
+Q029,In AXA Premier 2023 what is said about escape of water damage?,axa_insurance_uk_plc_405909992a8f::span_e105e1135ebd,axa_insurance_uk_plc_405909992a8f,8,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2023_40590999.txt,96a7ce35230ebecbd80aa632a008c0e87eb62f1e8936c490d13eaf42fe6e295f,"Loss or damage:
+ ■ to the fittings, installation and appliances themselves is only covered if the damage has happened 
+as a result of an insured cause or cover; 
+ ■ while your home is unoccupied or unfurnished;
+ ■ caused by failure or lack of sealant and/or grout;",indexed,"[""axa_insurance_uk_plc_405909992a8f__96a7ce35230e__18""]",axa_insurance_uk_plc_405909992a8f__96a7ce35230e__18,8,"Section: Top Tip:
+
+Your cover for escape of water is designed to cover damage to your property caused by water leaks. One of the biggest risks is water damage occurring when you are away during the winter when pipes can freeze and burst causing large amounts of damage. You can take steps yourself to avoid this by keeping your central heating on low so your pipes do not freeze. If you prefer to turn your heating off, then the best way to avoid your pipes bursting as a result of a freeze and thaw would be to at least switch off the water where it enters your house, and you could also drain your central heating system before you leave. It’s always a good idea to get your boiler checked and/or serviced by a Gas Safe/Oftec/Hetas- certified engineer, depending on your heating system, in plenty of time for winter. This will help prevent boiler failure which could leave you with no heating and/or hot water. Loss or damage: ■ to the fittings, installation and appliances themselves is only covered if the damage has happened as a result of an insured cause or cover; ■ while your home is unoccupied or unfurnished; ■ caused by failure or lack of sealant and/or grout; ■ caused by sinks and baths overflowing as a result of the"
+Q030,In the AXA Premier 2025 wording what are the steps for making a home insurance claim?,axa_insurance_uk_plc_b2dc1c42f3bd::span_bb4add7c7a6b,axa_insurance_uk_plc_b2dc1c42f3bd,5,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"Before you make a claim:
+ ■ make sure everyone at home is safe and not at risk.
+ ■ do as much as you can to stop further damage. You can turn off the gas, electricity or 
+water supply, if it’s safe to do so.
+ ■ you must call the police if anything has been stolen, lost or damaged by someone other 
+than you. Make sure you get a crime or a lost property reference number – you will need 
+one when you make a claim.
+ ■ do what you reasonably can to recover missing property, and/or prevent further loss.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__15""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__15,5,"Section: How to make a claim
+
+If you don’t follow the conditions of this policy, we may not deal with all or part of your
+claim, or we may pay you a lower amount. You should check your cover before you make a
+claim. Your schedule will show you what sections you are covered for.
+When you make your claim we will:
+■ put you in touch with a knowledgeable and trained member of staff who can discuss the
+claim and explain the next steps.
+■ call you back when promised.
+■ give you regular updates on your claim.
+Before you make a claim:
+■ make sure everyone at home is safe and not at risk.
+■ do as much as you can to stop further damage. You can turn off the gas, electricity or
+water supply, if it’s safe to do so.
+■ you must call the police if anything has been stolen, lost or damaged by someone other
+than you. Make sure you get a crime or a lost property reference number – you will need
+one when you make a claim.
+■ do what you reasonably can to recover missing property, and/or prevent further loss."
+Q030,In the AXA Premier 2025 wording what are the steps for making a home insurance claim?,axa_insurance_uk_plc_b2dc1c42f3bd::span_73f456af73b0,axa_insurance_uk_plc_b2dc1c42f3bd,5,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"You can report your claim 24 hours a day. When making a claim online, please follow the 
+simple steps to give us as much detail as possible. Your claim handler will then call you to 
+talk through the next steps.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__17""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__17,5,"Section: Click Here Click Here Click Here
+
+You can report your claim 24 hours a day. When making a claim online, please follow the
+simple steps to give us as much detail as possible. Your claim handler will then call you to
+talk through the next steps.
+Important note:
+Home assistance claims and legal expenses covers have their own terms and conditions.
+Find out more about Home assistance
+Find out more about legal expenses"
+Q031,In AXA Premier 2025 what are the exclusions for buildings accidental damage?,axa_insurance_uk_plc_b2dc1c42f3bd::span_fb6a4189d699,axa_insurance_uk_plc_b2dc1c42f3bd,27,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"Under accidental damage we won’t cover:
+ ■ damage to gates, hedges and fences.
+ ■ water coming into your home unless this has been caused by storm, flood or a water 
+leak. 
+ ■ items which have gone through mechanical or electrical breakdown. 
+ ■ chewing, scratching, tearing, fouling or urinating by any of your pets or animals that live 
+with you at home.
+ ■ infestation, chewing, scratching, tearing, fouling or urinating by insects or vermin.
+Vermin
+Rats, mice, squirrels, owls, pigeons, foxes, bees, wasps or hornets.
+ ■ damage to drives, patios and paths unless your home has been damaged at the same 
+time and by the same cause.
+ ■ damage due to faulty or poor materials, design or workmanship (see important note on 
+the next page).
+ ■ damage caused by frost.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__75""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__75,27,"Section: Accidental damage
+
+If a floor covering is damaged beyond repair we will only pay to have the damaged floor covering replaced. We won’t pay for undamaged floor coverings in connecting rooms. Anything shown as not covered under buildings causes 1-12 and covers 13-21 in the buildings section. Under accidental damage we won’t cover: ■ damage to gates, hedges and fences. ■ water coming into your home unless this has been caused by storm, flood or a water leak. ■ items which have gone through mechanical or electrical breakdown. ■ chewing, scratching, tearing, fouling or urinating by any of your pets or animals that live with you at home. ■ infestation, chewing, scratching, tearing, fouling or urinating by insects or vermin. Vermin Rats, mice, squirrels, owls, pigeons, foxes, bees, wasps or hornets. ■ damage to drives, patios and paths unless your home has been damaged at the same time and by the same cause. ■ damage due to faulty or poor materials, design or workmanship (see important note on the next page). ■ damage caused by frost. What does this mean? We won’t cover items which have gone through mechanical or electrical breakdown. Items can become worn as part of their normal use, so we won’t cover natural damage, or if items break down or stop working because of wear and tear. You"
+Q031,In AXA Premier 2025 what are the exclusions for buildings accidental damage?,axa_insurance_uk_plc_b2dc1c42f3bd::span_502ef92f6767,axa_insurance_uk_plc_b2dc1c42f3bd,28,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"Damage to pitch fibre drains caused by faults in the design, material, construction, or 
+installation of the pipes and drains.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__77""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__77,28,"Section: Buildings insurance
+
+Page 28 of 80AXA Premier Home Insurance – Buildings insurance What your policy covers What your policy doesn’t cover Important note (continued) For any other sets or suites which aren’t part of a bathroom suite or fitted kitchen, we will pay up to 50% of the undamaged part. We will only do this if the damaged parts can’t be matched or replaced. If a floor covering is damaged beyond repair we will only pay to have the damaged floor covering replaced. We won’t pay for undamaged floor coverings in connecting rooms. ■ Accidental damage to cables, drain inspection covers and underground drains, pipes or tanks giving services to or from the home and for which you are responsible. We will also pay up to the trace and access limit shown on your schedule to find the source of the damage to the home. This includes putting back any wall, floor, ceiling, drive, fence or path that had to be removed, or which got damaged during the search. Damage to pitch fibre drains caused by faults in the design, material, construction, or installation of the pipes and drains. If we discover the damage isn’t accidental damage, then there will be no cover unless buildings causes 1-12 will cover it. Important note: We won’t cover any damage caused from using faulty or"
+Q032,How does AXA Premier 2025 define storm conditions?,axa_insurance_uk_plc_b2dc1c42f3bd::span_97f527d1152b,axa_insurance_uk_plc_b2dc1c42f3bd,15,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"A period of violent weather defined as any of the following.
+Wind speeds with gusts of at 
+least 48 knots (55mph). Which 
+is the same as a storm force 10 
+on the Beaufort Scale.
+Heavy rainfall at a rate of at least 
+25mm per hour.
+Snow at least one foot deep 
+(30cms) in 24 hours. 
+Hail that causes damage to hard 
+surfaces or breaks glass.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__10"", ""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__42"", ""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__86""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__10,4,"Section: Definitions
+
+Welcome Page 4 of 80AXA Premier Home Insurance – Welcome Throughout the policy wording there are defined words or phrases that have a dotted underline. These are definitions of the policy and have a certain meaning wherever they are used. You can click on these words to jump to the definition of the word or phrase in the definitions section of this policy where the meaning is explained. On some occasions definitions will be included in the wording content to make it easier to understand. An example for storm is shown below: Storm A period of violent weather defined as any of the following. Wind speeds with gusts of at least 48 knots (55mph). Which is the same as a storm force 10 on the Beaufort Scale. Heavy rainfall at a rate of at least 25mm per hour. Snow at least one foot deep (30cms) in 24 hours. Hail that causes damage to hard surfaces or breaks glass. How this policy works while you’re insured with us Now you have chosen AXA here’s what you need to do while you are with us to make sure you have the home insurance that’s right for you. Taking care of your property You and your family must do as much as you reasonably can to avoid injury or damage. You should do"
+Q032,How does AXA Premier 2025 define storm conditions?,axa_insurance_uk_plc_b2dc1c42f3bd::span_97f527d1152b,axa_insurance_uk_plc_b2dc1c42f3bd,15,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"A period of violent weather defined as any of the following.
+Wind speeds with gusts of at 
+least 48 knots (55mph). Which 
+is the same as a storm force 10 
+on the Beaufort Scale.
+Heavy rainfall at a rate of at least 
+25mm per hour.
+Snow at least one foot deep 
+(30cms) in 24 hours. 
+Hail that causes damage to hard 
+surfaces or breaks glass.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__10"", ""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__42"", ""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__86""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__42,15,"Section: Storm
+
+A period of violent weather defined as any of the following. Wind speeds with gusts of at least 48 knots (55mph). Which is the same as a storm force 10 on the Beaufort Scale. Heavy rainfall at a rate of at least 25mm per hour. Snow at least one foot deep (30cms) in 24 hours. Hail that causes damage to hard surfaces or breaks glass. Important note: If you make a storm claim we will look at things such as: Was there a storm in your area? We will always talk to you about the damage as well as look at the weather conditions in the area. Where we are able to get local weather reports, we will take into account the distance of your home from any weather stations before making a decision. Is the damage caused by the storm? Did any poor maintenance of your home play a part in causing any of the damage? To help us deal with your claim we may send one of our experts to inspect the damage. Lost or damaged gates, hedges or fences; Lost or damaged radio or television aerials or satellite dishes. Important note: If you’ve looked after your home, then we would only expect to see damage caused by a period(s) of violent weather. We won’t cover damage which"
+Q032,How does AXA Premier 2025 define storm conditions?,axa_insurance_uk_plc_b2dc1c42f3bd::span_97f527d1152b,axa_insurance_uk_plc_b2dc1c42f3bd,15,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"A period of violent weather defined as any of the following.
+Wind speeds with gusts of at 
+least 48 knots (55mph). Which 
+is the same as a storm force 10 
+on the Beaufort Scale.
+Heavy rainfall at a rate of at least 
+25mm per hour.
+Snow at least one foot deep 
+(30cms) in 24 hours. 
+Hail that causes damage to hard 
+surfaces or breaks glass.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__10"", ""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__42"", ""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__86""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__86,32,"Section: Storm
+
+A period of violent weather defined as any of the following.
+Wind speeds with gusts of at
+least 48 knots (55mph). Which
+is the same as a storm force 10
+on the Beaufort Scale.
+Heavy rainfall at a rate of at
+least 25mm per hour.
+Snow at least one foot deep
+(30cms) in 24 hours.
+Hail that causes damage to
+hard surfaces or breaks glass.
+DEFINITION:"
+Q033,Under AXA Premier 2025 what does the contents section say about students away from home?,axa_insurance_uk_plc_b2dc1c42f3bd::span_d2d56708a6c0,axa_insurance_uk_plc_b2dc1c42f3bd,52,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"Student cover is a cover option you can add to your contents insurance. It gives protection for 
+your family members’ contents when removed from your home to student accommodation. Important note:
+You aren’t covered for student cover unless you add this section. Your schedule will show 
+if you have bought this option.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__134""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__134,52,"Section: Contents insurance
+
+Page 52 of 80AXA Premier Home Insurance – Contents insurance Student cover Student cover is a cover option you can add to your contents insurance. It gives protection for your family members’ contents when removed from your home to student accommodation. Important note: You aren’t covered for student cover unless you add this section. Your schedule will show if you have bought this option. Student cover can be added to your policy at any time. You can use your AXA Account to add it yourself online, or call us on 0330 024 1235. Bicycles worth £350 each or less are automatically covered under the Bicycle cover section when at or away from the student accommodation. Bicycles worth more than £350 can be covered under the Bicycle cover section so long as you have added these to your policy. Your schedule will show if you have added bicycles and the value for which they are covered. Bicycles valued at more than £350 which haven’t been added on your policy will not be fully covered in the event of a claim. What your policy covers What your policy doesn’t cover This section gives cover for when you or your family members are attending college, university or boarding school. We will cover you or your family’s contents when they are moved to student"
+Q033,Under AXA Premier 2025 what does the contents section say about students away from home?,axa_insurance_uk_plc_b2dc1c42f3bd::span_f945ddaf20b1,axa_insurance_uk_plc_b2dc1c42f3bd,52,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"This section gives cover for when you or your family members are attending college, 
+university or boarding school. We will cover you or your family’s contents when they are 
+moved to student accommodation. We will cover the following: 
+Storm or flood.
+Theft.
+Damage caused by vehicles, aircraft or animals.
+Falling trees.
+Fire, explosion, lightning or earthquake.
+Damage caused on purpose by others.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__135""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__135,52,"Section: Contents insurance
+
+your policy covers What your policy doesn’t cover This section gives cover for when you or your family members are attending college, university or boarding school. We will cover you or your family’s contents when they are moved to student accommodation. We will cover the following: Storm or flood. Theft. Damage caused by vehicles, aircraft or animals. Falling trees. Fire, explosion, lightning or earthquake. Damage caused on purpose by others. ■ Excess – shown in schedule. ■ student contents kept in a caravan, mobile home or motor home. ■ student contents outside the United Kingdom, the Isle of Man or the Channel Islands by riot, civil commotion, strikes, labour and political disturbances or malicious persons. ■ business equipment. ■ accidental damage (unless you have bought Personal possessions cover). ■ bicycles worth more than £350 each or £1,500 in total, unless you have added them to your policy."
+Q034,What does AXA Premier 2025 say about cancellation of the policy?,axa_insurance_uk_plc_b2dc1c42f3bd::span_7d08d2b92234,axa_insurance_uk_plc_b2dc1c42f3bd,73,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"You can cancel this policy in the first 14 days of receiving your policy documents or the start 
+date, whichever is later. If your cover hasn’t started we will refund the full premium to you. 
+If your cover has started, we will cancel this policy back to its start date and we will refund 
+the full premium to you, as long as no claims have happened.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__208""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__208,73,"Section: BL6 9LZ
+
+Please include your name, policy number and date you wish to cancel Your 14-day cancellation rights You can cancel this policy in the first 14 days of receiving your policy documents or the start date, whichever is later. If your cover hasn’t started we will refund the full premium to you. If your cover has started, we will cancel this policy back to its start date and we will refund the full premium to you, as long as no claims have happened. This will have the same effect as if you never had any cover or protection from this policy. If you have already had payment for, or you are, making a claim then we can’t cancel this policy back to its start date. We will cancel your policy and we won’t give you a refund. If you are paying by monthly payments, we will firstly apply for the full amount of premium owed to us. Where this isn’t possible, you will be contacted to arrange payment of what is owed to us. What does this mean? Your 14-day cancellation rights, or ‘cooling off period’ , gives you time to decide whether the policy you have bought is correct for you. If you cancel during this time it will be as though the policy was never set up. You can"
+Q034,What does AXA Premier 2025 say about cancellation of the policy?,axa_insurance_uk_plc_b2dc1c42f3bd::span_80670cbe873d,axa_insurance_uk_plc_b2dc1c42f3bd,73,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"You can cancel this policy at any other time, as long as none of the following applies. 
+ ■ You haven’t had payment for a claim.
+ ■ You aren’t making a claim. 
+ ■ You haven’t suffered a loss for which you intend to claim.
+If you decide to cancel your policy, you will only pay for the number of days we have covered 
+you for since the start date. We may charge you a cancellation fee.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__209""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__209,73,"Section: BL6 9LZ
+
+rights, or ‘cooling off period’ , gives you time to decide whether the policy you have bought is correct for you. If you cancel during this time it will be as though the policy was never set up. You can only cancel via this method if you haven’t made a claim, or you aren’t making a claim. Cancellation in other circumstances You can cancel this policy at any other time, as long as none of the following applies. ■ You haven’t had payment for a claim. ■ You aren’t making a claim. ■ You haven’t suffered a loss for which you intend to claim. If you decide to cancel your policy, you will only pay for the number of days we have covered you for since the start date. We may charge you a cancellation fee. If we charge a cancellation fee and you have paid us the full policy premium, we will take the fee from any refund that is due to you. This is regardless of your payment method. Where the refund value is less than the cancellation fee, we will keep the refund. Just to let you know – if you pay monthly, your final payment amount will include the cancellation fee (unless we have agreed otherwise). This is in addition to the cost for the number"
+G001,What does FCA ICOBS 8.1.1 require about handling claims promptly and fairly?,financial_conduct_authority_a7473f38887e::span_d4c9595c1fb1,financial_conduct_authority_a7473f38887e,,real_insurance_corpus_v2/extracted/fca/icobs_8_-_claims_handling_a7473f38.txt,ac8e0ff61591fffc2fd048fbad426b6b8281f8abe011231c1146d61cdcd3a600,handle claims promptly and fairly;,indexed,"[""financial_conduct_authority_a7473f38887e__ac8e0ff61591__0""]",financial_conduct_authority_a7473f38887e__ac8e0ff61591__0,0,"FCA Website Useful Links Advanced Search Help FCA Handbook in print Sign Up / Sign In FCA Website PRA Rulebook Useful Links Contact Us Advanced Search Search Clear Home FCA Handbook ICOBS ICOBS 8 ICOBS 8 Claims handling You are viewing ICOBS 8 Claims handling as of . ICOBS 8 Claims handling was last updated on 09/12/2025. Rules Guidance Evidential Provisions Deleted Related resources ICOBS 8.1 Insurers: general ICOBS 8.1.1 06/01/2008 R An insurer must: (1) handle claims promptly and fairly; (2) provide reasonable guidance to help a policyholder make a claim and appropriate information on its progress; (3) not unreasonably reject a claim (including by terminating or avoiding a policy ); and (4) settle claims promptly once settlement terms are agreed. Cases where rejection of consumer’s claim is unreasonable: contracts before 1 August 2017 ICOBS 8.1.2 01/08/2017 R For contracts entered into or variations agreed before 1 August 2017, a rejection of a consumer policyholder's claim is unreasonable, except where there is evidence of fraud, if it is: (1) in relation to contracts entered into or variations agreed on or before 5 April 2013, for: (a) non-disclosure of a fact material to the risk which the policyholder could not reasonably be expected to have disclosed; or (b) non-negligent misrepresentation of a fact material to the risk; or (2) in"
+G002,"Under ICOBS 8.1.1, when must an insurer settle a claim after settlement terms are agreed?",financial_conduct_authority_a7473f38887e::span_82f338b771a5,financial_conduct_authority_a7473f38887e,,real_insurance_corpus_v2/extracted/fca/icobs_8_-_claims_handling_a7473f38.txt,ac8e0ff61591fffc2fd048fbad426b6b8281f8abe011231c1146d61cdcd3a600,settle claims promptly once settlement terms are agreed.,indexed,"[""financial_conduct_authority_a7473f38887e__ac8e0ff61591__0""]",financial_conduct_authority_a7473f38887e__ac8e0ff61591__0,0,"FCA Website Useful Links Advanced Search Help FCA Handbook in print Sign Up / Sign In FCA Website PRA Rulebook Useful Links Contact Us Advanced Search Search Clear Home FCA Handbook ICOBS ICOBS 8 ICOBS 8 Claims handling You are viewing ICOBS 8 Claims handling as of . ICOBS 8 Claims handling was last updated on 09/12/2025. Rules Guidance Evidential Provisions Deleted Related resources ICOBS 8.1 Insurers: general ICOBS 8.1.1 06/01/2008 R An insurer must: (1) handle claims promptly and fairly; (2) provide reasonable guidance to help a policyholder make a claim and appropriate information on its progress; (3) not unreasonably reject a claim (including by terminating or avoiding a policy ); and (4) settle claims promptly once settlement terms are agreed. Cases where rejection of consumer’s claim is unreasonable: contracts before 1 August 2017 ICOBS 8.1.2 01/08/2017 R For contracts entered into or variations agreed before 1 August 2017, a rejection of a consumer policyholder's claim is unreasonable, except where there is evidence of fraud, if it is: (1) in relation to contracts entered into or variations agreed on or before 5 April 2013, for: (a) non-disclosure of a fact material to the risk which the policyholder could not reasonably be expected to have disclosed; or (b) non-negligent misrepresentation of a fact material to the risk; or (2) in"
+G003,What does the Consumer Duty say about unfairly exploiting behavioural biases or vulnerability?,financial_conduct_authority_0e750f77c2ce::span_f8ee3ed773b7,financial_conduct_authority_0e750f77c2ce,,real_insurance_corpus_v2/extracted/fca/prin_2a_-_consumer_duty_0e750f77.txt,8cac625fe34afd28e370197e4001f35e8b7444ed975f1f1ad48f91c002e75ee4,"ensuring that no aspect of its business involves unfairly exploiting behavioural biases displayed or characteristics of vulnerability held by
+retail customers",indexed,"[""financial_conduct_authority_0e750f77c2ce__8cac625fe34a__10""]",financial_conduct_authority_0e750f77c2ce__8cac625fe34a__10,0,"causing foreseeable harm to retail customers . PRIN 2A.2.9 31/07/2023 R Foreseeable harm may be caused by both act and omission, in a firm’s direct relationship with a retail customer or through its role in the distribution chain even where another firm in that chain also contributes to the harm. PRIN 2A.2.10 31/07/2023 G Avoiding causing foreseeable harm to retail customers includes: (1) ensuring all aspects of the design, terms, marketing, sale of and support for its products avoid causing foreseeable harm; (2) ensuring that no aspect of its business involves unfairly exploiting behavioural biases displayed or characteristics of vulnerability held by retail customers ; (3) identifying the potential for harm that might arise if it withdraws a product , its products change or its understanding about the impact on retail customers changes; (4) responding to emerging trends that identify new sources of harm, including FCA supervisory action and/or communications; and (5) taking appropriate action to mitigate the risk of actual or foreseeable harm, including for example by: (i) updating or otherwise amending the design of the product or distribution strategy; (ii) updating information about a product or updating investment advice ; (iii) ensuring that retail customers do not face unreasonable barriers (including unreasonable additional costs), for example when they want to switch products or providers or to complain; (iv)"
+G004,What does the FOS escape-of-water guidance say about determining whether a property was unoccupied?,financial_ombudsman_service_f28f6a85f908::span_2a80a10eadaf,financial_ombudsman_service_f28f6a85f908,,real_insurance_corpus_v2/extracted/fos_guidance/escape_of_water_claims_in_unoccupied_properties_financial_ombudsman_service_f28f6a85.txt,1ca27b646865af116e1314c1d8bb1d6b6e94e6b586387236e84ed6cc3edfc5d0,"As an insurer, you need to consider whether the property was unoccupied or not, in line with their policy wording.",indexed,"[""financial_ombudsman_service_f28f6a85f908__1ca27b646865__0""]",financial_ombudsman_service_f28f6a85f908__1ca27b646865__0,0,"Business / How to settle complaints / Data and insight / Escape of water claims in unoccupied properties Date published: 26 May 2023 Blog : Category Business Support Hub : Category James Clements Head of Operational Contact Following the cold snap in December 2022, our Business Support Hub has seen a rise in enquiries from insurers about ‘escape of water’ claims in unoccupied properties. Here, James Clements reflects on some key issues insurers need to consider when determining fair and reasonable outcomes to this type of claim. Print page Share page Send by email Tweet about this Share on LinkedIn Share on Facebook 1 Was the property actually unoccupied? As an insurer, you need to consider whether the property was unoccupied or not, in line with their policy wording. Policy wordings can differ significantly on this point. Some state the property must be slept in overnight to qualify as occupied, while others just require the policyholder to make regular visits and/or keep the property furnished. 2 When did the loss happen? It’s important that you establish the date of the leak. A policy might exclude cover once a property has been unoccupied for 30 days, but a leak was discovered on day 31. If the evidence suggests the leak started on day 29, then we’re unlikely to support an insurer"
+G005,"In FOS guidance on unoccupied properties, why should an insurer establish the date of the leak?",financial_ombudsman_service_f28f6a85f908::span_089d6c4f68c8,financial_ombudsman_service_f28f6a85f908,,real_insurance_corpus_v2/extracted/fos_guidance/escape_of_water_claims_in_unoccupied_properties_financial_ombudsman_service_f28f6a85.txt,1ca27b646865af116e1314c1d8bb1d6b6e94e6b586387236e84ed6cc3edfc5d0,"A policy might exclude cover once a property has been unoccupied for 30 days, but a leak was discovered on day 31. If the evidence suggests the leak started on day 29, then we’re unlikely to support an insurer applying the exclusion.",indexed,"[""financial_ombudsman_service_f28f6a85f908__1ca27b646865__1""]",financial_ombudsman_service_f28f6a85f908__1ca27b646865__1,0,"leak. A policy might exclude cover once a property has been unoccupied for 30 days, but a leak was discovered on day 31. If the evidence suggests the leak started on day 29, then we’re unlikely to support an insurer applying the exclusion. 3 What if the property was left unoccupied due to exceptional circumstances? We receive many enquiries about this, for example, where the policyholder has had to go into hospital or travel abroad unexpectedly. As with any case, our service would need to consider whether it’s fair and reasonable to apply a policy exclusion. To determine if a property was left unoccupied due to exceptional circumstances, we’d need to consider factors such as: how long the property has been unoccupied whether the consumer could have made alternative arrangements whether the consumer had made the insurer aware the property was going to be unoccupied. 4 What would you have done, as an insurer, if you’d known the property was unoccupied? Policy terms usually make it clear that a policyholder should tell their insurer about any major change in circumstances – such as a property becoming unoccupied. Insurers are often willing to continue offering cover for a property, though they may apply some additional terms, such as: the heating may need to be kept on and above a certain temperature"
+G006,"In the FOS Barry underinsurance case, what proportion of the total claim did FOS consider fair?",financial_ombudsman_service_4d8518cf2a71::span_b4590d6bf3e5,financial_ombudsman_service_4d8518cf2a71,,real_insurance_corpus_v2/extracted/fos_guidance/underinsurance_issues_reduce_a_buildings_insurance_claim_payout_by_50_financial_ombudsman_service_4d8518cf.txt,45ee0281cbf1e7c5c0c83ddba9914521cc3580670926008ec78949bd77dfa2c4,paying out 85% of the total claim value.,indexed,"[""financial_ombudsman_service_4d8518cf2a71__45ee0281cbf1__2""]",financial_ombudsman_service_4d8518cf2a71__45ee0281cbf1__2,0,"charged £700 rather than £600 for the policy if it had been given a reasonable estimate. We decided the insurer shouldn’t reduce the settlement based on the 50% underinsurance. Instead, we thought it was fair for the insurer to base it on the premium amount, paying out 85% of the total claim value. Underinsurance in home insurance complaints How we can help if you’ve got a complaint about being underinsured. How to complain Find out how to bring your complaint to us, and how we can help. We help settle complaints between you and your customers Information and advice for businesses on handling customer complaints. Underinsurance in home insurance complaints Information for financial businesses about how we handle cases when the customer is underinsured. Related case studies Mary’s warranty provider takes months to accept damage liability Previous repairs caused a new leak after Mary’s ten-year buildings warranty term was up. Should she have been offered compensation? Buildings insurance Distress and inconvenience Up to £1,500 Read more about the 'Mary’s warranty provider takes months to accept damage liability' case study Uneven concrete flooring – subsidence or poor construction? An insurer paid for a couple to move into alternative accommodation while subsidence damage in their flat was being fixed. When further problems came to light, we helped to work out who was"
+G007,Why did FOS not uphold Andrea’s complaint about a burglary claim and understated contents?,financial_ombudsman_service_2da959bb8a34::span_c1ae270ca6b3,financial_ombudsman_service_2da959bb8a34,,real_insurance_corpus_v2/extracted/fos_guidance/burglary_victim_complains_after_insurer_voids_policy_for_under_insurance_financial_ombudsman_service_2da959bb.txt,84b45e17e8d0e3796699579b27c597b8e6098541493995e5d6862f99ce0b21a4,"It didn't look like Andrea had taken enough care to complete the forms with up-to-date information. We also agreed that if the insurer had known the true cost of the items, they wouldn't have given the insurance.",indexed,"[""financial_ombudsman_service_2da959bb8a34__84b45e17e8d0__2""]",financial_ombudsman_service_2da959bb8a34__84b45e17e8d0__2,0,"year's renewal forms, there was a covering letter. In bold text, it said: ""Please ensure all the information you provide is accurate and up to date, as any inaccurate information could impact upon the success of future claims."" We also saw that on Andrea's renewal forms, which she had signed, it said: ""Please check this information carefully and call us immediately if anything is untrue, incomplete or out of date so we can send you new documents."" Below the contents section Andrea had to confirm that ""the full cost of replacing the contents of your property does not exceed £25,000"". The insurer said that if they'd known the true cost of Andrea's items, they wouldn't have insured her. They sent us their underwriting guidance to explain their point. In the guidance it said that insurance wouldn't be granted if the contents were worth more than £100,000, or if there was an ""excessive amount of jewellery"". We decided not to uphold Andrea's complaint. It didn't look like Andrea had taken enough care to complete the forms with up-to-date information. We also agreed that if the insurer had known the true cost of the items, they wouldn't have given the insurance. We recognised that Andrea had gone through a very distressing experience but, from the evidence we'd seen, didn't feel that the"
+E001,"According to this LV policy wording, which document specifies my excess?",lv_03904e7e51ee::span_40e59864ea31,lv_03904e7e51ee,19,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"If your personal details shows you have to pay an excess, this is the amount you 
+must pay as the first part of any claim.",indexed,"[""lv_03904e7e51ee__476fba66a133__55""]",lv_03904e7e51ee__476fba66a133__55,19,"Section: Defective Premises Northern
+
+Cash payments If we can offer a repair or replacement through one of our suppliers and you choose not to have the item repaired or replaced or you wish to use you own supplier, we will not pay more than the amount we would have paid our supplier. If we’re unable to offer repair or an equivalent replacement is not available, we’ll pay the nearest cash equivalent or current market value of the item at the time of the loss or damage. We will not accept any future claim for the same incident if the cash provided was not used to repair the damage or replace the damaged item. Excesses that apply If your personal details shows you have to pay an excess, this is the amount you must pay as the first part of any claim. The limit of cover will be applied after payment of any excess. Matching sets and suites If you make a claim for any damage to matching bathroom suite or kitchen, and a repair or replacement of the damaged items is not available, we’ll make a cash contribution of 50% towards the cost of replacing any undamaged items which are part of the same set or suite. If you make a claim for damage to fitted flooring that matches an adjoining room, and a"
+E002,Are motor vehicles included in the definition of contents in this LV home wording?,lv_03904e7e51ee::span_f5b30624fa0d,lv_03904e7e51ee,20,real_insurance_corpus_v2/extracted/policies/lv_home_insurance_policy_document_03904e7e.txt,476fba66a133ae86beed5eef24e60db69c6db6a158299c78c32bb7bd46517e5b,"Contents are not:
+• motor vehicles (including motorbikes, quad bikes and motorised scooters), 
+caravans, trailers, watercraft, aircraft and all their accessories;",indexed,"[""lv_03904e7e51ee__476fba66a133__62""]",lv_03904e7e51ee__476fba66a133__62,20,"Section: Contents
+
+This section only applies if selected by you and is shown as covered on your
+personal details. Contents are the following property belonging to you, your family
+or you and your family are legally responsible for when inside your home:
+• household goods;
+• valuables, but not more than any limit shown on your personal details;
+• home entertainment equipment;
+• business equipment, but not more than £5,000 in total;
+• money and credit cards;
+• bicycles;
+• television or radio aerials, satellite dishes and their fittings;
+• tenant’s fixtures and improvements;
+Contents are not:
+• motor vehicles (including motorbikes, quad bikes and motorised scooters),
+caravans, trailers, watercraft, aircraft and all their accessories;
+• animals;
+• business stock, tools or materials used for business to any extent;
+• any part of the structure of your home, including decorations or permanent
+fixtures and fittings.
+We’ll provide the following cover for any loss or damage to the contents in your
+home for the causes below up to the limit of cover shown on your personal details."
+V001,Compare the unoccupied definitions in the AXA Premier 2023 file and 2025 file.,axa_insurance_uk_plc_405909992a8f::span_0d78a6a91914,axa_insurance_uk_plc_405909992a8f,56,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2023_40590999.txt,96a7ce35230ebecbd80aa632a008c0e87eb62f1e8936c490d13eaf42fe6e295f,"Unoccupied
+Not lived in and not occupied overnight by you or your family for more than  
+60 consecutive days.",indexed,"[""axa_insurance_uk_plc_405909992a8f__96a7ce35230e__155""]",axa_insurance_uk_plc_405909992a8f__96a7ce35230e__155,56,"Section: Definitions
+
+AXA Premier Home Insurance – Definitions Page 56 of 67Go to Content page Unfurnished Does not contain enough furniture and furnishings for normal living purposes for more than 30 consecutive days. Unoccupied Not lived in and not occupied overnight by you or your family for more than 60 consecutive days. Valuables Jewellery, articles containing gold, silver or other precious metals, watches, paintings and other works of art and collections of stamps, coins and medals. Vehicles or craft Electrically or mechanically propelled or assisted vehicles including plant machinery, mini diggers, fork lift trucks, motor cycles, powered transporters (including e-scooters and Segway's), children’s motor cycles, quad bikes and children’s quad bikes. Aircraft (including any type of gliders), drones (including mechanically propelled aerial toys, models or devices), boats, hovercraft and any other type of craft designed to be used in or on water including hand or foot propelled craft, sailboards and windsurfers. Trailers, carts, wagons, caravans and horse boxes. Parts, spares and accessories (including keys and key fobs) for any of the items described in the boxes above and left. The following items are not included in this definition: ■ Ride on lawn mowers only used for domestic purposes within the boundaries of the land belonging to your home. ■ Wheelchairs, mobility scooters and invalid carriages, provided they are only being used for"
+V001,Compare the unoccupied definitions in the AXA Premier 2023 file and 2025 file.,axa_insurance_uk_plc_b2dc1c42f3bd::span_a85a2814c5ff,axa_insurance_uk_plc_b2dc1c42f3bd,12,real_insurance_corpus_v2/extracted/policies/axa_direct_home_premier_2025_b2dc1c42.txt,6630419d85b20b0a60891fc9a3b4f92a9933c843e37c8909d67480ec87c9b3d1,"Unoccupied
+Not lived in and not occupied overnight by you or your family for more than 
+60 days in a row.",indexed,"[""axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__36""]",axa_insurance_uk_plc_b2dc1c42f3bd__6630419d85b2__36,12,"Section: Definitions
+
+Page 12 of 80AXA Premier Home Insurance – Definitions Trace and access When it’s difficult to find what’s caused the emergency (such as a leak) in your home and needs expert equipment and tools to find it. This also includes work that in the opinion of our approved contractor is more complex than lifting floorboards or removing bath panels and cosmetic fascias. For example, this could be digging up floors or breaking into walls. Unfurnished Does not have enough furniture and furnishings inside, for normal living purposes for more than 60 days in a row. We may consider a home as unfurnished if it doesn’t have for example: white goods such as a fridge or cooker and some basic furniture such as a bed or sofa. Unoccupied Not lived in and not occupied overnight by you or your family for more than 60 days in a row. Valuables Jewellery, items containing gold, silver or other precious metals, watches, paintings and other works of art and collections of stamps, coins and medals. Vehicles or craft Electrically or mechanically propelled or assisted vehicles. These include plant machinery, mini diggers, fork lift trucks, motor cycles, powered transporters (including E-scooters and Segways), children’s motor cycles, quad bikes and children’s quad bikes. Aircraft (including any type of gliders). Drones (including mechanically propelled aerial toys, models"

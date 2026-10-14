@@ -1,0 +1,20 @@
+{
+  "domain": "home_insurance",
+  "index_dir": "insurance_chroma_index_v3",
+  "collection": "insurance_chunks",
+  "embedding_model": "all-MiniLM-L6-v2",
+  "corpus_fingerprint": "a7c6241a2308d34c495a45229414dcb4ad6ad2381f87a72123a548aaee564f2f",
+  "scope_note": "First iteration: six home-policy wordings plus FCA and legislation documents. FOS documents are excluded from the embedding reference to avoid importing adjacent-product cases; they may still be retrieved later with applicability checks. No answerability is asserted by inclusion.",
+  "trusted_document_ids": [
+    "lv_03904e7e51ee",
+    "aviva_837d5b56fe01",
+    "axa_insurance_uk_plc_8eba967c12b8",
+    "axa_insurance_uk_plc_405909992a8f",
+    "axa_insurance_uk_plc_b2dc1c42f3bd",
+    "axa_insurance_uk_plc_00f571f226ca",
+    "financial_conduct_authority_a7473f38887e",
+    "financial_conduct_authority_0e750f77c2ce",
+    "uk_legislation_81bd668a6ac2",
+    "uk_legislation_96fde05cbf8f"
+  ]
+}

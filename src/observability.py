@@ -110,6 +110,7 @@ def request_event(response: Mapping[str, Any], cache_hit: bool) -> dict[str, Any
         "retrieval": (repro or {}).get("retrieval", {}),
         "query_ood": response.get("query_metrics", {}),
         "chunk_ood": response.get("chunk_metrics", []),
+        "cost_metrics": response.get("cost_metrics", {}),
     }
 
 
@@ -156,10 +157,18 @@ def monitoring_summary(events: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
     total = len(events)
     uncached = [event for event in events if not event.get("cache_hit")]
     stage_names = ("dense", "bm25", "fusion", "rerank")
+    latest_cost = 0.0
+    for event in reversed(events):
+        value = event.get("cost_metrics")
+        if isinstance(value, (int, float)):
+            latest_cost = float(value)
+            break
     latencies = {
         name: _latency_summary(_numeric_values(uncached, ("retrieval", "stage_latency_ms", name)))
         for name in stage_names
     }
+    print("inside monitoring_summary")
+    print(latest_cost)
     agreement_values = _numeric_values(uncached, ("retrieval", "agreement", "top_k_jaccard"))
     top_one_values = _numeric_values(uncached, ("retrieval", "agreement", "top_1_agrees"))
     ood = {
@@ -182,6 +191,7 @@ def monitoring_summary(events: Sequence[Mapping[str, Any]]) -> dict[str, Any]:
             "top_1_agreement_rate": round(mean(top_one_values), 4) if top_one_values else None,
         },
         "ood_distributions": ood,
+        "cost_metrics": latest_cost,
     }
 
 

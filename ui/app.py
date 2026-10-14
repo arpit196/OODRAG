@@ -60,6 +60,8 @@ class AppSettings:
     cache: CacheSettings = field(default_factory=CacheSettings)
     environment: str = "development"
     app_version: str = "dev"
+    grounding_model_path: str | None = None
+    grounding_threshold: float = 0.5
     @classmethod
     def from_env(cls, env: Mapping[str, str] | None = None) -> "AppSettings":
         """Create settings without making import-time environment decisions."""
@@ -74,6 +76,8 @@ class AppSettings:
             environment=os.environ.get("RAG_ENVIRONMENT", "development"),
             app_version=os.environ.get("RAG_APP_VERSION", "dev"),
             cache=CacheSettings.from_env(values),
+            grounding_model_path=values.get("RAG_GROUNDING_MODEL_PATH") or None,
+            grounding_threshold=float(values.get("RAG_GROUNDING_THRESHOLD", "0.5")),
         )
 
 
@@ -122,6 +126,8 @@ def build_agent(settings: AppSettings) -> RAGAgent:
         index_dir=index_dir,
         ood_reference_path=settings.ood_reference_path,
         generator=generator,
+        grounding_model_path=settings.grounding_model_path,
+        grounding_threshold=settings.grounding_threshold,
     )
 
 
