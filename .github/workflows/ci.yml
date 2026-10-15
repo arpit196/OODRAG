@@ -2,7 +2,7 @@ name: Insurance offline CI
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, feature/insurace-validate]
   pull_request:
   workflow_dispatch:
 
