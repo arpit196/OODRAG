@@ -258,6 +258,9 @@ document tag. If evidence is insufficient, say so; never infer missing cover.
 For a definition-only question, return the cited definition concisely; do not add
 coverage lists, examples or exclusions that were not requested. Never interpret
 an ambiguous flattened covered/not-covered table as proof of coverage.
+For a general policy-excess question, explain the definition and schedule reference
+concisely, retaining applicable qualifications. Do not repeat identical clauses or
+request a customer's numerical excess unless asked for that amount.
 For a definition comparison, quote each version's actual definition with its own
 citation. Distinguish equivalent meaning from identical wording; do not substitute
 one version's wording for another's.
@@ -280,17 +283,22 @@ def insurance_gate_response(reason: str, assessment: Optional[Dict] = None, chun
                 'the record for your policy and version; general policy wording alone does not establish your excess.')
     if reason == "partial_support":
         by_id = {c['id']: c for c in chunks or []}
-        quotes, seen = [], set()
+        quotes, grouped = [], {}
         for part in (assessment or {}).get('parts', []):
             if part['status'] != 'supported' or any(part.get(k) for k in
                     ('missing_evidence', 'missing_customer_facts', 'conflicts')):
                 continue
             for ref in part['evidence']:
                 chunk = by_id.get(ref['chunk_id'])
-                key = (ref['chunk_id'], ref['quote'])
-                if chunk is not None and key not in seen:
-                    seen.add(key)
-                    quotes.append(f'“{ref["quote"]}” [{chunk["cite_id"]}]')
+                if chunk is not None:
+                    # Merge identical wording only within the same document.
+                    key = ((chunk.get('metadata') or {}).get('doc_id') or ref['chunk_id'],
+                           ' '.join(ref['quote'].split()))
+                    entry = grouped.setdefault(key, {'quote': ref['quote'], 'cites': []})
+                    if chunk['cite_id'] not in entry['cites']:
+                        entry['cites'].append(chunk['cite_id'])
+        quotes = [f'“{entry["quote"]}” ' + ' '.join(f'[{n}]' for n in entry['cites'])
+                  for entry in grouped.values()]
         missing = sorted({item for part in (assessment or {}).get('parts', [])
                           for field in ('missing_customer_facts', 'missing_evidence')
                           for item in part.get(field, []) if item.strip()})

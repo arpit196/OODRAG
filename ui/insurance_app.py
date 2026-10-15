@@ -29,7 +29,7 @@ def build_agent():
     collection = chromadb.PersistentClient(path=index).get_collection(scope['collection'])
     if any((collection.metadata or {}).get(k) != scope[k] for k in ('embedding_model', 'corpus_fingerprint')):
         raise ValueError('Index does not match insurance scope')
-    model = SentenceTransformer(scope['embedding_model'], cache_folder=str(ROOT / '.benchmark-model-cache'),
+    model = SentenceTransformer(os.getenv('INSURANCE_EMBED_MODEL_PATH', scope['embedding_model']), cache_folder=str(ROOT / '.benchmark-model-cache'),
                                 local_files_only=os.getenv('INSURANCE_ALLOW_MODEL_DOWNLOAD') != '1')
     return InsuranceRAGAgent(index, str(ROOT / 'data/home_insurance_ood.npz'),
                             insurance_scope_path=str(scope_path),
@@ -96,6 +96,16 @@ def create_app(agent_factory=build_agent, corpus=ROOT / 'real_insurance_corpus_v
         yield
 
     app = FastAPI(title='Insurance evidence chat', lifespan=lifespan)
+
+    @app.get('/healthz')
+    def health():
+        return {'status': 'ok'}
+
+    @app.get('/readyz')
+    def ready():
+        if not hasattr(app.state, 'agent') or not hasattr(app.state, 'documents'):
+            raise HTTPException(503, 'Initializing')
+        return {'status': 'ready'}
 
     @app.get('/')
     def home():

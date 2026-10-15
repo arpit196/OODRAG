@@ -121,6 +121,20 @@ def is_definition_comparison(query):
             and not re.search(r'\b(?:also|and\s+(?:what|why|how|when|where|does|is|are|can|explain|confirm|tell))\b', query, re.I))
 
 
+def is_single_cause_wording_question(query):
+    """One wording request, not multiple benefit/eligibility questions."""
+    return (len(query) <= 300 and bool(re.fullmatch(
+        r'What does [^?;]+ say about [^?;]+ (?:caused by|due to) [^?;]+[?.]?', query.strip(), re.I))
+        and not re.search(r'\b(?:and|also|compare|my|claim|whether|how|what|when|where|why)\b',
+                          query.strip()[len('What does '):], re.I))
+
+
+def is_general_excess_wording_question(query):
+    return (len(query) <= 300 and bool(re.fullmatch(
+        r'What does [^?;]+ say about (?:policy )?excess(?:es)?[?.]?', query.strip(), re.I))
+        and not re.search(r'\b(?:my|and|also|compare|customer|exact)\b', query, re.I))
+
+
 def assessment_payload(query, context, chunks):
     """The exact user-message data sent to the assessor, also used for budgeting."""
     bookkeeping = {"raw_path", "extracted_path", "sha256", "extracted_sha256",
@@ -154,6 +168,12 @@ Return assessed_question verbatim and one assessment for every part.
 Do not invent extra requests: a general definition, limit or policy-information
 question does not ask whether a specific customer claim is eligible. Split policy
 benefits from incident eligibility ONLY when the original question asks both.
+For a limit-only question, assess the stated limit in ONE part; do not add a
+separate conditions/exclusions request. Missing a general list of exclusions is
+not a gap in the requested limit. Retain any qualification needed to state that
+limit correctly; if it is unresolved, record the gap within the same part.
+Assess exclusions separately when explicitly requested, and still require material
+conditions and exclusions for a customer-specific eligibility conclusion.
 Use one part per distinct request and multiple references in that part, not
 duplicate parts for each supporting passage.
 If a requested part is only partially supported, return ONE insufficient_evidence
@@ -179,7 +199,12 @@ with relevant restrictions; do not require proof of this customer's eligibility.
 For a customer-specific conclusion, all material conditions, definitions,
 exclusions, limits and dependencies must be available and applicable. Relevance or
 a heading alone is not support. An explicit exclusion can support an answer
-of 'not covered'; silence cannot. Do not import general insurance knowledge.
+of 'not covered'; silence cannot. For a general question about a specified cause,
+an explicit applicable exclusion answers that request: mark it supported, not
+missing merely because the answer is negative. Do not split that single request
+into overlapping 'what is covered' and 'what is not covered' parts or ask for
+the same exclusion already cited. If an exclusion depends on an unresolved fact
+or exception, retain that concrete gap. Do not import general insurance knowledge.
 For customer_claim, do not assume unstated event facts, coverage selections,
 endorsements, excesses, dates or limits. List material missing customer facts.
 Unknown or unverified fact values do not establish those facts.
@@ -191,6 +216,9 @@ also cite applicable policy wording for coverage conditions and exclusions.
 Distinguish a missing policy clause from a missing customer schedule. When
 wording identifies the document containing an excess, that can support the
 "where is it specified" part without supplying the customer's numerical amount.
+For a general question about policy excess, explain its definition and where the
+amount is specified using the evidence. Do not add a request for the customer's
+numerical excess or require their schedule unless the question asks for it.
 For an exact amount, name the missing applicable personal-details/schedule
 evidence if it is not supplied; never infer an amount from unrelated limits.
 For general requests, describe only what these documents establish; do not infer
@@ -206,7 +234,8 @@ Use only the evidence references needed to establish each part and its material
 restrictions. Source text is supplied as numbered spans. Select the relevant
 span_index from its own chunk; Python recovers the exact quote. Do not generate
 quote text or count character offsets. Select multiple spans for a clause or list
-when necessary, including conditions and exclusions. Do not repeat references or missing
+when necessary to establish the requested proposition and its qualifications.
+Do not repeat references or missing
 items. For unsupported parts list the specific gap, not a speculative answer.
 Use at most 12 references per part and 8 requested parts. Do not enumerate the
 whole policy for a broad question: identify the principal requested provisions.
@@ -308,11 +337,13 @@ class LangChainEvidenceAssessor:
                             'required': ['chunk_id', 'span_index']})
                 if options:
                     schema['$defs']['EvidenceReference'] = {'anyOf': options}
-            schema['properties']['parts']['maxItems'] = 1 if is_definition_comparison(query) else 8
+            single_request = (is_definition_comparison(query) or is_single_cause_wording_question(query)
+                              or is_general_excess_wording_question(query))
+            schema['properties']['parts']['maxItems'] = 1 if single_request else 8
             properties = schema['$defs']['QuestionPart']['properties']
             properties['evidence']['maxItems'] = 12
             properties['question_part']['maxLength'] = 300
-            if is_definition_comparison(query):
+            if single_request:
                 properties['question_part']['enum'] = [query]
             for field in ('missing_evidence', 'missing_customer_facts', 'conflicts'):
                 properties[field]['maxItems'] = 6
@@ -585,6 +616,17 @@ class InsuranceEvidencePipeline:
             source_type="policy" if state["context"].request_type == "customer_claim" else None,
             **({"query_embedding": state["query_embedding"]} if state["query_embedding"] is not None else {}),
         )
+        if is_general_excess_wording_question(state['query']) and state['context'].request_type == 'general':
+            docs = {c['metadata'].get('doc_id') for c in state['chunks']
+                    if c['metadata'].get('source_type') == 'policy'
+                    and c['metadata'].get('doc_id') in state['allowed_ids']}
+            definitions = [dict(c, title=c['metadata'].get('title', '')) for c in self.retriever.chunks
+                if len(docs) == 1 and c['metadata'].get('doc_id') in docs
+                and re.search(r'\bExcess\s*[-–:]\s*\S', c['text'])]
+            if len(definitions) == 1:
+                definition = definitions[0]
+                state['chunks'] = [definition] + [c for c in state['chunks'] if c['id'] != definition['id']]
+                state['retrieval_diagnostics']['excess_definition_lookup'] = {'chunk_ids': [definition['id']]}
         # Recover explicit glossary entries using existing chunks; no model call.
         term = re.search(r'\b(?:define\s+|definition\s+of\s+)([^?]+)', state['query'], re.I)
         if not term:
@@ -659,6 +701,14 @@ class InsuranceEvidencePipeline:
         if state["action"]:
             return state
         state["steps"].append("evidence_expansion")
+        if self._complaints_evidence(state):
+            self._check_scope(state)
+            self._check_evidence_budget(state, 'evidence_expansion')
+            return state
+        if self._cover_overview_evidence(state):
+            self._check_scope(state)
+            self._check_evidence_budget(state, 'evidence_expansion')
+            return state
         # Initial retrieval and targeted reference clauses are mandatory evidence.
         state["primary_chunk_ids"] = [c['id'] for c in state['chunks']]
         if any(state['retrieval_diagnostics'].get(key, {}).get('focused')
@@ -707,6 +757,116 @@ class InsuranceEvidencePipeline:
         self._fit_expansion_budget(state)
         self._check_evidence_budget(state, "evidence_expansion")
         return state
+
+    def _complaints_evidence(self, state):
+        """Recover a substantive policy complaints procedure, not claim reporting."""
+        query = state['query']
+        if (state['context'].request_type != 'general'
+                or not re.search(r'\bcomplaints?\b', query, re.I)
+                or not re.search(r'\b(?:escalation|process|procedure)\b', query, re.I)
+                or re.search(r'\b(?:and|also|compare|my)\b|[;]', query, re.I)
+                or query.count('?') > 1):
+            return False
+        docs = {c['metadata'].get('doc_id') for c in state['chunks']
+                if c['metadata'].get('source_type') == 'policy'
+                and c['metadata'].get('doc_id') in state['allowed_ids']}
+        if len(docs) != 1:
+            return False
+        core = [c for c in self.retriever.chunks if c['metadata'].get('doc_id') in docs
+                and c['metadata'].get('source_type') == 'policy'
+                and re.search(r'\bcomplaints?\b', c['text'], re.I)
+                and re.search(r'\b(?:investigation|investigated|acknowledged|written\s+response)\b', c['text'], re.I)]
+        selected = {c['id']: c for c in core}
+        for c in core:
+            index = c['metadata'].get('chunk_index')
+            if isinstance(index, int):
+                for adjacent in (index - 1, index + 1):
+                    for neighbor in self.neighbors.get((c['metadata']['doc_id'], adjacent), []):
+                        if (re.search(r'\bombudsman\b', neighbor['text'], re.I)
+                                and re.search(r'\b(?:review|rights)\b', neighbor['text'], re.I)):
+                            selected.setdefault(neighbor['id'], neighbor)
+        chunks = sorted(selected.values(), key=lambda c: self.chunk_positions[c['id']])
+        if (not chunks or len(chunks) > 4 or len(json.dumps(
+                assessment_payload(query, state['context'], chunks), ensure_ascii=False)) > self.max_evidence_chars):
+            return False
+        state['chunks'] = [dict(c, title=c['metadata'].get('title', '')) for c in chunks]
+        state['primary_chunk_ids'] = [c['id'] for c in chunks]
+        state['retrieval_diagnostics']['complaints_lookup'] = {
+            'document_id': next(iter(docs)), 'selected_chunk_ids': state['primary_chunk_ids'], 'focused': True}
+        return True
+
+    def _cover_overview_evidence(self, state):
+        """Bounded, same-document benefits lookup for an explicit named-cover overview."""
+        query = state['query']
+        match = re.fullmatch(r'What does (.+?\bcover) include[?.]?', query.strip(), re.I)
+        if (not match or state['context'].request_type != 'general'
+                or re.search(r'\b(?:and|also|compare|my|claim|excess|limit|selected)\b', query, re.I)):
+            return False
+        # Anchor only a cover explicitly named both in the question and a retrieved
+        # "<name> (optional cover)" source heading; never infer a parent from proximity.
+        words = re.findall(r'[\w-]+', match[1].casefold())
+        anchors = []
+        for width in range(min(6, len(words)), 0, -1):
+            for start in range(len(words) - width + 1):
+                name = ' '.join(words[start:start + width])
+                for c in state['chunks']:
+                    if (c['metadata'].get('source_type') == 'policy'
+                            and c['metadata'].get('doc_id') in state['allowed_ids']
+                            and re.search(r'\b' + re.escape(name).replace(r'\ ', r'\s+')
+                                          + r'\s*\(optional cover\)', c['text'], re.I)):
+                        anchors.append((name, c))
+            if anchors:
+                break
+        if not anchors or len({(name, c['metadata']['doc_id']) for name, c in anchors}) != 1:
+            return False  # Ambiguous documents/versions remain on ordinary retrieval.
+        name, anchor = max(anchors, key=lambda item: item[1]['metadata'].get('chunk_index', -1))
+        prefix = match[1].casefold().split(name, 1)[0].strip()
+        label = ' '.join(str(anchor['metadata'].get(k) or '') for k in ('provider', 'title', 'product'))
+        if prefix and re.sub(r'\W+', '', prefix) not in re.sub(r'\W+', '', label.casefold()):
+            return False
+        index = anchor['metadata'].get('chunk_index')
+        if not isinstance(index, int):
+            return False
+        window = [c for i in range(index + 1, index + 33)
+                  for c in self.neighbors.get((anchor['metadata']['doc_id'], i), [])]
+        selected, started, closed, last_number = [anchor], False, False, 0
+        for c in window:
+            section = c['metadata'].get('section', '')
+            if re.search(r'\(optional cover\)', c['text'], re.I):
+                closed = True
+                break
+            if not started:
+                if section.casefold().strip() != 'what is covered':
+                    continue
+                started = True
+            elif re.match(r'general conditions\b', section, re.I):
+                closed = True
+                break
+            elif not (re.match(r'\d+\.\s', section) or re.match(r'general exceptions\b', section, re.I)):
+                break
+            numbered = re.match(r'(\d+)\.\s', section)
+            if numbered:
+                number = int(numbered[1])
+                if number not in (last_number, last_number + 1):
+                    return False
+                last_number = number
+            # Ignore empty table headers, keeping substantive source chunks whole.
+            body = c['text'].split('\n\n', 1)[-1]
+            if re.sub(r"[\W_]+", '', body).casefold() != 'whatscoveredwhatsnotcovered':
+                selected.append(c)
+        if not started or not closed or not last_number or len(selected) > 16:
+            return False
+        if len(json.dumps(assessment_payload(query, state['context'], selected), ensure_ascii=False)) > self.max_evidence_chars:
+            return False  # Never silently trim an overview to fit.
+        state['retrieval_diagnostics']['cover_overview_lookup'] = {
+            'cover': name, 'document_id': anchor['metadata']['doc_id'],
+            'selected_chunk_ids': [c['id'] for c in selected],
+            'replaced_chunk_ids': [c['id'] for c in state['chunks'] if c['id'] not in {s['id'] for s in selected}],
+            'scope': 'benefits and adjacent general exceptions; not full claim eligibility',
+            'focused': True}
+        state['chunks'] = [dict(c, title=c['metadata'].get('title', '')) for c in selected]
+        state['primary_chunk_ids'] = [c['id'] for c in selected]
+        return True
 
     def _fit_expansion_budget(self, state):
         """Admit whole optional chunks; never truncate text or discard primary hits."""
@@ -758,6 +918,18 @@ class InsuranceEvidencePipeline:
         query = state["query"].casefold()
         lookup = state.get("retrieval_diagnostics", {}).get("excess_clause_lookup", {})
         reference_ids = {c["chunk_id"] for c in lookup.get("reference_clauses", [])}
+        definition_ids = set(state.get('retrieval_diagnostics', {}).get('excess_definition_lookup', {}).get('chunk_ids', []))
+        if (is_general_excess_wording_question(state['query'])
+                and state['context'].request_type == 'general' and definition_ids and reference_ids):
+            selected = [c for c in state['chunks'] if c['id'] in definition_ids | reference_ids]
+            if (definition_ids | reference_ids <= {c['id'] for c in selected}
+                    and len({c['metadata'].get('doc_id') for c in selected}) == 1):
+                state['chunks'] = selected
+                state['retrieval_diagnostics']['evidence_selection'] = {
+                    'strategy': 'general_excess_definition_and_references',
+                    'selected_chunk_ids': [c['id'] for c in selected],
+                    'neighbor_expansion': False, 'supplementary_searches': 0}
+                return True
         if not state["context"].policy_document_id or not reference_ids:
             return False
         if not re.search(r"\bexcess(?:es)?\b", query):

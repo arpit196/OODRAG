@@ -1,0 +1,51 @@
+name: Insurance offline CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: insurance-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  offline-tests:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+      HF_HUB_OFFLINE: '1'
+      TRANSFORMERS_OFFLINE: '1'
+      OPENAI_API_KEY: ci-dummy-key-not-a-secret
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements-ci.txt
+      - name: Install offline test dependencies
+        run: python -m pip install -r requirements-ci.txt
+      - name: Check dependency compatibility
+        run: python -m pip check
+      - name: Check Python syntax
+        run: python -m compileall -q src ui scripts evaluate_insurance_boundary.py evaluate_insurance_benchmark.py report_insurance_results.py simplify_insurance_results.py
+      - name: Run offline regression tests
+        shell: bash
+        run: |
+          mkdir -p ci-results
+          set -o pipefail
+          python scripts/run_ci_tests.py 2>&1 | tee ci-results/tests.log
+      - name: Save test results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: offline-test-results
+          path: ci-results/
+          if-no-files-found: warn
+          retention-days: 14

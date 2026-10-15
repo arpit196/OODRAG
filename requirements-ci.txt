@@ -1,0 +1,12 @@
+# Lightweight offline checks only; no Chroma engine, Torch or embedding downloads.
+# Direct versions match the environment used for local regression checks.
+fastapi==0.143.1
+httpx==0.28.1
+pydantic==2.14.1
+numpy==2.5.3
+scikit-learn==1.9.1
+joblib==1.6.0
+openai==3.26.0
+python-dotenv==1.2.4
+langchain-openai==1.6.7
+langchain-core==1.6.7

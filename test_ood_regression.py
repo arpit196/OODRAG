@@ -18,6 +18,11 @@ The suite deliberately separates:
 
 Near-OOD "caught" means predicted near_ood OR ood. Far-OOD "caught" means
 predicted ood. ID is correct only when predicted id.
+
+Add --grounding-model data/grounding.joblib --index chroma_index to test
+the three-stage pipeline. In that mode, ID success requires generation;
+both OOD groups require refusal. Band records the final gate decision:
+Stage 1 refusal = ood, Stage 2 refusal = near_ood, generation = id.
 """
 
 from __future__ import annotations
@@ -27,7 +32,10 @@ import contextlib
 import csv
 import importlib.util
 import io
-from dataclasses import dataclass
+import json
+import sys
+from collections import Counter
+from dataclasses import dataclass, fields
 from pathlib import Path
 from typing import Dict, List
 
@@ -115,6 +123,13 @@ class Result:
     knn_distance: float
     mahalanobis: float
     probability_source: str
+    stage1_band: str = ""
+    action: str = ""
+    execution_path: str = ""
+    grounding_probability: float | None = None
+    generation_error: str = ""
+    response_text: str = ""
+    seen_in_grounding_dataset: bool = False
 
 
 def load_ood_module(path: str):
@@ -182,6 +197,41 @@ def evaluate(detector, model: SentenceTransformer, show_detector_output: bool = 
     return rows
 
 
+def evaluate_pipeline(pipeline, grounding_model_path: str, show_detector_output: bool = False) -> List[Result]:
+    """Reuse the same cases and summaries; judge the final pipeline action."""
+    dataset_path = Path(grounding_model_path).with_suffix(".training.jsonl")
+    seen = set()
+    if dataset_path.exists():
+        seen = {" ".join(json.loads(line)["query"].casefold().split())
+                for line in dataset_path.read_text(encoding="utf-8").splitlines() if line.strip()}
+    rows = []
+    for group, queries in TEST_CASES.items():
+        for query in queries:
+            with contextlib.nullcontext() if show_detector_output else contextlib.redirect_stdout(io.StringIO()):
+                response = pipeline.run(query)
+            debug = response.debug_metadata
+            score = debug["query_metrics"]
+            rejected = response.action == "abstain"
+            band = ("near_ood" if "stage2" in response.execution_path else "ood") if rejected else (
+                "id" if response.action in {"generate", "hedge"} and "stage3" in response.execution_path else response.action)
+            rows.append(Result(
+                group=group, query=query, predicted_band=band,
+                caught_correctly=(band == "id" if group == "id" else rejected), strict_correct=is_strict(group, band),
+                p_ood=float(score.get("ood_probability") if score.get("ood_probability") is not None else np.nan),
+                energy=float(score.get("energy") if score.get("energy") is not None else np.nan),
+                knn_distance=float(score.get("knn_distance") if score.get("knn_distance") is not None else np.nan),
+                mahalanobis=float(score.get("mahalanobis") if score.get("mahalanobis") is not None else np.nan),
+                probability_source=str(score.get("probability_source", "")),
+                stage1_band=str(score.get("ood_band", "")), action=response.action,
+                execution_path=" -> ".join(response.execution_path),
+                grounding_probability=debug["grounding_metrics"].get("probability"),
+                generation_error=debug["repro"].get("generation_error") or "",
+                response_text=response.response_text,
+                seen_in_grounding_dataset=" ".join(query.casefold().split()) in seen,
+            ))
+    return rows
+
+
 def print_per_query(rows: List[Result]) -> None:
     print("\nPER-QUERY RESULTS")
     print("=" * 118)
@@ -197,6 +247,9 @@ def print_per_query(rows: List[Result]) -> None:
             f"{r.group:<10} {ok:<3} {r.predicted_band:<9} {r.p_ood:>8.3f} "
             f"{r.energy:>12.3f} {r.knn_distance:>9.4f}  {r.query}"
         )
+        if r.execution_path:
+            probability = f"{r.grounding_probability:.3f}" if r.grounding_probability is not None else "not evaluated"
+            print(f"           path={r.execution_path}; action={r.action}; P(grounded)={probability}")
 
 
 def summarize(rows: List[Result]) -> Dict[str, dict]:
@@ -260,18 +313,7 @@ def write_csv(rows: List[Result], path: str) -> None:
     with out.open("w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(
             f,
-            fieldnames=[
-                "group",
-                "query",
-                "predicted_band",
-                "caught_correctly",
-                "strict_correct",
-                "p_ood",
-                "energy",
-                "knn_distance",
-                "mahalanobis",
-                "probability_source",
-            ],
+            fieldnames=[field.name for field in fields(Result)],
         )
         writer.writeheader()
         for r in rows:
@@ -301,11 +343,13 @@ def enforce_minimums(summary: Dict[str, dict], min_id: float, min_near: float, m
 
 
 def main() -> None:
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8")
     parser = argparse.ArgumentParser(description="Regression suite for query OOD detection")
     parser.add_argument("--detector", required=True, help="Path to saved ood_reference.npz")
     parser.add_argument(
         "--ood-module",
-        default="./ood_scoring.py",
+        default="./src/ood_scoring.py",
         help="Path to the Python file containing EmbeddingOOD",
     )
     parser.add_argument(
@@ -319,17 +363,37 @@ def main() -> None:
     parser.add_argument("--min-id", type=float, default=0.90)
     parser.add_argument("--min-near", type=float, default=0.70)
     parser.add_argument("--min-far", type=float, default=0.90)
+    parser.add_argument("--grounding-model", default=None, help="Enable three-stage evaluation with this joblib classifier")
+    parser.add_argument("--grounding-threshold", type=float, default=0.5)
+    parser.add_argument("--index", default="./chroma_index")
+    parser.add_argument("--generator", choices=("extractive", "openai"), default="extractive")
     args = parser.parse_args()
 
     module = load_ood_module(args.ood_module)
     detector = module.EmbeddingOOD.load(args.detector)
-    model = SentenceTransformer(args.embedding_model)
-
-    rows = evaluate(detector, model, args.show_detector_output)
+    if args.grounding_model:
+        from src.agent import ThreeStageRAGPipeline
+        from src.generator import load_generator
+        pipeline = ThreeStageRAGPipeline(
+            index_dir=args.index, ood_reference_path=args.detector,
+            embed_model_name=args.embedding_model, generator=load_generator(args.generator),
+            grounding_model_path=args.grounding_model, grounding_threshold=args.grounding_threshold,
+        )
+        pipeline.detector = detector  # Respect the existing --ood-module option.
+        rows = evaluate_pipeline(pipeline, args.grounding_model, args.show_detector_output)
+    else:
+        model = SentenceTransformer(args.embedding_model)
+        rows = evaluate(detector, model, args.show_detector_output)
     print_per_query(rows)
     summary = summarize(rows)
     print_summary(summary)
     write_csv(rows, args.csv)
+    if args.grounding_model:
+        print("Pipeline RATE measures final acceptance/refusal; STRICT also checks the expected rejection stage.")
+        print("\nExecution paths:", dict(Counter(row.execution_path for row in rows)))
+        print("Generation errors/fallbacks:", sum(bool(row.generation_error) for row in rows))
+        overlap = sum(row.seen_in_grounding_dataset for row in rows)
+        print(f"Exact overlap with grounding dataset: {overlap}/{len(rows)} (flagged in CSV; this suite is not fully held out)")
 
     if args.assert_minimums:
         enforce_minimums(summary, args.min_id, args.min_near, args.min_far)

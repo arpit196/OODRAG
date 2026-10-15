@@ -67,6 +67,8 @@ class UITests(unittest.TestCase):
                 calls.append(kwargs); return self.result()
             agent = SimpleNamespace(answer=answer, evidence_pipeline=SimpleNamespace(retriever=SimpleNamespace(chunks=[{'metadata': meta}])))
             with TestClient(create_app(lambda: agent, root)) as client:
+                self.assertEqual(client.get('/healthz').json(), {'status': 'ok'})
+                self.assertEqual(client.get('/readyz').json(), {'status': 'ready'})
                 self.assertEqual(client.get('/').status_code, 200)
                 response = client.post('/api/chat', json={'query': 'Question'})
                 self.assertEqual(response.status_code, 200)
