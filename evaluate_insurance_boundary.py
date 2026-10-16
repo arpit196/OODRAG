@@ -18,6 +18,17 @@ import uuid
 ROOT = Path(__file__).resolve().parent
 
 
+def direct_query_case(query, policy_document_id=None, expected_action=None):
+    if not query.strip():
+        raise ValueError('--query must not be blank')
+    return {'id': 'DIRECT-01', 'domain_label': 'unlabelled', 'family': 'direct_query',
+            'query': query.strip(), 'customer_context': {'request_type': 'general',
+                'policy_document_id': policy_document_id, 'facts': {}},
+            'expected_actions': [expected_action] if expected_action else [],
+            'expected_reason': '', 'source_refs': [], 'failure_risk': '',
+            'review_rule': 'Unannotated direct query: manually review answer and evidence.'}
+
+
 def load_cases(path: Path):
     rows = [json.loads(line) for line in path.read_text(encoding="utf-8-sig").splitlines() if line.strip()]
     ids = set()
@@ -109,7 +120,7 @@ def make_record(case, variant, repeat, result):
             "failure_risk": case["failure_risk"], "review_rule": case["review_rule"],
             "status": "error" if error else "completed",
             "guarded_action_matches": (not error and result["action"] in case["expected_actions"])
-                                      if variant.startswith("guarded") else None,
+                                      if variant.startswith("guarded") and case['expected_actions'] else None,
             "source_anchor_checks": source_anchor_checks(case, result),
             "review_verdict": "unreviewed", "review_notes": "", "result": result}
 
@@ -126,13 +137,16 @@ def summarize(records):
                  "stage2_exercised": sum("stage2" in r["result"].get("execution_path", [])
                                          or "stage2_diagnostic" in r["result"].get("execution_path", []) for r in complete)}
         if variant.startswith("guarded"):
-            entry["action_agreement_rate"] = sum(r["guarded_action_matches"] for r in complete) / len(complete) if complete else None
+            graded = [r for r in complete if r['guarded_action_matches'] is not None]
+            entry["action_agreement_rate"] = sum(r["guarded_action_matches"] for r in graded) / len(graded) if graded else None
+            entry['action_agreement_measured_count'] = len(graded)
             entry["stage1_rejections"] = sum(r["result"].get("reason") == "far_ood" for r in complete)
             entry["by_domain_label"] = {}
             for label in sorted({r["domain_label"] for r in rows}):
                 selected = [r for r in complete if r["domain_label"] == label]
                 entry["by_domain_label"][label] = {"completed": len(selected),
-                    "action_matches": sum(r["guarded_action_matches"] for r in selected)}
+                    "action_matches": (sum(r["guarded_action_matches"] for r in selected if r['guarded_action_matches'] is not None)
+                                       if any(r['guarded_action_matches'] is not None for r in selected) else None)}
         summary["variants"][variant] = entry
     return summary
 
@@ -159,7 +173,11 @@ def write_review_csv(path, records):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--cases", type=Path, default=ROOT / "data/insurance_boundary_cases.jsonl")
+    inputs = parser.add_mutually_exclusive_group()
+    inputs.add_argument("--cases", type=Path)
+    inputs.add_argument('--query', help='Run one question directly; no case file or gold evidence required')
+    parser.add_argument('--policy-document-id', help='Optional policy scope for --query; does not verify customer cover')
+    parser.add_argument('--expected-action', choices=('generate', 'clarify', 'abstain'), help='Optional manually chosen target for --query')
     parser.add_argument("--mode", choices=("both", "guarded", "standard"), default="both")
     parser.add_argument("--index", default=str(ROOT / "insurance_chroma_index_v3"))
     parser.add_argument("--collection", default="insurance_chunks")
@@ -175,7 +193,16 @@ def main():
     parser.add_argument("--output-dir", type=Path)
     parser.add_argument("--list", action="store_true", help="Validate/list cases without loading models or calling APIs")
     args = parser.parse_args()
-    cases = load_cases(args.cases)
+    if args.query is None:
+        if args.policy_document_id or args.expected_action:
+            parser.error('--policy-document-id and --expected-action require --query')
+        args.cases = args.cases or ROOT / 'data/insurance_boundary_cases.jsonl'
+        cases = load_cases(args.cases)
+    else:
+        try:
+            cases = [direct_query_case(args.query, args.policy_document_id, args.expected_action)]
+        except ValueError as exc:
+            parser.error(str(exc))
     if args.case_id:
         unknown = set(args.case_id) - {c["id"] for c in cases}
         if unknown:
@@ -191,7 +218,9 @@ def main():
     if args.list:
         for case in cases:
             print(f"{case['id']} [{case['domain_label']}] -> {'/'.join(case['expected_actions'])}: {case['query']}")
-        print(f"Validated {len(cases)} cases and their local source anchors. No API calls made.")
+        print(f"Validated {len(cases)} cases; source anchors checked where supplied. No API calls made.")
+        if args.query is not None:
+            print('Direct query has no gold evidence annotations; action agreement is unmeasured unless --expected-action is supplied.')
         return 0
     if args.baseline_evidence == "matched" and args.mode != "both":
         parser.error("--baseline-evidence matched requires --mode both")
@@ -207,6 +236,8 @@ def main():
     if output.exists() and any(output.iterdir()):
         parser.error("Output directory is not empty; choose a new directory to preserve previous results")
     output.mkdir(parents=True, exist_ok=True)
+    snapshot = ''.join(json.dumps(c, ensure_ascii=False) + '\n' for c in cases)
+    (output / 'cases_snapshot.jsonl').write_text(snapshot, encoding='utf-8')
     initialization_started = time.perf_counter()
     retriever = load_insurance_retriever(args.index, scope, args.collection)
     common = dict(index_dir=args.index, insurance_scope_path=args.insurance_scope,
@@ -218,7 +249,8 @@ def main():
                 if args.mode != "guarded" else None)
     manifest = {"created_at": datetime.now(timezone.utc).isoformat(), "model": args.model,
                 "index": args.index, "collection": args.collection, "corpus_fingerprint": scope["corpus_fingerprint"],
-                "cases_sha256": hashlib.sha256(args.cases.read_bytes()).hexdigest(),
+                "cases_sha256": hashlib.sha256(args.cases.read_bytes() if args.cases else snapshot.encode('utf-8')).hexdigest(),
+                'input_mode': 'direct_query' if args.query is not None else 'case_file',
                 "case_ids": [c["id"] for c in cases], "mode": args.mode, "repeats": args.repeats,
                 "baseline_evidence": args.baseline_evidence, "stage2_only": args.stage2_only,
                 "initialization_ms": round((time.perf_counter() - initialization_started) * 1000, 3),
