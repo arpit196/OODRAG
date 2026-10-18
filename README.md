@@ -17,6 +17,7 @@ This project makes when to answer — and when to ask for more information — a
 - **Inspectable sources:** chat interface, cited document/page pane and compact decision JSON.
 - **Measurable behavior:** stage timings, token usage, estimated cost when prices are supplied, regression tests and a standard-RAG comparison mode.
 
+The first stage in the pipeline identifies whether a query is out-of-domain and abstains straight away, stating the query is out-of-domain (OOD) knowledge (e.g. What is the capital of France?), thus preventing token cost and unnecessary LLM generation.
 An unanswered home-insurance question remains in domain. Domain detection and evidence sufficiency are separate decisions. Standard RAG can also abstain; the contribution here is explicit controls and diagnostics, not guaranteed hallucination prevention.
 
 ## How it works
@@ -48,7 +49,7 @@ source .venv/bin/activate
 python -m pip install -r requirements.txt
 ```
 
-**Data prerequisite:** a code checkout alone is not a ready-to-run model. Prepare a matching artifact set:
+**Data prerequisite:** a code checkout alone is not a ready-to-run model. You will need an OpenAI API key for the LLM generation (you can get one from https://openai.com/) and prepare a matching artifact set:
 
 | Path | Purpose |
 | --- | --- |
