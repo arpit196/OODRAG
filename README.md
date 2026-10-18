@@ -4,7 +4,7 @@ A UK home-insurance assistant that checks policy applicability and evidence befo
 
 **Python · FastAPI · LangChain · Chroma · BM25 · SentenceTransformers · OpenAI · Docker**
 
-[Demo walkthrough](INSURANCE_DEMO.md) · [Docker setup](DOCKER_INSURANCE.md) · [Evaluation guide](BENCHMARK_EVALUATION.md)
+[Demo walkthrough]([INSURANCE_DEMO.md](https://youtu.be/Qyp8kCBT690)) · [Docker setup](DOCKER_INSURANCE.md) · [Evaluation guide](BENCHMARK_EVALUATION.md)
 
 ## Why this project?
 
