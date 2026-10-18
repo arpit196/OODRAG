@@ -9,7 +9,7 @@ A UK home-insurance assistant that checks policy applicability and evidence befo
 Many RAG systems retrieve relevant text and generate an answer without explicitly checking whether the evidence is sufficient, applicable, or contradictory. In insurance, a plausible answer can still misrepresent policy terms or assume customer-specific cover, potentially leading to incorrect claims decisions, financial loss, and loss of customer trust.
 This project makes when to answer — and when to ask for more information — an explicit decision. It checks policy applicability and evidence for each part of a question, provides cited answers where supported, and identifies unresolved details through partial responses, clarification requests, or abstaining from answering with a clear, structured response.
 
-- **Three-stage controls:** embedding-based out-of-domain detection, policy applicability and evidence assessment, then generation with citation checks.
+- **Three-stage controls:** embedding-based out-of-domain (OOD) detection, policy applicability and evidence assessment, then generation with citation checks.
 - **Policy-aware retrieval:** dense + BM25 retrieval with reciprocal-rank fusion, document scope checks and bounded expansion for related definitions and conditions.
 - **Useful partial responses:** cite supported information while identifying missing evidence, customer facts or conflicts.
 - **Inspectable sources:** chat interface, cited document/page pane and compact decision JSON.
