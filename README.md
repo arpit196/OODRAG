@@ -1,4 +1,4 @@
-# Insurance RAG: answers with evidence, clarification when it matters
+# OOD-Aware Insurance RAG: answers with evidence, clarification when it matters
 
 A UK home-insurance assistant that checks policy applicability and evidence before returning either a **cited answer, partial response, clarification request, or abstention**.
 
