@@ -23,18 +23,15 @@ An unanswered home-insurance question remains in domain. Domain detection and ev
 ## How it works
 
 ```mermaid
-flowchart TD
-    Q[Question + optional customer context] --> S1{Stage 1: domain gate}
-    S1 -->|Out of domain| A[Abstain]
-    S1 -->|Continue| S2[Stage 2: applicability + hybrid retrieval]
-    S2 --> E[Bounded expansion + assessment of question parts]
-    E --> D{Deterministic decision}
-    D -->|Supported| G[Stage 3: generation + citation verification]
-    D -->|Partial support or missing facts| C[Cited partial response / clarification]
-    D -->|Insufficient evidence, conflict or error| A
-    G --> UI[Answer + sources + diagnostics]
-    C --> UI
-    A --> UI
+flowchart LR
+    Q[Question + context] --> S1{1. Domain gate}
+    S1 -->|In scope| S2[2. Evidence gate<br/>Applicability · Retrieval<br/>Expansion · Assessment]
+    S1 -->|OOD| A[Abstain]
+    S2 -->|Supported| G[3. Generate<br/>Verify citations]
+    S2 -->|Partial / missing facts| C[Clarify<br/>Cite supported parts]
+    S2 -->|Insufficient / conflict / error| A
+    G --> R[Answer + sources]
+    C --> R
 ```
 
 ## Run the chat demo
