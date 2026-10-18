@@ -1,235 +1,135 @@
-**OOD Aware RAG: Confidence Calibrated Generation**
-> A retrieval-augmented generation system that knows when its evidence is outside its trusted knowledge domain — and responds by answering, hedging, or abstaining instead of confidently guessing wrongly.
+# Insurance RAG: answers with evidence, clarification when it matters
 
-Most RAG systems answer every query the same way: retrieve, stuff into a prompt, generate. If the corpus doesn't actually cover the question, the model still confidently generates something — because nearest-neighbor retrieval always returns something, whether or not it's relevant. This project treats that as the real hallucination problem worth solving: rather than trusting retrieval blindly, every query and every retrieved chunk is scored against a statistically fitted reference distribution of the trusted corpus, using the same distributional-distance techniques (Mahalanobis distance, kNN density, energy-based scoring) used for out-of-distribution detection in computer vision. When a query falls outside that distribution, the system says so explicitly instead of guessing.
-This prevents the LLM from hallucinating and fabricating false/irrelevant answers.
+A UK home-insurance assistant that checks policy applicability and evidence before returning either a **cited answer, partial response, clarification request, or abstention**.
 
-## Why it matters
+**Python · FastAPI · LangChain · Chroma · BM25 · SentenceTransformers · OpenAI · Docker**
 
-| Standard RAG failure | OOD-Aware RAG response |
-| --- | --- |
-| An unrelated question still retrieves superficially similar text | Score the **query** against the trusted corpus before trusting retrieval |
-| A nearest-neighbour result looks relevant but is statistically atypical | Score each retrieved chunk using global and local embedding-space signals |
-| The model has insufficient evidence but generates anyway | Select `generate`, `hedge`, or `abstain` based on the OOD policy |
-| Confidence is hidden behind a hard decision | Return calibrated `P(OOD)`, an empirical confidence interval, and an OOD band |
-| A corpus changes or its scope is incomplete | Use high-OOD traffic as a measurable signal for corpus gaps and drift |
+[Demo walkthrough](INSURANCE_DEMO.md) · [Docker setup](DOCKER_INSURANCE.md) · [Evaluation guide](BENCHMARK_EVALUATION.md)
 
-This is especially useful for research assistants, internal knowledge bases, regulated-domain copilots, and any RAG application where an honest *“this corpus does not cover that”* is safer than an elegant fabrication.
+## Why this project?
 
-## System architecture
+Many RAG systems retrieve relevant text and generate an answer without explicitly checking whether the evidence is sufficient, applicable, or contradictory. In insurance, a plausible answer can still misrepresent policy terms or assume customer-specific cover, potentially leading to incorrect claims decisions, financial loss, and loss of customer trust.
+This project makes when to answer — and when to ask for more information — an explicit decision. It checks policy applicability and evidence for each part of a question, provides cited answers where supported, and identifies unresolved details through partial responses, clarification requests, or abstaining from answering with a clear, structured response.
+
+- **Three-stage controls:** embedding-based out-of-domain detection, policy applicability and evidence assessment, then generation with citation checks.
+- **Policy-aware retrieval:** dense + BM25 retrieval with reciprocal-rank fusion, document scope checks and bounded expansion for related definitions and conditions.
+- **Useful partial responses:** cite supported information while identifying missing evidence, customer facts or conflicts.
+- **Inspectable sources:** chat interface, cited document/page pane and compact decision JSON.
+- **Measurable behavior:** stage timings, token usage, estimated cost when prices are supplied, regression tests and a standard-RAG comparison mode.
+
+An unanswered home-insurance question remains in domain. Domain detection and evidence sufficiency are separate decisions. Standard RAG can also abstain; the contribution here is explicit controls and diagnostics, not guaranteed hallucination prevention.
+
+## How it works
 
 ```mermaid
-flowchart LR
-    Q[User query] --> R[Query router]
-    R -->|Chit-chat| C[Conversational fallback]
-    R -->|Domain query| H[Hybrid retrieval\nDense + BM25 + RRF]
-    H --> X[Cross-encoder reranker]
-    Q --> QS[Query OOD scorer]
-    X --> CS[Chunk OOD scorer]
-    QS --> P{Selective policy}
-    CS --> P
-    P -->|ID| G[Grounded generation]
-    P -->|Near OOD| HG[Hedged, evidence-only answer]
-    P -->|OOD| A[Abstain / request clarification]
-    G --> GR[Guardrails + citations]
-    HG --> GR
+flowchart TD
+    Q[Question + optional customer context] --> S1{Stage 1: domain gate}
+    S1 -->|Out of domain| A[Abstain]
+    S1 -->|Continue| S2[Stage 2: applicability + hybrid retrieval]
+    S2 --> E[Bounded expansion + assessment of question parts]
+    E --> D{Deterministic decision}
+    D -->|Supported| G[Stage 3: generation + citation verification]
+    D -->|Partial support or missing facts| C[Cited partial response / clarification]
+    D -->|Insufficient evidence, conflict or error| A
+    G --> UI[Answer + sources + diagnostics]
+    C --> UI
+    A --> UI
 ```
 
-## Repository layout
+## Run the chat demo
 
-```text
-.
-├── build_index.py          # Build Chroma text/image indexes from the corpus manifest
-├── hybrid_retrieval.py     # Dense + BM25 + RRF + cross-encoder retrieval
-├── ood_scoring.py          # Fit, evaluate, save, load, and score OOD references
-├── query_router.py         # Chit-chat vs corpus-routing decision
-├── agent.py                # End-to-end selective RAG orchestrator
-├── guardrails.py           # Prompt-injection flags, grounding, citations, reproducibility
-├── generator.py            # Extractive and OpenAI-compatible generators
-├── app.py                  # FastAPI service and frontend entry point
-├── corpus_selection.py     # Corpus construction / tier selection
-├── corruptions.py          # Controlled corruption utilities
-├── eval_retrieval.py       # Retrieval ablations and tier-precision evaluation
-└── test_ood_scoring.py     # OOD scoring tests
-```
-
-## Quick start
-
-### 1. Clone and create an environment
+Bash/WSL commands, from the repository root. Python 3.12 is used by the CI/container setup.
 
 ```bash
 git clone https://github.com/arpit196/OODRAG.git
-cd RAG-OOD
-
+cd OODRAG
 python -m venv .venv
-source .venv/bin/activate       # Windows PowerShell: .venv\Scripts\Activate.ps1
-python -m pip install --upgrade pip
-pip install chromadb sentence-transformers rank-bm25 fastapi "uvicorn[standard]" python-dotenv pillow
+source .venv/bin/activate
+python -m pip install -r requirements.txt
 ```
 
-The first run downloads the embedding and reranking models used by the prototype:
+**Data prerequisite:** a code checkout alone is not a ready-to-run model. Prepare a matching artifact set:
 
-- `all-MiniLM-L6-v2` for text embeddings
-- `cross-encoder/ms-marco-MiniLM-L-6-v2` for reranking
+| Path | Purpose |
+| --- | --- |
+| `insurance_chroma_index_v3/` | Chroma collection `insurance_chunks` |
+| `data/home_insurance_scope.json` | Reviewed document allowlist, model and corpus fingerprint |
+| `data/home_insurance_ood.npz` | Detector fitted to that corpus/scope |
+| `real_insurance_corpus_v2/` | Manifest, extracted documents and original PDFs for the viewer |
 
-### 2. Build the vector index
-
-If you are using the included corpus, build the index with:
+Use the Chroma version that created the index. Large/source artifacts are not assumed to be included in the GitHub checkout. See [artifact preparation](INSURANCE_DEMO.md#prepare-the-artifacts). The UI uses these canonical paths; evaluation supports alternative paths.
 
 ```bash
-python build_index.py --corpus ./corpus --index ./chroma_index
+read -rsp "OpenAI API key: " OPENAI_API_KEY; echo
+export OPENAI_API_KEY
+export INSURANCE_ALLOW_MODEL_DOWNLOAD=1  # First run downloads the embedding model
+export INSURANCE_MODEL=gpt-4o-mini
+python -m uvicorn ui.insurance_app:app --host 127.0.0.1 --port 8000
 ```
 
-`build_index.py` expects `corpus/manifest.json` entries with `tier`, `modality`, `path`, `title`, and `source` fields. Text tiers should include a trusted `id_core_text`, which is a set of in-domain documents; optional `near_ood_*` and `far_ood_*` tiers enable probability calibration and evaluation.
+Open **http://127.0.0.1:8000** after startup. `/readyz` reports readiness. Chat requests use a paid API.
 
-### 3. Fit and evaluate the OOD reference
+Try these using the default general customer context:
+
+| Question | What to inspect |
+| --- | --- |
+| What is the trace and access limit under LV= buildings insurance? | Answer, citation and matching policy page |
+| What is my exact LV escape-of-water excess? My personal details document is unavailable. | No invented amount; missing customer evidence explained |
+| Explain trace-and-access cover, then tell me my exact escape-of-water excess. My personal details document is unavailable. | Supported information separated from unresolved details |
+| What does Direct Line Home Insurance cover for subsidence? | Missing-policy refusal when that wording is absent from scope |
+| Explain how to train a transformer model in PyTorch. | Out-of-domain abstention |
+
+These are demo checks, not recorded outputs or guaranteed decisions. Each UI question is independent; displayed chat history is not model memory. The source pane displays available answer citations, not every retrieved chunk.
+
+## Evaluate it
+
+Offline regression tests require no API calls. Install their dependencies in a separate environment:
 
 ```bash
-python src/ood_scoring.py \
-  --index ./chroma_index \
-  --collection text_chunks \
-  --query_ref ./query_reference.json \
-  --output ./ood_reference.npz
+python -m venv .venv-ci
+.venv-ci/bin/python -m pip install -r requirements-ci.txt
+.venv-ci/bin/python scripts/run_ci_tests.py
 ```
 
-This fit an enery-based model (Gaussian mixture model) on the set of in-domain distributions, which helps in identifying queries or documents that are out-of-distribution. By default, the fit process holds out 10% of each ID/OOD tier and reports energy and kNN AUROC. Set `--eval-fraction 0` only when you explicitly want to fit on all available labelled data.
-
-### 4. Inspect confidence-aware retrieval
+With the runtime environment and matching artifacts prepared:
 
 ```bash
-python src/hybrid_retrieval.py \
-  --index ./chroma_index \
-  --ood-reference ./data/ood_reference2.npz \
-  --query "How does domain generalization handle distribution shift?"
+python evaluate_insurance_benchmark.py --validate-only
+
+# Small end-to-end smoke test; output directories must be new.
+python evaluate_insurance_benchmark.py --pipeline guarded \
+  --allow-model-download --limit 3 --output-dir benchmark_results/demo_smoke
+
+# 54 cases, both variants: 108 attempts at one repeat.
+python evaluate_insurance_benchmark.py --pipeline both \
+  --allow-model-download --repeats 1 --output-dir benchmark_results/demo_comparison
 ```
 
-Try an obviously off-topic prompt to verify the failure-safe path:
+For custom/repaired artifacts, supply `--index`, `--scope` and `--ood-reference` together. Add `--prices path/to/prices.json` with a valid dated price table; unmeasured cost stays blank.
 
-```bash
-python src/hybrid_retrieval.py \
-  --index ./chroma_index \
-  --ood-reference ./data/ood_reference.npz \
-  --query "What is a good recipe for vegetarian lasagna?"
-```
+Exports include `per_query_results.csv`, `retrieved_results.csv`, `aggregate_metrics.csv`, `raw_results.jsonl`, `simple_results.json`, `report_summary.json` and `manual_review.csv`.
 
-### 5. Run the end-to-end agent
+Report document Recall@K separately from evidence Recall@K and evidence MRR, with denominator counts. Missing evidence annotations stay blank. Retrieval metrics describe initial retrieval, not expanded evidence. Review correctness, completeness and citation support manually: `generate` does not prove an answer is correct. Compare variants on the same eligible cases.
 
-The extractive backend needs no API key and is useful for validating the complete policy flow:
+## Main modules
 
-```bash
-python src/agent.py \
-  --index ./chroma_index \
-  --ood-reference ./data/ood_reference.npz \
-  --generator extractive \
-  --query "Explain invariant risk minimization."
-```
+| File | Responsibility |
+| --- | --- |
+| `ui/insurance_app.py`, `ui/insurance.html` | API, chat and document viewer |
+| `src/agent.py` | Guarded and standard insurance orchestration |
+| `src/ood_scoring.py` | Fit and score the insurance domain detector |
+| `insurance_retrieval_fixed.py` | Insurance indexing and hybrid retrieval |
+| `src/evidence_gate.py` | Applicability, expansion, assessment and decisions |
+| `src/generator.py`, `src/guardrails.py` | Generation and citation checks |
+| `evaluate_insurance_benchmark.py` | Evaluation exports |
+| `report_insurance_results.py` | Compact results and manual-review reporting |
 
-For interactive chat, omit `--query`.
+## Limitations and contributions
 
-To use an OpenAI-compatible endpoint, create a local `.env` file:
+This is a portfolio/research implementation, not an automated claim adjudicator. Parsing errors, retrieval misses and assessment errors can still cause incorrect answers or unnecessary abstention. Regulatory material participates only when allowlisted; inspect scope before claiming FCA/FOS coverage.
 
-```bash
-OPENAI_API_KEY=your_key_here
-# Optional: Ollama, vLLM, Groq, or another OpenAI-compatible endpoint
-# OPENAI_BASE_URL=https://api.openai.com/v1
-```
+Before public deployment, add authentication, request/spending limits and server-side customer-record verification. A browser-provided `verified: true` is not authentication. See [AWS deployment notes](AWS_QUICKSTART.md).
 
-Then use `--generator openai`.
+Found an incorrect answer or unnecessary abstention? Open an issue with a public-policy example, expected behavior and source reference, without customer data or secrets. Contributions to held-out evaluations and source extraction are especially welcome.
 
-## Project Demo
-<img width="2008" height="1187" alt="RAGproj" src="https://github.com/user-attachments/assets/f48a6950-40cf-4d94-9adf-fb1e24a357ea" />
-
-# Optional Stage 2 grounding gate
-
-The OOD agent now supports a post-retrieval classifier before its existing
-prompt construction and generation. `src/generator.py`, prompt templates,
-and citation behavior are unchanged. The standard baseline agent remains
-unchanged. Existing `RAGAgent` callers keep their behavior until a grounding
-model is configured; `ThreeStageRAGPipeline` requires a model path.
-
-Train using the supplied OOD queries and real retrieval results:
-
-```powershell
-python train_grounding.py --queries data/grounding_queries.json --id-documents corpus/id_core_text/combined_documents.txt --index chroma_index --ood-reference data/ood_reference5.npz --output data/grounding.joblib
-$env:RAG_GROUNDING_MODEL_PATH = "data/grounding.joblib"
-$env:RAG_GROUNDING_THRESHOLD = "0.5"
-# Start the API with your usual command, or use:
-python -m src.agent --index chroma_index --ood-reference data/ood_reference5.npz --grounding-model data/grounding.joblib --query "What is domain generalization?"
-```
-
-`data/grounding_queries.json` contains the user-supplied 60 near-OOD and 30
-far-OOD queries. Both groups have label **0 = reject**, even when retrieval
-returns topically related ID chunks. By default, the script derives one
-title-based question from each of the 150 ID papers in `combined_documents.txt`
-and labels it **1 = ID**. Add an `id` query list to the JSON to use explicitly
-labeled ID questions instead. Paper-title questions are ID proxies; validation
-on them does not establish performance on arbitrary user questions.
-
-For every example, `RAGAgent.collect_grounding_example()` computes real
-Stage 1 scores, runs the existing dense/BM25/fusion/reranker pipeline, annotates
-chunk OOD, and uses the same evidence selection and feature extraction as the
-online gate. It never calls generation or the existing grounding classifier.
-Offline collection deliberately retrieves even if Stage 1 would reject, and
-records `stage1_would_reject`; online early rejection remains unchanged. Labels
-come from the query groups and ID source documents, not chunk tiers or model
-predictions. No random feature scores are generated.
-
-Training saves `grounding.joblib`, auditable query/context/feature rows in
-`grounding.training.jsonl`, and held-out metrics in `grounding.report.json`.
-The scaler and classifier fit only the 80% training split, stratified by
-ID/near-OOD/far-OOD. The report also evaluates only queries that passed Stage 1.
-Choose the online threshold using validation relevant to deployment. The
-training script's `--threshold` affects its report; set the online threshold
-separately with `RAG_GROUNDING_THRESHOLD`. Load only trusted joblib files. A
-configured missing or incompatible model raises instead of disabling the gate.
-
-```python
-from src.agent import ThreeStageRAGPipeline
-
-pipeline = ThreeStageRAGPipeline(
-    index_dir="chroma_index",
-    ood_reference_path="data/ood_reference5.npz",
-    grounding_model_path="data/grounding.joblib",
-    grounding_threshold=0.5,
-)
-response = pipeline.run("What is domain generalization?")
-print(response.response_text, response.execution_path)
-print(response.debug_metadata["grounding_metrics"])
-```
-
-`answer()` retains the existing response dictionary and adds `execution_path`
-and `grounding_metrics`. `run()` returns a typed `PipelineResponse`. Far-OOD
-queries stop before retrieval; insufficient grounding stops with
-"No relevant context found." and no generator call. Chitchat retains its
-existing retrieval bypass. Existing OOD action decisions still apply.
-
-`extract_grounding_features(query, top_3_chunks, stage1_features)` returns a
-15-element NumPy vector in `src.grounding.FEATURE_NAMES` order: five Stage 1
-signals, three cosine similarities, three normalized BM25 scores, cosine
-max/mean/min, and chunk count. Online scoring computes actual cosine from
-stored chunk vectors and the query embedding, including sparse-only hits,
-and supplies BM25 scores even for dense-only hits. BM25 is transformed with
-`max(score, 0) / (1 + max(score, 0))`. Missing ranks are padded with zeros;
-aggregates use present chunks. The gate evaluates up to three chunks allowed
-by the existing OOD chunk filter; those same chunks reach generation.
-
-The model and feature names are serialized together and checked when loaded.
-Training uses `StandardScaler` and `LogisticRegression`; inference returns
-the class-1 probability. No classifier or embedding model is loaded per request.
-Restart the service after changing the model or threshold so the process-local
-answer cache is rebuilt.
-
-Offline validation: `python -m unittest discover -s tests -p test_grounding.py`.
-
-If the model was trained with a different scikit-learn version than your
-runtime, refit the saved real-retrieval rows inside your active environment:
-
-```sh
-python train_grounding.py --training-rows data/grounding.training.jsonl --output data/grounding.joblib
-python test_pipeline_e2e.py
-```
-
-This skips retrieval and generation and reuses the existing labels and features.
-New artifacts record library versions; incompatible models fail during loading
-with a refit command. Keep training and inference in the same environment.
-
+The earlier research-domain documentation is preserved in [README_RESEARCH.md](README_RESEARCH.md).
