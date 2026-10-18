@@ -84,6 +84,23 @@ These are demo checks, not recorded outputs or guaranteed decisions. Each UI que
 
 ## Evaluate it
 
+## Measured results
+
+Recorded development results, **18 October 2026**, using the repaired insurance index. Domain detection is evaluated separately from evidence retrieval; near/far-OOD rejection is not a retrieval-recall metric.
+
+| Component | Metric | Result | Evaluated cases |
+| --- | --- | ---: | ---: |
+| Stage 1 domain gate | Far-OOD rejection recall | **100%** | 8/8 rejected |
+| Stage 1 domain gate | Near-OOD rejection recall | **12.5%** | 1/8 rejected |
+| Stage 1 domain gate | In-domain acceptance | **93.75%** | 15/16 accepted |
+| Initial retrieval | Document Recall@10 | **100%** | 41 eligible queries |
+| Initial retrieval | Evidence Recall@10 | **77.5%** | 40 annotated eligible queries |
+| Initial retrieval | Evidence MRR | **0.521** | 40 annotated eligible queries |
+| Guarded request | Median / P95 / P99 latency | **4.72s / 10.43s / 14.20s** | 54 attempts |
+| Guarded request | Recorded technical error rate | **0%** | 0/54 attempts |
+
+[Recorded metrics and example responses](docs/insurance_demo_results.json). The 54-query benchmark and the separate 32-query synthetic Stage 1 test have different denominators. Near-OOD rejection at Stage 1 remains a limitation; later applicability/evidence gates can reject queries that pass it. Missing gold annotations are excluded, not scored as zero. Evidence recall measures retrieval of annotated passages, not answer faithfulness or extraction accuracy. Request latency excludes initialization; zero recorded technical errors does not mean zero incorrect answers.
+
 Offline regression tests require no API calls. Install their dependencies in a separate environment:
 
 ```bash
