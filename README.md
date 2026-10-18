@@ -4,8 +4,6 @@ A UK home-insurance assistant that checks policy applicability and evidence befo
 
 **Python · FastAPI · LangChain · Chroma · BM25 · SentenceTransformers · OpenAI · Docker**
 
-[Demo walkthrough]([INSURANCE_DEMO.md](https://youtu.be/Qyp8kCBT690)) · [Docker setup](DOCKER_INSURANCE.md) · [Evaluation guide](BENCHMARK_EVALUATION.md)
-
 ## Why this project?
 
 Many RAG systems retrieve relevant text and generate an answer without explicitly checking whether the evidence is sufficient, applicable, or contradictory. In insurance, a plausible answer can still misrepresent policy terms or assume customer-specific cover, potentially leading to incorrect claims decisions, financial loss, and loss of customer trust.
@@ -19,6 +17,10 @@ This project makes when to answer — and when to ask for more information — a
 
 The first stage in the pipeline identifies whether a query is out-of-domain and abstains straight away, stating the query is out-of-domain (OOD) knowledge (e.g. What is the capital of France?), thus preventing token cost and unnecessary LLM generation.
 An unanswered home-insurance question remains in domain. Domain detection and evidence sufficiency are separate decisions. Standard RAG can also abstain; the contribution here is explicit controls and diagnostics, not guaranteed hallucination prevention.
+
+## Demo
+https://github.com/user-attachments/assets/c6be80cf-33da-4ad7-9b0d-7de43b302585
+
 
 ## How it works
 
